@@ -1,4 +1,4 @@
-const distritos = [
+[
   {
     "Distrito": "Carmen",
     "Codigo\r": "10101\r"
