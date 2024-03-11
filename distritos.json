@@ -1,562 +1,2951 @@
 [
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Carmen",
-    "Codigo": "10101\r"
+    "CodigoPostal\r": "10101\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Merced",
-    "Codigo": "10102\r"
+    "CodigoPostal\r": "10102\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Hospital",
-    "Codigo": "10103\r"
+    "CodigoPostal\r": "10103\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Catedral",
-    "Codigo": "10104\r"
+    "CodigoPostal\r": "10104\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Zapote",
-    "Codigo": "10105\r"
+    "CodigoPostal\r": "10105\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "San Francisco de Dos Rios",
-    "Codigo": "10106\r"
+    "CodigoPostal\r": "10106\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Uruca",
-    "Codigo": "10107\r"
+    "CodigoPostal\r": "10107\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Mata Redonda",
-    "Codigo": "10108\r"
+    "CodigoPostal\r": "10108\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Pavas",
-    "Codigo": "10109\r"
+    "CodigoPostal\r": "10109\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "Hatillo",
-    "Codigo": "10110\r"
+    "CodigoPostal\r": "10110\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
     "Distrito": "San Sebastian",
-    "Codigo": "10111\r"
+    "CodigoPostal\r": "10111\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Escazu",
     "Distrito": "Escazu",
-    "Codigo": "10201\r"
+    "CodigoPostal\r": "10201\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Escazu",
     "Distrito": "San Antonio",
-    "Codigo": "10202\r"
+    "CodigoPostal\r": "10202\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Escazu",
     "Distrito": "San Rafael",
-    "Codigo": "10203\r"
+    "CodigoPostal\r": "10203\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Desamparados",
-    "Codigo": "10301\r"
+    "CodigoPostal\r": "10301\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "San Miguel",
-    "Codigo": "10302\r"
+    "CodigoPostal\r": "10302\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "San Juan de Dios",
-    "Codigo": "10303\r"
+    "CodigoPostal\r": "10303\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "San Rafael Arriba",
-    "Codigo": "10304\r"
+    "CodigoPostal\r": "10304\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "San Antonio",
-    "Codigo": "10305\r"
+    "CodigoPostal\r": "10305\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Frailes",
-    "Codigo": "10306\r"
+    "CodigoPostal\r": "10306\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Patarra",
-    "Codigo": "10307\r"
+    "CodigoPostal\r": "10307\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "San Cristobal",
-    "Codigo": "10308\r"
+    "CodigoPostal\r": "10308\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Rosario",
-    "Codigo": "10309\r"
+    "CodigoPostal\r": "10309\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Damas",
-    "Codigo": "10310\r"
+    "CodigoPostal\r": "10310\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "San Rafael Abajo",
-    "Codigo": "10311\r"
+    "CodigoPostal\r": "10311\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Gravilias",
-    "Codigo": "10312\r"
+    "CodigoPostal\r": "10312\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
     "Distrito": "Los Guido",
-    "Codigo": "10313\r"
+    "CodigoPostal\r": "10313\r"
   },
   {
-    "Distrito": "Aserri",
-    "Codigo": "10601\r"
-  },
-  {
-    "Distrito": "Salitrillos",
-    "Codigo": "10607\r"
-  },
-  {
-    "Distrito": "Colon",
-    "Codigo": "10701\r"
-  },
-  {
-    "Distrito": "Guadalupe",
-    "Codigo": "10801\r"
-  },
-  {
-    "Distrito": "San Francisco",
-    "Codigo": "10802\r"
-  },
-  {
-    "Distrito": "Calle Blancos",
-    "Codigo": "10803\r"
-  },
-  {
-    "Distrito": "Mata de Platano",
-    "Codigo": "10804\r"
-  },
-  {
-    "Distrito": "Ipis",
-    "Codigo": "10805\r"
-  },
-  {
-    "Distrito": "Rancho Redondo",
-    "Codigo": "10806\r"
-  },
-  {
-    "Distrito": "Purral",
-    "Codigo": "10807\r"
-  },
-  {
-    "Distrito": "Santa Ana",
-    "Codigo": "10901\r"
-  },
-  {
-    "Distrito": "Salitral",
-    "Codigo": "10902\r"
-  },
-  {
-    "Distrito": "Pozos",
-    "Codigo": "10903\r"
-  },
-  {
-    "Distrito": "Uruca (Rio Oro)",
-    "Codigo": "10904\r"
-  },
-  {
-    "Distrito": "Piedades",
-    "Codigo": "10905\r"
-  },
-  {
-    "Distrito": "Brasil",
-    "Codigo": "10906\r"
-  },
-  {
-    "Distrito": "Alajuelita",
-    "Codigo": "11001\r"
-  },
-  {
-    "Distrito": "San Josecito",
-    "Codigo": "11002\r"
-  },
-  {
-    "Distrito": "San Antonio",
-    "Codigo": "11003\r"
-  },
-  {
-    "Distrito": "Concepcion",
-    "Codigo": "11004\r"
-  },
-  {
-    "Distrito": "San Felipe",
-    "Codigo": "11005\r"
-  },
-  {
-    "Distrito": "San Isidro",
-    "Codigo": "11101\r"
-  },
-  {
-    "Distrito": "San Rafael",
-    "Codigo": "11102\r"
-  },
-  {
-    "Distrito": "Dulce Nombre de Jesuus",
-    "Codigo": "11103\r"
-  },
-  {
-    "Distrito": "Patalillo",
-    "Codigo": "11104\r"
-  },
-  {
-    "Distrito": "Cascajal",
-    "Codigo": "11105\r"
-  },
-  {
-    "Distrito": "San Juan",
-    "Codigo": "11301\r"
-  },
-  {
-    "Distrito": "Cinco Esquinas",
-    "Codigo": "11302\r"
-  },
-  {
-    "Distrito": "Anselmo Llorente",
-    "Codigo": "11303\r"
-  },
-  {
-    "Distrito": "Leon XIII",
-    "Codigo": "11304\r"
-  },
-  {
-    "Distrito": "Colima",
-    "Codigo": "11305\r"
-  },
-  {
-    "Distrito": "San Vicente",
-    "Codigo": "11401\r"
-  },
-  {
-    "Distrito": "La Trinidad",
-    "Codigo": "11402\r"
-  },
-  {
-    "Distrito": "San Jeronimo",
-    "Codigo": "11403\r"
-  },
-  {
-    "Distrito": "San Pedro",
-    "Codigo": "11501\r"
-  },
-  {
-    "Distrito": "Sabanilla",
-    "Codigo": "11502\r"
-  },
-  {
-    "Distrito": "Mercedes",
-    "Codigo": "11503\r"
-  },
-  {
-    "Distrito": "San Rafael",
-    "Codigo": "11504\r"
-  },
-  {
-    "Distrito": "Curridabat",
-    "Codigo": "11801\r"
-  },
-  {
-    "Distrito": "Granadilla",
-    "Codigo": "11802\r"
-  },
-  {
-    "Distrito": "Sanchez",
-    "Codigo": "11803\r"
-  },
-  {
-    "Distrito": "Tirrases",
-    "Codigo": "11804\r"
-  },
-  {
-    "Distrito": "Alajuela",
-    "Codigo": "20101\r"
-  },
-  {
-    "Distrito": "San Jose",
-    "Codigo": "20102\r"
-  },
-  {
-    "Distrito": "San Antonio",
-    "Codigo": "20104\r"
-  },
-  {
-    "Distrito": "Guacima",
-    "Codigo": "20105\r"
-  },
-  {
-    "Distrito": "San Rafael",
-    "Codigo": "20108\r"
-  },
-  {
-    "Distrito": "Rio Segundo",
-    "Codigo": "20109\r"
-  },
-  {
-    "Distrito": "Desamparados",
-    "Codigo": "20110\r"
-  },
-  {
-    "Distrito": "Oriental",
-    "Codigo": "30101\r"
-  },
-  {
-    "Distrito": "Occidental",
-    "Codigo": "30102\r"
-  },
-  {
-    "Distrito": "Carmen",
-    "Codigo": "30103\r"
-  },
-  {
-    "Distrito": "San Nicolas",
-    "Codigo": "30104\r"
-  },
-  {
-    "Distrito": "Tres Rios",
-    "Codigo": "30301\r"
-  },
-  {
-    "Distrito": "San Diego",
-    "Codigo": "30302\r"
-  },
-  {
-    "Distrito": "San Juan",
-    "Codigo": "30303\r"
-  },
-  {
-    "Distrito": "San Rafael",
-    "Codigo": "30304\r"
-  },
-  {
-    "Distrito": "Concepcion",
-    "Codigo": "30305\r"
-  },
-  {
-    "Distrito": "Dulce Nombre",
-    "Codigo": "30306\r"
-  },
-  {
-    "Distrito": "San Ramon",
-    "Codigo": "30307\r"
-  },
-  {
-    "Distrito": "Rio Azul",
-    "Codigo": "30308\r"
-  },
-  {
-    "Distrito": "San Rafael",
-    "Codigo": "30701\r"
-  },
-  {
-    "Distrito": "Cot",
-    "Codigo": "30702\r"
-  },
-  {
-    "Distrito": "Tejar",
-    "Codigo": "30801\r"
-  },
-  {
-    "Distrito": "Heredia",
-    "Codigo": "40101\r"
-  },
-  {
-    "Distrito": "Mercedes",
-    "Codigo": "40102\r"
-  },
-  {
-    "Distrito": "San Francisco",
-    "Codigo": "40103\r"
-  },
-  {
-    "Distrito": "Ulloa",
-    "Codigo": "40104\r"
-  },
-  {
-    "Distrito": "Varablanca",
-    "Codigo": "40105\r"
-  },
-  {
-    "Distrito": "Barva",
-    "Codigo": "40201\r"
-  },
-  {
-    "Distrito": "San Pedro",
-    "Codigo": "40202\r"
-  },
-  {
-    "Distrito": "San Pablo",
-    "Codigo": "40203\r"
-  },
-  {
-    "Distrito": "San Roque",
-    "Codigo": "40204\r"
-  },
-  {
-    "Distrito": "Santa Lucia",
-    "Codigo": "40205\r"
-  },
-  {
-    "Distrito": "San Jose de la Montana",
-    "Codigo": "40206\r"
-  },
-  {
-    "Distrito": "Santo Domingo",
-    "Codigo": "40301\r"
-  },
-  {
-    "Distrito": "San Vicente",
-    "Codigo": "40302\r"
-  },
-  {
-    "Distrito": "San Miguel",
-    "Codigo": "40303\r"
-  },
-  {
-    "Distrito": "Paracito",
-    "Codigo": "40304\r"
-  },
-  {
-    "Distrito": "Santo Tomas",
-    "Codigo": "40305\r"
-  },
-  {
-    "Distrito": "Santa Rosa",
-    "Codigo": "40306\r"
-  },
-  {
-    "Distrito": "Tures",
-    "Codigo": "40307\r"
-  },
-  {
-    "Distrito": "Para",
-    "Codigo": "40308\r"
-  },
-  {
-    "Distrito": "Santa Barbara",
-    "Codigo": "40401\r"
-  },
-  {
-    "Distrito": "San Pedro",
-    "Codigo": "40402\r"
-  },
-  {
-    "Distrito": "San Juan",
-    "Codigo": "40403\r"
-  },
-  {
-    "Distrito": "Jesuus",
-    "Codigo": "40404\r"
-  },
-  {
-    "Distrito": "Santo Domingo",
-    "Codigo": "40405\r"
-  },
-  {
-    "Distrito": "Puraba",
-    "Codigo": "40406\r"
-  },
-  {
-    "Distrito": "San Rafael",
-    "Codigo": "40501\r"
-  },
-  {
-    "Distrito": "San Josecito",
-    "Codigo": "40502\r"
-  },
-  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
     "Distrito": "Santiago",
-    "Codigo": "40503\r"
+    "CodigoPostal\r": "10401\r"
   },
   {
-    "Distrito": "Los angeles",
-    "Codigo": "40504\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Mercedes Sur",
+    "CodigoPostal\r": "10402\r"
   },
   {
-    "Distrito": "Concepcion",
-    "Codigo": "40505\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Barbacoas",
+    "CodigoPostal\r": "10403\r"
   },
   {
-    "Distrito": "San Isidro",
-    "Codigo": "40601\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Grifo Alto",
+    "CodigoPostal\r": "10404\r"
   },
   {
-    "Distrito": "San Jose",
-    "Codigo": "40602\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "10405\r"
   },
   {
-    "Distrito": "Concepcion",
-    "Codigo": "40603\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Candelarita",
+    "CodigoPostal\r": "10406\r"
   },
   {
-    "Distrito": "San Francisco",
-    "Codigo": "40604\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Desamparaditos",
+    "CodigoPostal\r": "10407\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
     "Distrito": "San Antonio",
-    "Codigo": "40701\r"
+    "CodigoPostal\r": "10408\r"
   },
   {
-    "Distrito": "La Ribera",
-    "Codigo": "40702\r"
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Chires",
+    "CodigoPostal\r": "10409\r"
   },
   {
-    "Distrito": "La Asuncion",
-    "Codigo": "40703\r"
+    "Provincia": "San Jose",
+    "Canton": "Tarrazu",
+    "Distrito": "San Marcos",
+    "CodigoPostal\r": "10501\r"
   },
   {
-    "Distrito": "San Joaquin",
-    "Codigo": "40801\r"
+    "Provincia": "San Jose",
+    "Canton": "Tarrazu",
+    "Distrito": "San Lorenzo",
+    "CodigoPostal\r": "10502\r"
   },
   {
-    "Distrito": "Barrantes (San Lorenzo)",
-    "Codigo": "40802\r"
+    "Provincia": "San Jose",
+    "Canton": "Tarrazu",
+    "Distrito": "San Carlos",
+    "CodigoPostal\r": "10503\r"
   },
   {
-    "Distrito": "Llorente",
-    "Codigo": "40803\r"
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Aserri",
+    "CodigoPostal\r": "10601\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Tarbaca",
+    "CodigoPostal\r": "10602\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Vuelta de Jorco",
+    "CodigoPostal\r": "10603\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "San Gabriel",
+    "CodigoPostal\r": "10604\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Legua",
+    "CodigoPostal\r": "10605\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Monterrey",
+    "CodigoPostal\r": "10606\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Salitrillos",
+    "CodigoPostal\r": "10607\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Colon",
+    "CodigoPostal\r": "10701\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Guayabo",
+    "CodigoPostal\r": "10702\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Tabarcia",
+    "CodigoPostal\r": "10703\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Piedras Negras",
+    "CodigoPostal\r": "10704\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Picagres",
+    "CodigoPostal\r": "10705\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Jaris",
+    "CodigoPostal\r": "10706\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Quitirrisi",
+    "CodigoPostal\r": "10707\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Guadalupe",
+    "CodigoPostal\r": "10801\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "San Francisco",
+    "CodigoPostal\r": "10802\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Calle Blancos",
+    "CodigoPostal\r": "10803\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Mata de Platano",
+    "CodigoPostal\r": "10804\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Ipis",
+    "CodigoPostal\r": "10805\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Rancho Redondo",
+    "CodigoPostal\r": "10806\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Purral",
+    "CodigoPostal\r": "10807\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Santa Ana",
+    "CodigoPostal\r": "10901\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Salitral",
+    "CodigoPostal\r": "10902\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Pozos",
+    "CodigoPostal\r": "10903\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Uruca",
+    "CodigoPostal\r": "10904\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Piedades",
+    "CodigoPostal\r": "10905\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Brasil",
+    "CodigoPostal\r": "10906\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "Alajuelita",
+    "CodigoPostal\r": "11001\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "San Josecito",
+    "CodigoPostal\r": "11002\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "San Antonio",
+    "CodigoPostal\r": "11003\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "Concepcion",
+    "CodigoPostal\r": "11004\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "San Felipe",
+    "CodigoPostal\r": "11005\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "11101\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "11102\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "Dulce Nombre de Jesus",
+    "CodigoPostal\r": "11103\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "Patalillo",
+    "CodigoPostal\r": "11104\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "Cascajal",
+    "CodigoPostal\r": "11105\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "San Ignacio",
+    "CodigoPostal\r": "11201\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Guaitil",
+    "CodigoPostal\r": "11202\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Palmichal",
+    "CodigoPostal\r": "11203\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Cangrejal",
+    "CodigoPostal\r": "11204\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Sabanillas",
+    "CodigoPostal\r": "11205\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "11301\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Cinco Esquinas",
+    "CodigoPostal\r": "11302\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Anselmo Llorente",
+    "CodigoPostal\r": "11303\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Leon XIII",
+    "CodigoPostal\r": "11304\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Colima",
+    "CodigoPostal\r": "11305\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Moravia",
+    "Distrito": "San Vicente",
+    "CodigoPostal\r": "11401\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Moravia",
+    "Distrito": "San Jeronimo",
+    "CodigoPostal\r": "11402\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Moravia",
+    "Distrito": "La Trinidad",
+    "CodigoPostal\r": "11403\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "11501\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "Sabanilla",
+    "CodigoPostal\r": "11502\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "Mercedes",
+    "CodigoPostal\r": "11503\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "11504\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
     "Distrito": "San Pablo",
-    "Codigo": "40901\r"
+    "CodigoPostal\r": "11601\r"
   },
   {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "11602\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Juan de Mata",
+    "CodigoPostal\r": "11603\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Luis",
+    "CodigoPostal\r": "11604\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "Carara",
+    "CodigoPostal\r": "11605\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Dota",
+    "Distrito": "Santa Maria",
+    "CodigoPostal\r": "11701\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Dota",
+    "Distrito": "Jardin",
+    "CodigoPostal\r": "11702\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Dota",
+    "Distrito": "Copey",
+    "CodigoPostal\r": "11703\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Curridabat",
+    "CodigoPostal\r": "11801\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Granadilla",
+    "CodigoPostal\r": "11802\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Sanchez",
+    "CodigoPostal\r": "11803\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Tirrases",
+    "CodigoPostal\r": "11804\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "San Isidro de El General",
+    "CodigoPostal\r": "11901\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "El General",
+    "CodigoPostal\r": "11902\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Daniel Flores",
+    "CodigoPostal\r": "11903\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Rivas",
+    "CodigoPostal\r": "11904\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "11905\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Platanares",
+    "CodigoPostal\r": "11906\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Pejibaye",
+    "CodigoPostal\r": "11907\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Cajon",
+    "CodigoPostal\r": "11908\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Baru",
+    "CodigoPostal\r": "11909\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Rio Nuevo",
+    "CodigoPostal\r": "11910\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Paramo",
+    "CodigoPostal\r": "11911\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "La Amistad",
+    "CodigoPostal\r": "11912\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Pablo",
+    "CodigoPostal\r": "12001\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Andres",
+    "CodigoPostal\r": "12002\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "Llano Bonito",
+    "CodigoPostal\r": "12003\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "12004\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "Santa Cruz",
+    "CodigoPostal\r": "12005\r"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Antonio",
+    "CodigoPostal\r": "12006\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Alajuela",
+    "CodigoPostal\r": "20101\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Jose",
+    "CodigoPostal\r": "20102\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Carrizal",
+    "CodigoPostal\r": "20103\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Antonio",
+    "CodigoPostal\r": "20104\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Guacima",
+    "CodigoPostal\r": "20105\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "20106\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Sabanilla",
+    "CodigoPostal\r": "20107\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "20108\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Rio Segundo",
+    "CodigoPostal\r": "20109\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Desamparados",
+    "CodigoPostal\r": "20110\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Turrucares",
+    "CodigoPostal\r": "20111\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Tambor",
+    "CodigoPostal\r": "20112\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Garita",
+    "CodigoPostal\r": "20113\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Sarapiqui",
+    "CodigoPostal\r": "20114\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Ramon",
+    "CodigoPostal\r": "20201\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Santiago",
+    "CodigoPostal\r": "20202\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "20203\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Piedades Norte",
+    "CodigoPostal\r": "20204\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Piedades Sur",
+    "CodigoPostal\r": "20205\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "20206\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "20207\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "angeles",
+    "CodigoPostal\r": "20208\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Alfaro",
+    "CodigoPostal\r": "20209\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Volio",
+    "CodigoPostal\r": "20210\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Concepcion",
+    "CodigoPostal\r": "20211\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Zapotal",
+    "CodigoPostal\r": "20212\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Pe?as Blancas",
+    "CodigoPostal\r": "20213\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Lorenzo",
+    "CodigoPostal\r": "20214\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Grecia",
+    "CodigoPostal\r": "20301\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "20302\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "San Jose",
+    "CodigoPostal\r": "20303\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "San Roque",
+    "CodigoPostal\r": "20304\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Tacares",
+    "CodigoPostal\r": "20305\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Puente de Piedra",
+    "CodigoPostal\r": "20307\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Bolivar",
+    "CodigoPostal\r": "20308\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "San Mateo",
+    "CodigoPostal\r": "20401\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "Desmonte",
+    "CodigoPostal\r": "20402\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "Jesus Maria",
+    "CodigoPostal\r": "20403\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "Labrador",
+    "CodigoPostal\r": "20404\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Atenas",
+    "CodigoPostal\r": "20501\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Jesus",
+    "CodigoPostal\r": "20502\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Mercedes",
+    "CodigoPostal\r": "20503\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "20504\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Concepcion",
+    "CodigoPostal\r": "20505\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "San Jose",
+    "CodigoPostal\r": "20506\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Santa Eulalia",
+    "CodigoPostal\r": "20507\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Escobal",
+    "CodigoPostal\r": "20508\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "Naranjo",
+    "CodigoPostal\r": "20601\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Miguel",
+    "CodigoPostal\r": "20602\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Jose",
+    "CodigoPostal\r": "20603\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "Cirri Sur",
+    "CodigoPostal\r": "20604\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Jeronimo",
+    "CodigoPostal\r": "20605\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "20606\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "El Rosario",
+    "CodigoPostal\r": "20607\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "Palmitos",
+    "CodigoPostal\r": "20608\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Palmares",
+    "CodigoPostal\r": "20701\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Zaragoza",
+    "CodigoPostal\r": "20702\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Buenos Aires",
+    "CodigoPostal\r": "20703\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Santiago",
+    "CodigoPostal\r": "20704\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Candelaria",
+    "CodigoPostal\r": "20705\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Esquipulas",
+    "CodigoPostal\r": "20706\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "La Granja",
+    "CodigoPostal\r": "20707\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "20801\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "20802\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "20803\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "Carrillos",
+    "CodigoPostal\r": "20804\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "Sabana Redonda",
+    "CodigoPostal\r": "20805\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "Orotina",
+    "CodigoPostal\r": "20901\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "El Mastate",
+    "CodigoPostal\r": "20902\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "Hacienda Vieja",
+    "CodigoPostal\r": "20903\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "Coyolar",
+    "CodigoPostal\r": "20904\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "La Ceiba",
+    "CodigoPostal\r": "20905\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Quesada",
+    "CodigoPostal\r": "21001\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Florencia",
+    "CodigoPostal\r": "21002\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Buenavista",
+    "CodigoPostal\r": "21003\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Aguas Zarcas",
+    "CodigoPostal\r": "21004\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Venecia",
+    "CodigoPostal\r": "21005\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Pital",
+    "CodigoPostal\r": "21006\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "La Fortuna",
+    "CodigoPostal\r": "21007\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "La Tigra",
+    "CodigoPostal\r": "21008\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "La Palmera",
+    "CodigoPostal\r": "21009\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Venado",
+    "CodigoPostal\r": "21010\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Cutris",
+    "CodigoPostal\r": "21011\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Monterrey",
+    "CodigoPostal\r": "21012\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Pocosol",
+    "CodigoPostal\r": "21013\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Zarcero",
+    "CodigoPostal\r": "21101\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Laguna",
+    "CodigoPostal\r": "21102\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Tapesco",
+    "CodigoPostal\r": "21103\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Guadalupe",
+    "CodigoPostal\r": "21104\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Palmira",
+    "CodigoPostal\r": "21105\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Zapote",
+    "CodigoPostal\r": "21106\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Brisas",
+    "CodigoPostal\r": "21107\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Sarchi Norte",
+    "CodigoPostal\r": "21201\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Sarchi Sur",
+    "CodigoPostal\r": "21202\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Toro Amarillo",
+    "CodigoPostal\r": "21203\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "21204\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Rodriguez",
+    "CodigoPostal\r": "21205\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Upala",
+    "CodigoPostal\r": "21301\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Aguas Claras",
+    "CodigoPostal\r": "21302\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "San Jose",
+    "CodigoPostal\r": "21303\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Bijagua",
+    "CodigoPostal\r": "21304\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Delicias",
+    "CodigoPostal\r": "21305\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Dos Rios",
+    "CodigoPostal\r": "21306\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Yolillal",
+    "CodigoPostal\r": "21307\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Canalete",
+    "CodigoPostal\r": "21308\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "Los Chiles",
+    "CodigoPostal\r": "21401\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "Ca?o Negro",
+    "CodigoPostal\r": "21402\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "El Amparo",
+    "CodigoPostal\r": "21403\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "San Jorge",
+    "CodigoPostal\r": "21404\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "21501\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "Buenavista",
+    "CodigoPostal\r": "21502\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "Cote",
+    "CodigoPostal\r": "21503\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "Katira",
+    "CodigoPostal\r": "21504\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Rio Cuarto",
+    "Distrito": "Rio Cuarto",
+    "CodigoPostal\r": "21601\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Rio Cuarto",
+    "Distrito": "Santa Rita",
+    "CodigoPostal\r": "21602\r"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Rio Cuarto",
+    "Distrito": "Santa Isabel",
+    "CodigoPostal\r": "21603\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Oriental",
+    "CodigoPostal\r": "30101\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Occidental",
+    "CodigoPostal\r": "30102\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Carmen",
+    "CodigoPostal\r": "30103\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "San Nicolas",
+    "CodigoPostal\r": "30104\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Aguacaliente",
+    "CodigoPostal\r": "30105\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Guadalupe",
+    "CodigoPostal\r": "30106\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Corralillo",
+    "CodigoPostal\r": "30107\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Tierra Blanca",
+    "CodigoPostal\r": "30108\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Dulce Nombre",
+    "CodigoPostal\r": "30109\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Llano Grande",
+    "CodigoPostal\r": "30110\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Quebradilla",
+    "CodigoPostal\r": "30111\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Paraiso",
+    "CodigoPostal\r": "30201\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Santiago",
+    "CodigoPostal\r": "30202\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Orosi",
+    "CodigoPostal\r": "30203\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Cachi",
+    "CodigoPostal\r": "30204\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Llanos de Santa Lucia",
+    "CodigoPostal\r": "30205\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Birrisito",
+    "CodigoPostal\r": "30206\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Tres Rios",
+    "CodigoPostal\r": "30301\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Diego",
+    "CodigoPostal\r": "30302\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "30303\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "30304\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Concepcion",
+    "CodigoPostal\r": "30305\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Dulce Nombre",
+    "CodigoPostal\r": "30306\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Ramon",
+    "CodigoPostal\r": "30307\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Rio Azul",
+    "CodigoPostal\r": "30308\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "Juan Vi?as",
+    "CodigoPostal\r": "30401\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "Tucurrique",
+    "CodigoPostal\r": "30402\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "Pejibaye",
+    "CodigoPostal\r": "30403\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "La Victoria",
+    "CodigoPostal\r": "30404\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Turrialba",
+    "CodigoPostal\r": "30501\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "La Suiza",
+    "CodigoPostal\r": "30502\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Peralta",
+    "CodigoPostal\r": "30503\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Santa Cruz",
+    "CodigoPostal\r": "30504\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Santa Teresita",
+    "CodigoPostal\r": "30505\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Pavones",
+    "CodigoPostal\r": "30506\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Tuis",
+    "CodigoPostal\r": "30507\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Tayutic",
+    "CodigoPostal\r": "30508\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Santa Rosa",
+    "CodigoPostal\r": "30509\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Tres Equis",
+    "CodigoPostal\r": "30510\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "La Isabel",
+    "CodigoPostal\r": "30511\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Chirripo",
+    "CodigoPostal\r": "30512\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Alvarado",
+    "Distrito": "Pacayas",
+    "CodigoPostal\r": "30601\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Alvarado",
+    "Distrito": "Cervantes",
+    "CodigoPostal\r": "30602\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Alvarado",
+    "Distrito": "Capellades",
+    "CodigoPostal\r": "30603\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "30701\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Cot",
+    "CodigoPostal\r": "30702\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Potrero Cerrado",
+    "CodigoPostal\r": "30703\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Cipreses",
+    "CodigoPostal\r": "30704\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Santa Rosa",
+    "CodigoPostal\r": "30705\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "El Tejar",
+    "CodigoPostal\r": "30801\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "30802\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "Tobosi",
+    "CodigoPostal\r": "30803\r"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "Patio de Agua",
+    "CodigoPostal\r": "30804\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Heredia",
+    "CodigoPostal\r": "40101\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Mercedes",
+    "CodigoPostal\r": "40102\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "San Francisco",
+    "CodigoPostal\r": "40103\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Ulloa",
+    "CodigoPostal\r": "40104\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Varablanca",
+    "CodigoPostal\r": "40105\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "Barva",
+    "CodigoPostal\r": "40201\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "40202\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Pablo",
+    "CodigoPostal\r": "40203\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Roque",
+    "CodigoPostal\r": "40204\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "Santa Lucia",
+    "CodigoPostal\r": "40205\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Jose de la Monta?a",
+    "CodigoPostal\r": "40206\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Santo Domingo",
+    "CodigoPostal\r": "40301\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "San Vicente",
+    "CodigoPostal\r": "40302\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "San Miguel",
+    "CodigoPostal\r": "40303\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Paracito",
+    "CodigoPostal\r": "40304\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Santo Tomas",
+    "CodigoPostal\r": "40305\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Santa Rosa",
+    "CodigoPostal\r": "40306\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Tures",
+    "CodigoPostal\r": "40307\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Para",
+    "CodigoPostal\r": "40308\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Santa Barbara",
+    "CodigoPostal\r": "40401\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "San Pedro",
+    "CodigoPostal\r": "40402\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "40403\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Jesus",
+    "CodigoPostal\r": "40404\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Santo Domingo",
+    "CodigoPostal\r": "40405\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Puraba",
+    "CodigoPostal\r": "40406\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "40501\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "San Josecito",
+    "CodigoPostal\r": "40502\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "Santiago",
+    "CodigoPostal\r": "40503\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "angeles",
+    "CodigoPostal\r": "40504\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "Concepcion",
+    "CodigoPostal\r": "40505\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "40601\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "San Jose",
+    "CodigoPostal\r": "40602\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "Concepcion",
+    "CodigoPostal\r": "40603\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "San Francisco",
+    "CodigoPostal\r": "40604\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Belen",
+    "Distrito": "San Antonio",
+    "CodigoPostal\r": "40701\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Belen",
+    "Distrito": "La Ribera",
+    "CodigoPostal\r": "40702\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Belen",
+    "Distrito": "La Asuncion",
+    "CodigoPostal\r": "40703\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Flores",
+    "Distrito": "San Joaquin",
+    "CodigoPostal\r": "40801\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Flores",
+    "Distrito": "Barrantes",
+    "CodigoPostal\r": "40802\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Flores",
+    "Distrito": "Llorente",
+    "CodigoPostal\r": "40803\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Pablo",
+    "Distrito": "San Pablo",
+    "CodigoPostal\r": "40901\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Pablo",
     "Distrito": "Rincon de Sabanilla",
-    "Codigo": "40902\r"
+    "CodigoPostal\r": "40902\r"
   },
   {
-    "Distrito": "Liberia Centro",
-    "Codigo": "50101\r"
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Puerto Viejo",
+    "CodigoPostal\r": "41001\r"
   },
   {
-    "Distrito": "Nicoya Centro",
-    "Codigo": "50201\r"
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "La Virgen",
+    "CodigoPostal\r": "41002\r"
   },
   {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Las Horquetas",
+    "CodigoPostal\r": "41003\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Llanuras del Gaspar",
+    "CodigoPostal\r": "41004\r"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Cure?a",
+    "CodigoPostal\r": "41005\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
     "Distrito": "Liberia",
-    "Codigo": "50301\r"
+    "CodigoPostal\r": "50101\r"
   },
   {
-    "Distrito": "Limon Centro",
-    "Codigo": "70101\r"
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Ca?as Dulces",
+    "CodigoPostal\r": "50102\r"
   },
   {
-    "Distrito": "Puerto Centro",
-    "Codigo": "70101\r"
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Mayorga",
+    "CodigoPostal\r": "50103\r"
   },
   {
-    "Distrito": "Puntarenas Centro",
-    "Codigo": "60101\r"
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Nacascolo",
+    "CodigoPostal\r": "50104\r"
   },
   {
-    "Distrito": "Quepos Centro",
-    "Codigo": "60601"
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Curubande",
+    "CodigoPostal\r": "50105\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Nicoya",
+    "CodigoPostal\r": "50201\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Mansion",
+    "CodigoPostal\r": "50202\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "San Antonio",
+    "CodigoPostal\r": "50203\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Quebrada Honda",
+    "CodigoPostal\r": "50204\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Samara",
+    "CodigoPostal\r": "50205\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Nosara",
+    "CodigoPostal\r": "50206\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Belen de Nosarita",
+    "CodigoPostal\r": "50207\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Santa Cruz",
+    "CodigoPostal\r": "50301\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Bolson",
+    "CodigoPostal\r": "50302\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Veintisiete de Abril",
+    "CodigoPostal\r": "50303\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Tempate",
+    "CodigoPostal\r": "50304\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Cartagena",
+    "CodigoPostal\r": "50305\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Cuajiniquil",
+    "CodigoPostal\r": "50306\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Diria",
+    "CodigoPostal\r": "50307\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Cabo Velas",
+    "CodigoPostal\r": "50308\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Tamarindo",
+    "CodigoPostal\r": "50309\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "Bagaces",
+    "CodigoPostal\r": "50401\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "La Fortuna",
+    "CodigoPostal\r": "50402\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "Mogote",
+    "CodigoPostal\r": "50403\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "Rio Naranjo",
+    "CodigoPostal\r": "50404\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Filadelfia",
+    "CodigoPostal\r": "50501\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Palmira",
+    "CodigoPostal\r": "50502\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Sardinal",
+    "CodigoPostal\r": "50503\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Belen",
+    "CodigoPostal\r": "50504\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Ca?as",
+    "CodigoPostal\r": "50601\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Palmira",
+    "CodigoPostal\r": "50602\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "San Miguel",
+    "CodigoPostal\r": "50603\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Bebedero",
+    "CodigoPostal\r": "50604\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Porozal",
+    "CodigoPostal\r": "50605\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "Las Juntas",
+    "CodigoPostal\r": "50701\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "Sierra",
+    "CodigoPostal\r": "50702\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "San Juan",
+    "CodigoPostal\r": "50703\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "Colorado",
+    "CodigoPostal\r": "50704\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Tilaran",
+    "CodigoPostal\r": "50801\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Quebrada Grande",
+    "CodigoPostal\r": "50802\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Tronadora",
+    "CodigoPostal\r": "50803\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Santa Rosa",
+    "CodigoPostal\r": "50804\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Libano",
+    "CodigoPostal\r": "50805\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Tierras Morenas",
+    "CodigoPostal\r": "50806\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Arenal",
+    "CodigoPostal\r": "50807\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Cabeceras",
+    "CodigoPostal\r": "50808\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Carmona",
+    "CodigoPostal\r": "50901\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Santa Rita",
+    "CodigoPostal\r": "50902\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Zapotal",
+    "CodigoPostal\r": "50903\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "San Pablo",
+    "CodigoPostal\r": "50904\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Porvenir",
+    "CodigoPostal\r": "50905\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Bejuco",
+    "CodigoPostal\r": "50906\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "La Cruz",
+    "CodigoPostal\r": "51001\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "Santa Cecilia",
+    "CodigoPostal\r": "51002\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "La Garita",
+    "CodigoPostal\r": "51003\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "Santa Elena",
+    "CodigoPostal\r": "51004\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Hojancha",
+    "CodigoPostal\r": "51101\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Monte Romo",
+    "CodigoPostal\r": "51102\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Puerto Carrillo",
+    "CodigoPostal\r": "51103\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Huacas",
+    "CodigoPostal\r": "51104\r"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Matambu",
+    "CodigoPostal\r": "51105\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Puntarenas",
+    "CodigoPostal\r": "60101\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Pitahaya",
+    "CodigoPostal\r": "60102\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Chomes",
+    "CodigoPostal\r": "60103\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Lepanto",
+    "CodigoPostal\r": "60104\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Paquera",
+    "CodigoPostal\r": "60105\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Manzanillo",
+    "CodigoPostal\r": "60106\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Guacimal",
+    "CodigoPostal\r": "60107\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Barranca",
+    "CodigoPostal\r": "60108\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Monte Verde",
+    "CodigoPostal\r": "60109\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Isla del Coco",
+    "CodigoPostal\r": "60110\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Cobano",
+    "CodigoPostal\r": "60111\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Chacarita",
+    "CodigoPostal\r": "60112\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Chira",
+    "CodigoPostal\r": "60113\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Acapulco",
+    "CodigoPostal\r": "60114\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "El Roble",
+    "CodigoPostal\r": "60115\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Arancibia",
+    "CodigoPostal\r": "60116\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "Espiritu Santo",
+    "CodigoPostal\r": "60201\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "San Juan Grande",
+    "CodigoPostal\r": "60202\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "Macacona",
+    "CodigoPostal\r": "60203\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "San Rafael",
+    "CodigoPostal\r": "60204\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "San Jeronimo",
+    "CodigoPostal\r": "60205\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "Caldera",
+    "CodigoPostal\r": "60206\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Buenos Aires",
+    "CodigoPostal\r": "60301\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Volcan",
+    "CodigoPostal\r": "60302\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Potrero Grande",
+    "CodigoPostal\r": "60303\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Boruca",
+    "CodigoPostal\r": "60304\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Pilas",
+    "CodigoPostal\r": "60305\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Colinas",
+    "CodigoPostal\r": "60306\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Changuena",
+    "CodigoPostal\r": "60307\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Biolley",
+    "CodigoPostal\r": "60308\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Brunka",
+    "CodigoPostal\r": "60309\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Montes de Oro",
+    "Distrito": "Miramar",
+    "CodigoPostal\r": "60401\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Montes de Oro",
+    "Distrito": "La Union",
+    "CodigoPostal\r": "60402\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Montes de Oro",
+    "Distrito": "San Isidro",
+    "CodigoPostal\r": "60403\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Puerto Cortes",
+    "CodigoPostal\r": "60501\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Palmar",
+    "CodigoPostal\r": "60502\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Sierpe",
+    "CodigoPostal\r": "60503\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Bahia Ballena",
+    "CodigoPostal\r": "60504\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Piedras Blancas",
+    "CodigoPostal\r": "60505\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Bahia Drake",
+    "CodigoPostal\r": "60506\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Quepos",
+    "Distrito": "Quepos",
+    "CodigoPostal\r": "60601\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Quepos",
+    "Distrito": "Savegre",
+    "CodigoPostal\r": "60602\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Quepos",
+    "Distrito": "Naranjito",
+    "CodigoPostal\r": "60603\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Golfito",
+    "CodigoPostal\r": "60701\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Puerto Jimenez",
+    "CodigoPostal\r": "60702\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Guaycara",
+    "CodigoPostal\r": "60703\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Pavon",
+    "CodigoPostal\r": "60704\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "San Vito",
+    "CodigoPostal\r": "60801\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Sabalito",
+    "CodigoPostal\r": "60802\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Aguabuena",
+    "CodigoPostal\r": "60803\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Limoncito",
+    "CodigoPostal\r": "60804\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Pittier",
+    "CodigoPostal\r": "60805\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Gutierrez Braun",
+    "CodigoPostal\r": "60806\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Parrita",
+    "Distrito": "Parrita",
+    "CodigoPostal\r": "60901\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "Corredor",
+    "CodigoPostal\r": "61001\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "La Cuesta",
+    "CodigoPostal\r": "61002\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "Canoas",
+    "CodigoPostal\r": "61003\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "Laurel",
+    "CodigoPostal\r": "61004\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Garabito",
+    "Distrito": "Jaco",
+    "CodigoPostal\r": "61101\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Garabito",
+    "Distrito": "Tarcoles",
+    "CodigoPostal\r": "61102\r"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Garabito",
+    "Distrito": "Lagunillas",
+    "CodigoPostal\r": "61103\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Limon",
+    "CodigoPostal\r": "70101\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Valle La Estrella",
+    "CodigoPostal\r": "70102\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Rio Blanco",
+    "CodigoPostal\r": "70103\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Matama",
+    "CodigoPostal\r": "70104\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Guapiles",
+    "CodigoPostal\r": "70201\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Jimenez",
+    "CodigoPostal\r": "70202\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Rita",
+    "CodigoPostal\r": "70203\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Roxana",
+    "CodigoPostal\r": "70204\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Cariari",
+    "CodigoPostal\r": "70205\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Colorado",
+    "CodigoPostal\r": "70206\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "La Colonia",
+    "CodigoPostal\r": "70207\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Siquirres",
+    "CodigoPostal\r": "70301\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Pacuarito",
+    "CodigoPostal\r": "70302\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Florida",
+    "CodigoPostal\r": "70303\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Germania",
+    "CodigoPostal\r": "70304\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "El Cairo",
+    "CodigoPostal\r": "70305\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Alegria",
+    "CodigoPostal\r": "70306\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Reventazon",
+    "CodigoPostal\r": "70307\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Bratsi",
+    "CodigoPostal\r": "70401\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Sixaola",
+    "CodigoPostal\r": "70402\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Cahuita",
+    "CodigoPostal\r": "70403\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Telire",
+    "CodigoPostal\r": "70404\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Matina",
+    "Distrito": "Matina",
+    "CodigoPostal\r": "70501\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Matina",
+    "Distrito": "Batan",
+    "CodigoPostal\r": "70502\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Matina",
+    "Distrito": "Carrandi",
+    "CodigoPostal\r": "70503\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Guacimo",
+    "CodigoPostal\r": "70601\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Mercedes",
+    "CodigoPostal\r": "70602\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Pocora",
+    "CodigoPostal\r": "70603\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Rio Jimenez",
+    "CodigoPostal\r": "70604\r"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Duacari",
+    "CodigoPostal\r": "70605\r"
+  },
+  {
+    "Provincia": ""
   }
 ]
