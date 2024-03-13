@@ -1,6 +1,6 @@
 [{
         "nombre": "San Jose",
-        "cantones": ["San Jose central",
+        "cantones": ["San Jose",
             "Escazu",
             "Desamparados",
             "Puriscal", "Tarrazu",
@@ -19,7 +19,7 @@
     },
     {
         "nombre": "Alajuela",
-        "cantones": ["Alajuela central",
+        "cantones": ["Alajuela",
             "San Ramon", "Grecia",
             "Atenas", "Naranjo",
             "Palmares", "Poas",
@@ -32,7 +32,7 @@
     },
     {
         "nombre": "Cartago",
-        "cantones": ["Cartago central",
+        "cantones": ["Cartago",
             "Paraiso", "La Union",
             "Jimenez", "Turrialba",
             "Alvarado", "Oreamuno",
@@ -41,7 +41,7 @@
     },
     {
         "nombre": "Heredia",
-        "cantones": ["Heredia central",
+        "cantones": ["Heredia",
             "Barva",
             "Santo Domingo",
             "Santa Barbara",
@@ -64,7 +64,7 @@
     {
         "nombre": "Puntarenas",
         "cantones": [
-            "Puntarenas Central",
+            "Puntarenas",
             "Quepos", "Esparza",
             "Buenos Aires",
             "Montes de Oro", "Osa",
@@ -75,7 +75,7 @@
     },
     {
         "nombre": "Limon",
-        "cantones": ["Limon central",
+        "cantones": ["Limon",
             "Pococi", "Siquirres",
             "Talamanca", "Matina",
             "Guacimo"
