@@ -67,6 +67,10 @@ function buscar() {
 
   mostrarLibros(resultados);
 }
-
 /* ===== INICIAR ===== */
 cargarLibros();
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("buscador")
+    .addEventListener("input", buscar);
+});
