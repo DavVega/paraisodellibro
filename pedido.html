@@ -8,6 +8,7 @@
   <!-- Rutas relativas (correctas para dominio raíz) -->
   <link rel="stylesheet" href="./css/styles.css">
 </head>
+<script src="./js/app.js"></script>
 <body>
 
 <header>
@@ -545,7 +546,7 @@ var option = document.createElement("option");
         }
 
 
-function cargarLibros(index) {
+/*function cargarLibros(index) {
     var categoriaSeleccionada = document.getElementById("categoria"+index).value;
 
 var librosSeleccionados = libros.filter(function(elemento) {
@@ -580,6 +581,38 @@ var librosSeleccionados = libros.filter(function(elemento) {
         opcionVacia.text = "No hay libros disponibles";
         libroDropdown.add(opcionVacia);
     }
+}*/
+function cargarLibros(index) {
+
+  if (!librosGlobal.length) {
+    console.warn("Libros aún no cargados");
+    return;
+  }
+
+  var categoriaSeleccionada =
+    document.getElementById("categoria" + index).value;
+
+  var libroDropdown =
+    document.getElementById("tituloLibro" + index);
+
+  libroDropdown.innerHTML =
+    "<option value=''>Seleccione un libro</option>";
+
+  var librosFiltrados = librosGlobal.filter(function(libro) {
+    return libro.categoria === categoriaSeleccionada;
+  });
+
+  librosFiltrados.forEach(function(libro) {
+
+    if (libro.estatus === "Disponible") {
+
+      var option = document.createElement("option");
+      option.value = libro.tituloLibro + " - " + libro.autorLibro;
+      option.textContent = libro.tituloLibro + " - " + libro.autorLibro;
+
+      libroDropdown.appendChild(option);
+    }
+  });
 }
 function rellenarCamposFP(index) {
   var libroList= document.getElementById("tituloLibro"+index);
@@ -640,7 +673,9 @@ function calcularTotal() {
 /************************************
 LIBROS LIBROS
 ************************************/
-var libros = [
+var libros =  
+	
+	[
   {
     "categoria": "SuperacionPersonal",
     "tituloLibro": "Superacion 1",
@@ -1335,3 +1370,4 @@ var cantonesPorProvincia =  [
 </script>
 </body>
 </html>
+
