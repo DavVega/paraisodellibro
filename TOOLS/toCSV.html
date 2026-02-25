@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertidor Excel a CSV Unificado</title>
+    <script src="https://cdn.sheetjs.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #eef2f3; }
+        .card { background: white; padding: 2.5rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; width: 450px; }
+        h2 { color: #333; margin-bottom: 10px; }
+        p { color: #666; font-size: 0.9rem; margin-bottom: 20px; }
+        input[type="file"] { margin-bottom: 20px; width: 100%; }
+        button { background: #107c10; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-weight: bold; width: 100%; font-size: 1rem; }
+        button:hover { background: #0b5a0b; }
+        button:disabled { background: #ccc; }
+        #status { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Excel a CSV Único</h2>
+    <p>Une todas las pestañas manteniendo el formato de columnas.</p>
+    
+    <input type="file" id="upload" accept=".xlsx, .xls, .ods">
+    <button id="processBtn" disabled>Generar CSV Unificado</button>
+    
+    <div id="status"></div>
+</div>
+
+<script>
+    const upload = document.getElementById('upload');
+    const btn = document.getElementById('processBtn');
+    const status = document.getElementById('status');
+
+    upload.addEventListener('change', () => {
+        btn.disabled = !upload.files.length;
+    });
+
+    btn.addEventListener('click', async () => {
+        const file = upload.files[0];
+        status.innerText = "Procesando...";
+        status.style.color = "#555";
+
+        try {
+            const data = await file.arrayBuffer();
+            const workbook = XLSX.read(data);
+            
+            let finalRows = [];
+
+            workbook.SheetNames.forEach((name, index) => {
+                const sheet = workbook.Sheets[name];
+                // Convertimos la hoja a una matriz de arreglos (filas)
+                const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+                if (rows.length > 0) {
+                    if (index === 0) {
+                        // Si es la primera hoja, incluimos todo (incluyendo el encabezado)
+                        finalRows = finalRows.concat(rows);
+                    } else {
+                        // Si es a partir de la segunda hoja, saltamos la primera fila (encabezado)
+                        finalRows = finalRows.concat(rows.slice(1));
+                    }
+                }
+            });
+
+            // Convertimos la matriz final de nuevo a formato CSV
+            const newSheet = XLSX.utils.aoa_to_sheet(finalRows);
+            const csvOutput = XLSX.utils.sheet_to_csv(newSheet);
+
+            // Descarga
+            const blob = new Blob([csvOutput], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = "archivo_unificado.csv";
+            link.click();
+
+            status.innerText = "¡Listo! Archivo generado.";
+            status.style.color = "green";
+        } catch (err) {
+            console.error(err);
+            status.innerText = "Error al procesar el Excel.";
+            status.style.color = "red";
+        }
+    });
+</script>
+
+</body>
+</html>
