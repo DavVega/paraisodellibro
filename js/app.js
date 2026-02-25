@@ -10,9 +10,20 @@ async function cargarLibros() {
 function mostrarLibros(lista) {
   const catalogo = document.getElementById("catalogo");
   catalogo.innerHTML = "";
+
   lista.forEach(libro => {
+
+    // evitar registros vacíos
+    if (!libro.tituloLibro) return;
+
     catalogo.innerHTML += `
       <div class="libro">
+        <img 
+          src="images/libros/${libro.imagen}" 
+          alt="${libro.tituloLibro}"
+          onerror="this.src='images/libros/default.jpg'"
+        >
+
         <h3>${libro.tituloLibro}</h3>
         <p>${libro.autorLibro}</p>
         <p><strong>₡${libro.precio}</strong></p>
