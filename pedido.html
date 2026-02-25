@@ -342,7 +342,102 @@ function actualizarEnvio(){
 
 document.addEventListener("DOMContentLoaded", cargarLibrosJSON);
 
+
+const formulario = document.querySelector('#formulario');
+const buttonSubmit = document.querySelector('#submit');
+const urlDesktop = 'https://web.whatsapp.com/';
+const urlMobile = 'whatsapp://';
+const destinatario = '+50672679082';
+
+formulario.addEventListener('submit', (event) => {
+    event.preventDefault()
+    buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
+    buttonSubmit.disabled = true
+    setTimeout(() => {
+        let nombre = document.querySelector('#nombre').value
+        //let apellidos = document.querySelector('#apellidos').value
+        let email = document.querySelector('#email').value
+        let telefono = document.querySelector('#telefono').value
+
+        let provincia= document.querySelector('#provincia').value
+	let canton = document.querySelector('#canton').value
+
+        let direccion = document.querySelector('#direccion').value
+
+        let codigoPostal= document.querySelector('#codigo_postal').value
+
+        let metodoPago= document.querySelector('#metodo_pago').value
+
+        let libro1= document.querySelector('#tituloLibro1').value
+
+        let libro2= document.querySelector('#tituloLibro2').value
+
+        let libro3= document.querySelector('#tituloLibro3').value
+
+        let libro4= document.querySelector('#tituloLibro4').value
+
+        let libro5= document.querySelector('#tituloLibro5').value 
+
+        let subtotal= document.querySelector('#subtotal').textContent
+
+        let costoEnvio= document.querySelector('#costoEnvio').textContent
+
+        let total= document.querySelector('#total').textContent
+
+    esFisico = document.querySelector('input[name="opcionFisico"]:checked').value;
+
+	let opcionEnvio = document.getElementById("opcionesEnvio").value;
+let tipoEnvioText = '';
+
+    if(esFisico==='no'){
+	tipoEnvioText = '%0A' + opcionEnvio ;
+}else{
+	tipoEnvioText =  '%0A'+ 'Entrega f�sica Cartago Centro los S�bados / Domingo de 1:00pm - 5:00pm'+'%0A';
+}
+
+var numeroOrden = '' + new Date().getFullYear() + ('0' + (new Date().getMonth() + 1)).slice(-2) + ('0' + new Date().getDate()).slice(-2) + Math.floor(Math.random() * 900) + 100;
+
+var libro1text = (libro1!=='')?'%0A  -> ' + libro1 + ' - precio:  �' + document.querySelector('#precio1').value:'';
+var libro2text = (libro2!=='')?'%0A  -> ' + libro2 + ' - precio:  �' + document.querySelector('#precio2').value:'';
+var libro3text = (libro3!=='')?'%0A  -> ' + libro3 + ' - precio:  �' + document.querySelector('#precio3').value:'';
+var libro4text = (libro4!=='')?'%0A  -> ' + libro4 + ' - precio:  �' + document.querySelector('#precio4').value:'';
+var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + document.querySelector('#precio5').value:'';
+
+ let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*�Cual es tu nombre?*%0A' + nombre + '%0A*�Cu�l es tu correo electr�nico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*�De donde eres?*%0A' + canton +' - '+ provincia + '%0A*�Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
+ metodoPago + '%0A*Deseas retirar en Fisico?*%0A' + esFisico +'%0A*Tu pedido se enviara por:*%0A' + tipoEnvioText +'%0A***************************************************%0A*Detalle del pago pendiente:*%0A***************************************************%0A' + '%0A*' + subtotal + '*%0A%0A*' + costoEnvio + '*%0A%0A*' + total + '*%0A';
+
+ var mensajeencrypt = numeroOrden;
+     mensajeencrypt += '_' + nombre
+     mensajeencrypt += '_' + telefono
+     mensajeencrypt += '_' + email
+     mensajeencrypt += '_' + provincia
+     mensajeencrypt += '_' + canton
+     mensajeencrypt += '_' + codigoPostal
+     mensajeencrypt += '_' + direccion
+     mensajeencrypt += '_' + metodoPago
+     mensajeencrypt += '_' + esFisico
+     mensajeencrypt += '_' + tipoEnvioText
+     mensajeencrypt += '_' + libro1text
+     mensajeencrypt += '_' + libro2text
+     mensajeencrypt += '_' + libro3text
+     mensajeencrypt += '_' + libro4text
+     mensajeencrypt += '_' + libro5text
+     mensajeencrypt += '_' + subtotal
+     mensajeencrypt += '_' + costoEnvio
+     mensajeencrypt += '_' + total
+ 
+        if(isMobile()) {
+            window.open(urlMobile + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
+        }else{
+            window.open(urlDesktop + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
+        }
+        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+        buttonSubmit.disabled = false
+    }, 3000);
+});
+  
 </script>
 
 </body>
 </html>
+
