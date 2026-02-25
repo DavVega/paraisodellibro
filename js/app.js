@@ -13,6 +13,7 @@ async function cargarLibros() {
   }
 }
 
+
 /* ===== MOSTRAR LIBROS ===== */
 function mostrarLibros(lista) {
   const catalogo = document.getElementById("catalogo");
@@ -43,16 +44,32 @@ function mostrarLibros(lista) {
     `;
   });
 }
-
-/* ===== FILTRAR ===== */
 function filtrar(cat) {
-  if (cat === "todos") {
-    mostrarLibros(librosGlobal);
-  } else {
-    mostrarLibros(librosGlobal.filter(l => l.categoria === cat));
-  }
-}
 
+  const texto = document
+    .getElementById("buscador")
+    .value
+    .toLowerCase()
+    .trim();
+
+  let resultados = librosGlobal;
+
+  // Filtrar por categoría
+  if (cat !== "todos") {
+    resultados = resultados.filter(l =>
+      (l.categoria || "").toLowerCase() === cat.toLowerCase()
+    );
+  }
+
+  // Filtrar por búsqueda
+  if (texto !== "") {
+    resultados = resultados.filter(l =>
+      (l.tituloLibro || "").toLowerCase().includes(texto)
+    );
+  }
+
+  mostrarLibros(resultados);
+}
 /* ===== BUSCAR (MEJORADO) ===== */
 function buscar() {
   const texto = document
@@ -71,6 +88,9 @@ function buscar() {
 cargarLibros();
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("buscador")
-    .addEventListener("input", buscar);
+  const buscador = document.getElementById("buscador");
+
+  if (buscador) {
+    buscador.addEventListener("input", buscar);
+  }
 });
