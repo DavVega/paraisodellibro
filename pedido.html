@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paraíso del Libro</title>
+
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
 <header>
   <div class="logo-container">
-    <img src="./images/banners/Vertical_slogan/Logo_azul.PNG" alt="Logo">
-    <!--<h1>Paraíso del Libro</h1>-->
+    <img src="./images/banners/Vertical_slogan/Logo_azul.PNG" alt="Logo" height="80">
   </div>
 
   <nav>
@@ -11,133 +20,7 @@
     <a href="./pedido.html">Hacer Pedido</a>
     <a href="./politicas.html">Políticas</a>
   </nav>
-<style>
-
-/* ====== ESTILO GENERAL ====== */
-
-body{
-  font-family: Arial, sans-serif;
-  margin:0;
-  background:#f4f6f9;
-}
-
-header{
-  background:#2c3e50;
-  color:white;
-  padding:15px;
-  text-align:center;
-}
-
-nav a{
-  color:white;
-  margin:0 10px;
-  text-decoration:none;
-  font-weight:bold;
-}
-
-nav a:hover{
-  text-decoration:underline;
-}
-
-.contenido{
-  max-width:1100px;
-  margin:auto;
-  padding:20px;
-  background:white;
-}
-
-/* ====== FORMULARIO ====== */
-
-form label{
-  font-weight:bold;
-}
-
-form input,
-form select,
-form textarea{
-  width:100%;
-  padding:10px;
-  margin-top:5px;
-  margin-bottom:15px;
-  border:1px solid #ccc;
-  border-radius:6px;
-  font-size:14px;
-  box-sizing:border-box;
-}
-
-/* ====== TABLA RESPONSIVE ====== */
-
-.tabla-responsive{
-  width:100%;
-  overflow-x:auto;
-}
-
-.tabla-pedidos{
-  width:100%;
-  border-collapse:collapse;
-  min-width:800px;
-}
-
-.tabla-pedidos th,
-.tabla-pedidos td{
-  border:1px solid #ddd;
-  padding:8px;
-  text-align:center;
-}
-
-.tabla-pedidos th{
-  background:#34495e;
-  color:white;
-}
-
-/* ====== BOTÓN ====== */
-
-input[type="submit"]{
-  background:#27ae60;
-  color:white;
-  border:none;
-  padding:12px;
-  font-size:16px;
-  border-radius:6px;
-  cursor:pointer;
-  width:100%;
-}
-
-input[type="submit"]:hover{
-  background:#219150;
-}
-
-/* ====== TOTAL ====== */
-
-#total{
-  font-size:18px;
-}
-
-/* ====== RESPONSIVE ====== */
-
-@media(max-width:768px){
-  .tabla-pedidos{
-    min-width:700px;
-  }
-}
-
-footer{
-  text-align:center;
-  padding:15px;
-  background:#2c3e50;
-  color:white;
-  margin-top:20px;
-}
-
-</style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
-
-</head>
-
-<body>
-
-
+</header>
 
 <section class="contenido">
 
@@ -155,15 +38,15 @@ footer{
 <input type="email" id="email" required>
 
 <label>Provincia</label>
-<select id="provincia" required onchange="actualizarEnvio()">
+<select id="provincia" required>
   <option value="">Selecciona</option>
-  <option value="San Jose">San José</option>
-  <option value="Alajuela">Alajuela</option>
-  <option value="Cartago">Cartago</option>
-  <option value="Heredia">Heredia</option>
-  <option value="Guanacaste">Guanacaste</option>
-  <option value="Puntarenas">Puntarenas</option>
-  <option value="Limon">Limón</option>
+  <option>San José</option>
+  <option>Alajuela</option>
+  <option>Cartago</option>
+  <option>Heredia</option>
+  <option>Guanacaste</option>
+  <option>Puntarenas</option>
+  <option>Limón</option>
 </select>
 
 <label>Dirección</label>
@@ -175,72 +58,45 @@ footer{
 
 <div class="tabla-responsive">
 <table class="tabla-pedidos">
-
+<thead>
 <tr>
 <th>Categoría</th>
 <th>Libro</th>
 <th>Formato</th>
 <th>Precio</th>
 </tr>
+</thead>
 
-<script>
-for(let i=1;i<=5;i++){
-document.write(`
-<tr>
-<td>
-<select id="categoria${i}" onchange="cargarLibros(${i})">
-<option value="">Selecciona</option>
-<option value="Literatura">Literatura</option>
-<option value="Educativos">Educativos</option>
-<option value="AutoAprendizaje">Auto-Aprendizaje</option>
-<option value="SuperacionPersonal">Superación</option>
-<option value="EstiloVida">Estilo de Vida</option>
-<option value="Novedad">Novedades</option>
-<option value="Oferta">Ofertas</option>
-</select>
-</td>
-
-<td>
-<select id="tituloLibro${i}" onchange="validarSeleccion(${i})">
-<option value="">Seleccione</option>
-</select>
-</td>
-
-<td><input type="text" id="formato${i}" disabled></td>
-<td><input type="text" id="precio${i}" disabled></td>
-</tr>
-`);
-}
-</script>
+<tbody id="tablaLibros"></tbody>
 
 </table>
 </div>
 
 <hr>
 
-<p id="subtotal">Subtotal: ¢0.00</p>
-<p id="costoEnvio">Envío: ¢0.00</p>
-<p id="total"><strong>Total: ¢0.00</strong></p>
+<p id="subtotal">Subtotal: ¢0</p>
+<p id="costoEnvio">Envío: ¢2500</p>
+<p id="total"><strong>Total: ¢2500</strong></p>
 
 <br>
 
 <label>Método de Pago</label>
 <select id="metodo_pago" required>
 <option value="">Selecciona</option>
-<option value="Sinpe">Sinpe Móvil</option>
-<option value="Transferencia">Transferencia Bancaria</option>
-<option value="Efectivo">Efectivo</option>
+<option>Sinpe Móvil</option>
+<option>Transferencia</option>
+<option>Efectivo</option>
 </select>
 
 <br><br>
 
 <label>
-<input type="radio" name="retiro" value="si" required onchange="calcularTotal()">
+<input type="radio" name="retiro" value="si" required>
 Retiro físico
 </label>
 
 <label>
-<input type="radio" name="retiro" value="no" onchange="calcularTotal()">
+<input type="radio" name="retiro" value="no">
 Envío
 </label>
 
@@ -253,7 +109,9 @@ Acepto términos y condiciones
 
 <br><br>
 
-<input type="submit" value="Realizar Pedido">
+<button type="submit" id="submit">
+Enviar por WhatsApp
+</button>
 
 </form>
 
@@ -263,183 +121,7 @@ Acepto términos y condiciones
 © 2026 Paraíso del Libro
 </footer>
 
-<script>
-
-let librosGlobal = [];
-
-async function cargarLibrosJSON(){
-  const res = await fetch("libros.json");
-  librosGlobal = await res.json();
-}
-
-function cargarLibros(index){
-
-  const categoria = document.getElementById("categoria"+index).value;
-  const dropdown = document.getElementById("tituloLibro"+index);
-
-  dropdown.innerHTML = "<option value=''>Seleccione</option>";
-
-  librosGlobal
-    .filter(l => l.categoria === categoria && l.estatus==="Disponible")
-    .forEach(libro=>{
-      const option = document.createElement("option");
-      option.value = libro.tituloLibro;
-      option.textContent = libro.tituloLibro + " - " + libro.autorLibro;
-      dropdown.appendChild(option);
-    });
-}
-
-function validarSeleccion(index){
-
-  const titulo = document.getElementById("tituloLibro"+index).value;
-
-  for(let i=1;i<=5;i++){
-    if(i!==index){
-      if(document.getElementById("tituloLibro"+i).value === titulo){
-        alert("Este libro ya fue seleccionado.");
-        document.getElementById("tituloLibro"+index).value="";
-        return;
-      }
-    }
-  }
-
-  const libro = librosGlobal.find(l=>l.tituloLibro===titulo);
-  if(!libro) return;
-
-  document.getElementById("formato"+index).value = libro.formato;
-  document.getElementById("precio"+index).value = libro.precio;
-
-  calcularTotal();
-}
-
-function calcularTotal(){
-
-  let subtotal=0;
-
-  for(let i=1;i<=5;i++){
-    subtotal += parseFloat(document.getElementById("precio"+i).value) || 0;
-  }
-
-  let envio = 2500;
-
-  const retiro = document.querySelector('input[name="retiro"]:checked');
-
-  if(retiro && retiro.value==="si"){
-    envio = 0;
-  }
-
-  const total = subtotal + envio;
-
-  document.getElementById("subtotal").textContent="Subtotal: ¢"+subtotal.toFixed(2);
-  document.getElementById("costoEnvio").textContent="Envío: ¢"+envio.toFixed(2);
-  document.getElementById("total").innerHTML="<strong>Total: ¢"+total.toFixed(2)+"</strong>";
-}
-
-function actualizarEnvio(){
-  calcularTotal();
-}
-
-document.addEventListener("DOMContentLoaded", cargarLibrosJSON);
-
-
-const formulario = document.querySelector('#formulario');
-const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://web.whatsapp.com/';
-const urlMobile = 'whatsapp://';
-const destinatario = '+50672679082';
-
-formulario.addEventListener('submit', (event) => {
-    event.preventDefault()
-    buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
-    buttonSubmit.disabled = true
-    setTimeout(() => {
-        let nombre = document.querySelector('#nombre').value
-        //let apellidos = document.querySelector('#apellidos').value
-        let email = document.querySelector('#email').value
-        let telefono = document.querySelector('#telefono').value
-
-        let provincia= document.querySelector('#provincia').value
-	let canton = document.querySelector('#canton').value
-
-        let direccion = document.querySelector('#direccion').value
-
-        let codigoPostal= document.querySelector('#codigo_postal').value
-
-        let metodoPago= document.querySelector('#metodo_pago').value
-
-        let libro1= document.querySelector('#tituloLibro1').value
-
-        let libro2= document.querySelector('#tituloLibro2').value
-
-        let libro3= document.querySelector('#tituloLibro3').value
-
-        let libro4= document.querySelector('#tituloLibro4').value
-
-        let libro5= document.querySelector('#tituloLibro5').value 
-
-        let subtotal= document.querySelector('#subtotal').textContent
-
-        let costoEnvio= document.querySelector('#costoEnvio').textContent
-
-        let total= document.querySelector('#total').textContent
-
-    esFisico = document.querySelector('input[name="opcionFisico"]:checked').value;
-
-	let opcionEnvio = document.getElementById("opcionesEnvio").value;
-let tipoEnvioText = '';
-
-    if(esFisico==='no'){
-	tipoEnvioText = '%0A' + opcionEnvio ;
-}else{
-	tipoEnvioText =  '%0A'+ 'Entrega f�sica Cartago Centro los S�bados / Domingo de 1:00pm - 5:00pm'+'%0A';
-}
-
-var numeroOrden = '' + new Date().getFullYear() + ('0' + (new Date().getMonth() + 1)).slice(-2) + ('0' + new Date().getDate()).slice(-2) + Math.floor(Math.random() * 900) + 100;
-
-var libro1text = (libro1!=='')?'%0A  -> ' + libro1 + ' - precio:  �' + document.querySelector('#precio1').value:'';
-var libro2text = (libro2!=='')?'%0A  -> ' + libro2 + ' - precio:  �' + document.querySelector('#precio2').value:'';
-var libro3text = (libro3!=='')?'%0A  -> ' + libro3 + ' - precio:  �' + document.querySelector('#precio3').value:'';
-var libro4text = (libro4!=='')?'%0A  -> ' + libro4 + ' - precio:  �' + document.querySelector('#precio4').value:'';
-var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + document.querySelector('#precio5').value:'';
-
- let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*�Cual es tu nombre?*%0A' + nombre + '%0A*�Cu�l es tu correo electr�nico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*�De donde eres?*%0A' + canton +' - '+ provincia + '%0A*�Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
- metodoPago + '%0A*Deseas retirar en Fisico?*%0A' + esFisico +'%0A*Tu pedido se enviara por:*%0A' + tipoEnvioText +'%0A***************************************************%0A*Detalle del pago pendiente:*%0A***************************************************%0A' + '%0A*' + subtotal + '*%0A%0A*' + costoEnvio + '*%0A%0A*' + total + '*%0A';
-
- var mensajeencrypt = numeroOrden;
-     mensajeencrypt += '_' + nombre
-     mensajeencrypt += '_' + telefono
-     mensajeencrypt += '_' + email
-     mensajeencrypt += '_' + provincia
-     mensajeencrypt += '_' + canton
-     mensajeencrypt += '_' + codigoPostal
-     mensajeencrypt += '_' + direccion
-     mensajeencrypt += '_' + metodoPago
-     mensajeencrypt += '_' + esFisico
-     mensajeencrypt += '_' + tipoEnvioText
-     mensajeencrypt += '_' + libro1text
-     mensajeencrypt += '_' + libro2text
-     mensajeencrypt += '_' + libro3text
-     mensajeencrypt += '_' + libro4text
-     mensajeencrypt += '_' + libro5text
-     mensajeencrypt += '_' + subtotal
-     mensajeencrypt += '_' + costoEnvio
-     mensajeencrypt += '_' + total
- 
-        if(isMobile()) {
-            window.open(urlMobile + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
-        }else{
-            window.open(urlDesktop + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
-        }
-        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
-        buttonSubmit.disabled = false
-    }, 3000);
-});
-  
-</script>
+<script src="./js/app.js"></script>
 
 </body>
 </html>
-
-
-
-
