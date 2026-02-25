@@ -623,7 +623,7 @@ function rellenarCamposFP(index) {
   var libroSeleccionado = libroList.value.split("-")[0];
 
 //buscamos el libro
-libroB = libros.filter(function(elemento) {
+libroB = librosGlobal.filter(function(elemento) {
 
   return elemento.tituloLibro.trim() === libroSeleccionado.trim();
 });
@@ -800,5 +800,6 @@ var cantonesPorProvincia =  [
 </script>
 </body>
 </html>
+
 
 
