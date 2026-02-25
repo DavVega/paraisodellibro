@@ -6,8 +6,8 @@
 <title>Hacer Pedido | Paraíso del Libro</title>
 
 <link rel="stylesheet" href="css/styles.css">
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 
 <form id="formulario">
 
-<!-- ===== DATOS PERSONALES ===== -->
+<!-- DATOS -->
 
 <label>Nombre Completo</label>
 <input type="text" id="nombre" required>
@@ -39,8 +39,8 @@
 <input type="email" id="email" required>
 
 <label>Provincia</label>
-<select id="provincia" required onchange="actualizarMetodosPago()">
-  <option value="">Selecciona una provincia</option>
+<select id="provincia" required onchange="actualizarEnvio()">
+  <option value="">Selecciona</option>
   <option value="San Jose">San José</option>
   <option value="Alajuela">Alajuela</option>
   <option value="Cartago">Cartago</option>
@@ -50,188 +50,144 @@
   <option value="Limon">Limón</option>
 </select>
 
-<label>Cantón</label>
-<select id="canton" required>
-  <option value="">Primero selecciona provincia</option>
-</select>
-
-<label>Dirección Exacta</label>
-<textarea id="direccion" rows="3" required></textarea>
-
-<label>Código Postal</label>
-<input type="text" id="codigo_postal" pattern="[0-9]{5}" required>
+<label>Dirección</label>
+<textarea id="direccion" required></textarea>
 
 <hr>
 
-<h3>📖 Selecciona hasta 5 libros</h3>
+<h3>Selecciona hasta 5 libros</h3>
 
-<table>
+<table border="1">
 <tr>
-  <th>Categoría</th>
-  <th>Libro</th>
-  <th>Formato</th>
-  <th>Precio</th>
+<th>Categoría</th>
+<th>Libro</th>
+<th>Formato</th>
+<th>Precio</th>
 </tr>
 
 <!-- FILAS -->
+<script>
+for(let i=1;i<=5;i++){
+document.write(`
 <tr>
-  <td>
-    <select id="categoria1" onchange="cargarLibros(1)" required>
-      <option value="">Selecciona</option>
-      <option value="Literatura">Literatura</option>
-      <option value="Educativos">Educativos</option>
-      <option value="AutoAprendizaje">Auto-Aprendizaje</option>
-      <option value="SuperacionPersonal">Superación</option>
-      <option value="EstiloVida">Estilo de Vida</option>
-      <option value="Novedad">Novedades</option>
-      <option value="Oferta">Ofertas</option>
-    </select>
-  </td>
-  <td>
-    <select id="tituloLibro1" onchange="validarSeleccion(1)">
-      <option value="">Seleccione</option>
-    </select>
-  </td>
-  <td><input type="text" id="formato1" disabled></td>
-  <td><input type="text" id="precio1" disabled></td>
+<td>
+<select id="categoria${i}" onchange="cargarLibros(${i})">
+<option value="">Selecciona</option>
+<option value="Literatura">Literatura</option>
+<option value="Educativos">Educativos</option>
+<option value="AutoAprendizaje">Auto-Aprendizaje</option>
+<option value="SuperacionPersonal">Superación</option>
+<option value="EstiloVida">Estilo de Vida</option>
+<option value="Novedad">Novedades</option>
+<option value="Oferta">Ofertas</option>
+</select>
+</td>
+
+<td>
+<select id="tituloLibro${i}" onchange="validarSeleccion(${i})">
+<option value="">Seleccione</option>
+</select>
+</td>
+
+<td><input type="text" id="formato${i}" disabled></td>
+<td><input type="text" id="precio${i}" disabled></td>
 </tr>
-<tr>
-  <td>
-    <select id="categoria1" onchange="cargarLibros(2)" required>
-      <option value="">Selecciona</option>
-      <option value="Literatura">Literatura</option>
-      <option value="Educativos">Educativos</option>
-      <option value="AutoAprendizaje">Auto-Aprendizaje</option>
-      <option value="SuperacionPersonal">Superación</option>
-      <option value="EstiloVida">Estilo de Vida</option>
-      <option value="Novedad">Novedades</option>
-      <option value="Oferta">Ofertas</option>
-    </select>
-  </td>
-  <td>
-    <select id="tituloLibro1" onchange="validarSeleccion(2)">
-      <option value="">Seleccione</option>
-    </select>
-  </td>
-  <td><input type="text" id="formato1" disabled></td>
-  <td><input type="text" id="precio1" disabled></td>
-</tr>
-<tr>
-  <td>
-    <select id="categoria1" onchange="cargarLibros(3)" required>
-      <option value="">Selecciona</option>
-      <option value="Literatura">Literatura</option>
-      <option value="Educativos">Educativos</option>
-      <option value="AutoAprendizaje">Auto-Aprendizaje</option>
-      <option value="SuperacionPersonal">Superación</option>
-      <option value="EstiloVida">Estilo de Vida</option>
-      <option value="Novedad">Novedades</option>
-      <option value="Oferta">Ofertas</option>
-    </select>
-  </td>
-  <td>
-    <select id="tituloLibro1" onchange="validarSeleccion(3)">
-      <option value="">Seleccione</option>
-    </select>
-  </td>
-  <td><input type="text" id="formato1" disabled></td>
-  <td><input type="text" id="precio1" disabled></td>
-</tr>
-<!-- Puedes duplicar hasta 5 (ya lo tienes en tu versión anterior) -->
+`);
+}
+</script>
 
 </table>
 
 <hr>
 
-<div>
-  <p id="subtotal">Subtotal: ¢0.00</p>
-  <p id="costoEnvio">Envío: ¢0.00</p>
-  <p id="total"><strong>Total: ¢0.00</strong></p>
-</div>
+<p id="subtotal">Subtotal: ¢0.00</p>
+<p id="costoEnvio">Envío: ¢0.00</p>
+<p id="total"><strong>Total: ¢0.00</strong></p>
+
+<br>
 
 <label>Método de Pago</label>
-<select id="metodo_pago" onchange="calcularTotal()"></select>
+<select id="metodo_pago" required>
+<option value="">Selecciona</option>
+<option value="Sinpe">Sinpe Móvil</option>
+<option value="Transferencia">Transferencia Bancaria</option>
+<option value="Efectivo">Efectivo</option>
+</select>
 
 <br><br>
 
 <label>
-  <input type="radio" name="opcionFisico" value="si"
-         onchange="ocultarOpcionesEnvio()" required>
-  Retiro físico
+<input type="radio" name="retiro" value="si" required onchange="calcularTotal()">
+Retiro físico
 </label>
 
 <label>
-  <input type="radio" name="opcionFisico" value="no"
-         onchange="mostrarOpcionesEnvio()" required>
-  Envío
+<input type="radio" name="retiro" value="no" onchange="calcularTotal()">
+Envío
 </label>
 
 <br><br>
 
 <label>
-  <input type="checkbox" required>
-  Acepto los términos y condiciones
+<input type="checkbox" required>
+Acepto términos y condiciones
 </label>
 
 <br><br>
 
-<input type="submit" id="submit" value="Realizar Pedido">
+<input type="submit" value="Realizar Pedido">
 
 </form>
 
 </section>
 
 <footer>
-  © 2026 Paraíso del Libro
+© 2026 Paraíso del Libro
 </footer>
 
-<!-- ===== SCRIPTS ===== -->
-
 <script>
-const URL_JSON = "https://raw.githubusercontent.com/DavVega/paraisodellibro/master/libros.json";
+
 let librosGlobal = [];
 
-/* ===== CARGAR LIBROS ===== */
-async function cargarLibrosJSON() {
-  try {
-    const res = await fetch(URL_JSON);
-    librosGlobal = await res.json();
-  } catch (error) {
-    console.error("Error cargando libros:", error);
-  }
+async function cargarLibrosJSON(){
+  const res = await fetch("https://raw.githubusercontent.com/DavVega/paraisodellibro/master/libros.json");
+  librosGlobal = await res.json();
 }
 
-/* ===== CARGAR POR CATEGORÍA ===== */
-function cargarLibros(index) {
+function cargarLibros(index){
 
   const categoria = document.getElementById("categoria"+index).value;
   const dropdown = document.getElementById("tituloLibro"+index);
 
-  const filtrados = librosGlobal.filter(l =>
-    l.categoria === categoria &&
-    l.estatus === "Disponible"
-  );
-
   dropdown.innerHTML = "<option value=''>Seleccione</option>";
 
-  filtrados.forEach(libro => {
-    const option = document.createElement("option");
-    option.value = libro.tituloLibro;
-    option.textContent = libro.tituloLibro + " - " + libro.autorLibro;
-    dropdown.appendChild(option);
-  });
+  librosGlobal
+    .filter(l => l.categoria === categoria && l.estatus==="Disponible")
+    .forEach(libro=>{
+      const option = document.createElement("option");
+      option.value = libro.tituloLibro;
+      option.textContent = libro.tituloLibro + " - " + libro.autorLibro;
+      dropdown.appendChild(option);
+    });
 }
 
-/* ===== RELLENAR CAMPOS ===== */
-function rellenarCamposFP(index) {
+function validarSeleccion(index){
 
   const titulo = document.getElementById("tituloLibro"+index).value;
 
-  const libro = librosGlobal.find(l =>
-    l.tituloLibro === titulo
-  );
+  // Evitar repetidos
+  for(let i=1;i<=5;i++){
+    if(i!==index){
+      if(document.getElementById("tituloLibro"+i).value === titulo){
+        alert("Este libro ya fue seleccionado.");
+        document.getElementById("tituloLibro"+index).value="";
+        return;
+      }
+    }
+  }
 
-  if (!libro) return;
+  const libro = librosGlobal.find(l=>l.tituloLibro===titulo);
+  if(!libro) return;
 
   document.getElementById("formato"+index).value = libro.formato;
   document.getElementById("precio"+index).value = libro.precio;
@@ -239,27 +195,35 @@ function rellenarCamposFP(index) {
   calcularTotal();
 }
 
-/* ===== CALCULAR TOTAL ===== */
-function calcularTotal() {
+function calcularTotal(){
 
-  let subtotal = 0;
+  let subtotal=0;
 
-  for (let i = 1; i <= 5; i++) {
-    const precio = parseFloat(
-      document.getElementById("precio"+i)?.value
-    ) || 0;
-
-    subtotal += precio;
+  for(let i=1;i<=5;i++){
+    subtotal += parseFloat(document.getElementById("precio"+i).value) || 0;
   }
 
-  document.getElementById("subtotal").textContent =
-    "Subtotal: ¢" + subtotal.toFixed(2);
+  let envio = 2500;
+
+  const retiro = document.querySelector('input[name="retiro"]:checked');
+
+  if(retiro && retiro.value==="si"){
+    envio = 0;
+  }
+
+  const total = subtotal + envio;
+
+  document.getElementById("subtotal").textContent="Subtotal: ¢"+subtotal.toFixed(2);
+  document.getElementById("costoEnvio").textContent="Envío: ¢"+envio.toFixed(2);
+  document.getElementById("total").innerHTML="<strong>Total: ¢"+total.toFixed(2)+"</strong>";
 }
 
-/* ===== INICIAR ===== */
-document.addEventListener("DOMContentLoaded", async () => {
-  await cargarLibrosJSON();
-});
+function actualizarEnvio(){
+  calcularTotal();
+}
+
+document.addEventListener("DOMContentLoaded", cargarLibrosJSON);
+
 </script>
 
 </body>
