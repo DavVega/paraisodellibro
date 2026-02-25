@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedidos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border: solid 2px #50e54b!important;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1233da;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #ecd44c;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+          .error-message {
+    color: red;
+    display: none;
+  }
+h1 {text-align: center;}
+        input[type="submit"]:hover {
+            background-color: #ffc107;
+        }
+ /* Estilos CSS para aumentar el tamaño del botón */
+        input[type="submit"] {
+            width: 200px; /* Ajusta el ancho según sea necesario */
+            height: 50px; /* Ajusta la altura según sea necesario */
+            font-size: 18px; /* Ajusta el tamaño de la fuente según sea necesario */
+        }
+    </style>
+</head>
+<body>
+    <form id="formulario" action="enviarCorreo()" method="post">
+    <h1><font color:"#1233DA">Formulario de Pedidos</font></h1>
+        <label for="nombre">Nombre Completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+         <label for="telefono">Número de Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{8}" title="El número de teléfono debe contener 8 dígitos numéricos" required><br><br>
+
+        <label for="email">Correo Electronico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+      <br>
+              <label for="provincia" >Provincia:</label><br>
+        <select id="provincia" name="provincia" required onchange="actualizarMetodosPago()">
+            <option value="">Selecciona una provincia</option>
+            <option value="San Jose">San José</option>
+            <option value="Alajuela">Alajuela</option>
+            <option value="Cartago">Cartago</option>
+            <option value="Heredia">Heredia</option>
+            <option value="Guanacaste">Guanacaste</option>
+            <option value="Puntarenas">Puntarenas</option>
+            <option 
+value="Limon">Limon</option>
+        </select>
+       <label for="canton" >Canton:</label><br>
+    <select id="canton" required>
+        <option value="">Primero selecciona una provincia</option>
+    </select>
+</label><br><br>
+        <label for="direccion">Dirección exacta de Envío:</label><br>
+        <textarea id="direccion" name="direccion" rows="4" cols="50" placeholder="ejemplo: nombre calle, casa, etc " required></textarea><br><br>
+ <label for="codigo_postal">Código Postal:</label><br>
+        <input type="text" id="codigo_postal" name="codigo_postal" maxlength="5" pattern="[0-9]{5}" title="El código postal debe contener 5 dígitos numéricos" placeholder="ejemplo: Paraiso 30201" required><a href="/politicas-de-envio#lista_codigos">Ver Lista de Distritos</a><br><br>
+<br>
+<div>        <label for="producto">Agrega los libros que  deseas comprar: <h5>( Maximo de 5 por Pedido)</h5></div><br>
+<table>
+        <tr>
+            <th>Categoria</th>
+            <th>Título del Libro</th>
+            <th>Formato</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>
+                <select id="categoria1" onchange="cargarLibros(1)" required>
+	            <option value="">Selecciona una Categoria</option>
+                    <option value="Literatura">Literatura</option>
+                    <option value="Educativos">Educativos</option>
+<option value="AutoAprendizaje">Auto-Aprendizaje</option>
+                    <option value="SuperacionPersonal">Superacion personal</option>
+                    <option value="EstiloVida">Estilo de Vida</option>
+                    <option value="Novedad">Novedades</option>
+                    <option value="Oferta">Ofertas</option>
+                </select>
+            </td>
+            <td><select id="tituloLibro1" onchange="validarSeleccion(1)" >
+    <option value="">Seleccione un libro</option>
+</select></td>
+<td><input type="text" disabled  id="formato1" placeholder="Formato">
+</td>
+<td><input type="text" disabled  id="precio1" placeholder="precio">
+</td></tr>
+
+        <tr>
+            <td>
+                <select id="categoria2" onchange="cargarLibros(2)" >
+	            <option value="">Selecciona una Categoria</option>
+                    <option value="Literatura">Literatura</option>
+                    <option value="Educativos">Educativos</option>
+<option value="AutoAprendizaje">Auto-Aprendizaje</option>
+                    <option value="SuperacionPersonal">Desarrollo personal</option>
+                    <option value="EstiloVida">Estilo de Vida</option>
+                    <option value="Novedad">Novedades</option>
+                    <option value="Oferta">Ofertas</option>
+                </select>
+            </td>
+            <td><select id="tituloLibro2" onchange="validarSeleccion(2)">
+    <option value="">Seleccione un libro</option>
+</select></td>
+<td><input type="text" disabled  id="formato2" placeholder="Formato">
+</td>
+<td><input type="text" disabled  id="precio2" placeholder="precio">
+</td></tr>
+
+        <tr>
+            <td>
+                <select id="categoria3" onchange="cargarLibros(3)" >
+	            <option value="">Selecciona una Categoria</option>
+                    <option value="Literatura">Literatura</option>
+                    <option value="Educativos">Educativos</option>
+<option value="AutoAprendizaje">Auto-Aprendizaje</option>
+                    <option value="SuperacionPersonal">Desarrollo personal</option>
+                    <option value="EstiloVida">Estilo de Vida</option>
+                    <option value="Novedad">Novedades</option>
+                    <option value="Oferta">Ofertas</option>
+                </select>
+            </td>
+            <td><select id="tituloLibro3" onchange="validarSeleccion(3)">
+    <option value="">Seleccione un libro</option>
+</select></td>
+<td><input type="text" disabled id="formato3" placeholder="Formato">
+</td>
+<td><input type="text" disabled id="precio3" placeholder="precio">
+</td></tr>
+        <tr>
+            <td>
+                <select id="categoria4" onchange="cargarLibros(4)" >
+	            <option value="">Selecciona una Categoria</option>
+                    <option value="Literatura">Literatura</option>
+                    <option value="Educativos">Educativos</option>
+<option value="AutoAprendizaje">Auto-Aprendizaje</option>
+                    <option value="SuperacionPersonal">Desarrollo personal</option>
+                    <option value="EstiloVida">Estilo de Vida</option>
+                    <option value="Novedad">Novedades</option>
+                    <option value="Oferta">Ofertas</option>
+                </select>
+            </td>
+            <td><select id="tituloLibro4" onchange="validarSeleccion(4)">
+    <option value="">Seleccione un libro</option>
+</select></td>
+<td><input type="text" disabled id="formato4" placeholder="Formato">
+</td>
+<td><input type="text" disabled id="precio4" placeholder="precio">
+</td></tr>
+        <tr>
+            <td>
+                <select id="categoria5" onchange="cargarLibros(5)" >
+	            <option value="">Selecciona una Categoria</option>
+                    <option value="Literatura">Literatura</option>
+                    <option value="Educativos">Educativos</option>
+<option value="AutoAprendizaje">Auto-Aprendizaje</option>
+                    <option value="SuperacionPersonal">Desarrollo personal</option>
+                    <option value="EstiloVida">Estilo de Vida</option>
+                    <option value="Novedad">Novedades</option>
+                    <option value="Oferta">Ofertas</option>
+                </select>
+            </td>
+            <td><select id="tituloLibro5" onchange="validarSeleccion(5)">
+    <option value="">Seleccione un libro</option>
+</select></td>
+<td><input type="text" disabled id="formato5" placeholder="Formato">
+</td>
+<td><input type="text" disabled id="precio5" placeholder="precio">
+</td></tr>
+        <!-- Agrega más filas según sea necesario -->
+<div id="error-msg" class="error-message">Ya selecciono ese libro. Por favor, seleccione otro libro.</div>
+
+    </table>
+
+<hr> <!-- Línea horizontal para separar -->
+
+<div>
+  <p id="subtotal">Subtotal: ¢0.00 </p>
+  <p id="costoEnvio">Envio: ¢0.00</p>
+  <p id="total">Total: ¢0.00</p>
+</div>
+
+<br><br>
+        <label for="metodo_pago">Método de Pago:</label><br>
+        <select id="metodo_pago" name="metodo_pago" onchange="calcularTotal()">
+            <option value="">Selecciona un método de pago</option>
+            <option value="sinpe_movil">Sinpe Móvil</option>
+            <option value="transferencia_bancaria">Transferencia Bancaria</option>
+        </select>
+<li>Efectivo contra entrega del LIBRO (Monto exacto)</li>
+<li>Sinpe movil al numero 72679082 </li>
+<li>Transferencia bancaria a la cuenta IBAN CR  0801 0200 0095 0764 3655</li>
+</ul>
+<br>
+<br>
+<div id="checkboxContainer" style="display: block;" >
+  <label><b>Desea retirar en físico?</b></label><br>
+  <label>
+    <input type="radio" name="opcionFisico" value="si" onchange="ocultarOpcionesEnvio()" required> Sí
+  </label>
+  <label>
+    <input type="radio" name="opcionFisico" value="no" onchange="mostrarOpcionesEnvio()" required> No
+  </label>
+  <br>
+</div> 
+
+<div id="dropdownNotaFisicoContainer" style="display:none;">
+  <label><b>La entrega física se realizará UNICAMENTE en Cartago Centro los días Sábados y Domingos de 1:00pm - 5:00pm</b><u> Sin excepción </u></label>
+</div>
+
+<div id="dropdownEnvioContainer" style="display:none;">
+  <label for="opcionesEnvio">Selecciona una opción de envío:</label>
+  <select id="opcionesEnvio">
+  </select>
+</div>
+<div> <br><br>		
+  <label>
+    <input type="checkbox" id="miCheckbox" name="miCheckbox" required> Acepto <u>los términos y condiciones</u>
+  </label>
+  <input type="hidden" id="miCheckboxHidden" name="miCheckboxHidden" required>
+</div>
+        <input id="submit" type="submit" size="20" value="Realizar el Pedido">
+<br><br><br><br>
+<b>* Una vez que tu solicitud sea recibida, nos pondremos en contacto contigo para  confirmar la informacion, el monto total de tu pedido y continuar con el proceso de pago y envio de tu pedido.</b><br><br>
+<b>** El <u>derecho de RESERVA de tu pedido </u> solo aplica hasta un maximo de 24 horas DESPUES de realizada la confirmacion del mismo.</b><br><br><br> 
+<b>*** En caso de NO realizar el PAGO de tu pedido  durante las 24 horas habiles, realizaremos la cancelacion del mismo.</b>
+<br>
+
+<br><br><br>  
+  </form>
+  <script>
+var esGAM=-1;
+var subtotal=0;
+var total=0;
+var costoEnvio=0;
+var regionSeleccionada='';
+var esFisico="no";
+var igual = false;
+
+// Clave para encriptar y desencriptar
+const key = 'Ngsk1982';
+var encryptado ='';
+ 
+    function cargarCantones() {
+        const provinciaSeleccionada = document.querySelector('#provincia').value;
+        const cantones = cantonesPorProvincia.filter(function(elemento) {
+	  return elemento.nombre === provinciaSeleccionada;
+	})[0].cantones;
+	var cantonx = document.getElementById("canton");
+
+        // Limpiar el select de cantones
+        canton.innerHTML = "";
+
+        // Agregar las opciones de cantones
+        if (cantones.length === 0) {
+            canton.innerHTML = "<option value=''>No hay cantones disponibles</option>";
+        } else {
+            cantones.forEach(function(canton) {
+                const option = document.createElement("option");
+                option.value = canton;
+                option.textContent = canton;
+                cantonx.appendChild(option);
+            });
+        }
+    }
+function mostrarOpcionesEnvio() {
+  var opcionEnvioFisico = document.querySelector('input[name="opcionFisico"]:checked').value;
+  var dropdownContainer = document.getElementById("dropdownEnvioContainer");
+  var dropdownNotaFisicoContainer = document.getElementById("dropdownNotaFisicoContainer");
+
+  if (opcionEnvioFisico === "no") {
+
+  var selectEnvio = document.getElementById("opcionesEnvio");
+  
+   // Crear un nuevo elemento de opción
+   var nuevaOpcion = document.createElement("option");
+  
+   while (selectEnvio.options.length > 0) {
+    	selectEnvio.remove(0);
+     }
+
+    // Establecer el valor y texto de la opción Correos
+   nuevaOpcion.value = "Correos de Costa Rica";
+   nuevaOpcion.textContent = "Correos de Costa Rica";
+   selectEnvio.appendChild(nuevaOpcion);
+
+    //*************************************
+    // Establecer el valor y texto de la opción Motorista
+    //*************************************
+	
+    dropdownEnvioContainer.style.display = "block"; // Muestra el dropdown si no se selecciona envío físico
+    dropdownNotaFisicoContainer.style.display = "none"; // muestra la nota de envio fisico
+    esFisico="no";
+  } else {
+    dropdownEnvioContainer.style.display = "none"; // Oculta el dropdown si se selecciona envío físico
+    dropdownNotaFisicoContainer.style.display = "block"; // muestra la nota de envio fisico
+    esFisico="si";
+  }
+   calcularTotal();
+}
+
+function ocultarOpcionesEnvio() {
+  var opcionEnvioFisico = document.querySelector('input[name="opcionFisico"]:checked').value;
+  var dropdownContainer = document.getElementById("dropdownEnvioContainer");
+  var dropdownNotaFisicoContainer = document.getElementById("dropdownNotaFisicoContainer");
+
+  if (opcionEnvioFisico === "si") {
+    dropdownEnvioContainer.style.display = "none"; // Oculta la nota de envio fisico
+    dropdownNotaFisicoContainer.style.display = "block"; // 
+    esFisico="si";
+  }else{
+    dropdownEnvioContainer.style.display = "block"; 
+    dropdownNotaFisicoContainer.style.display = "none"; // muestra la nota de envio fisico
+    esFisico="no";
+	}
+
+   calcularTotal();
+}
+
+ function validarSeleccion(index) {
+      var tituloLibroSel = document.querySelector('#tituloLibro'+index).value;
+     var errorMsg = document.getElementById("error-msg");
+          
+	//limpiar mensage
+	errorMsg.style.display = "none";
+
+       for (var i = 1; i < 6; i++) {
+      var Libros = document.querySelector("#tituloLibro"+i).value;
+
+        if (Libros === tituloLibroSel && i!==index ) {
+          igual = true;
+        }
+      }
+
+      if (igual) {
+          errorMsg.style.display = "block";
+        
+        //alert("Ya selecciono este libro. Por favor escoja otro libro :)");
+        igual=false;
+      }else{
+	rellenarCamposFP(index);
+          errorMsg.style.display = "none";
+	} 
+    }
+
+function isMobile() {
+    if (sessionStorage.desktop)
+        return false;
+    else if (localStorage.mobile)
+        return true;
+    var mobile = ['iphone', 'ipad', 'android', 'blackberry', 'nokia', 'opera mini', 'windows mobile', 'windows phone', 'iemobile'];
+    for (var i in mobile)
+        if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0) return true;
+    return false;
+}
+
+const formulario = document.querySelector('#formulario');
+const buttonSubmit = document.querySelector('#submit');
+const urlDesktop = 'https://web.whatsapp.com/';
+const urlMobile = 'whatsapp://';
+const destinatario = '+50672679082';
+
+formulario.addEventListener('submit', (event) => {
+    event.preventDefault()
+    buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
+    buttonSubmit.disabled = true
+    setTimeout(() => {
+        let nombre = document.querySelector('#nombre').value
+        //let apellidos = document.querySelector('#apellidos').value
+        let email = document.querySelector('#email').value
+        let telefono = document.querySelector('#telefono').value
+
+        let provincia= document.querySelector('#provincia').value
+	let canton = document.querySelector('#canton').value
+
+        let direccion = document.querySelector('#direccion').value
+
+        let codigoPostal= document.querySelector('#codigo_postal').value
+
+        let metodoPago= document.querySelector('#metodo_pago').value
+
+        let libro1= document.querySelector('#tituloLibro1').value
+
+        let libro2= document.querySelector('#tituloLibro2').value
+
+        let libro3= document.querySelector('#tituloLibro3').value
+
+        let libro4= document.querySelector('#tituloLibro4').value
+
+        let libro5= document.querySelector('#tituloLibro5').value 
+
+        let subtotal= document.querySelector('#subtotal').textContent
+
+        let costoEnvio= document.querySelector('#costoEnvio').textContent
+
+        let total= document.querySelector('#total').textContent
+
+    esFisico = document.querySelector('input[name="opcionFisico"]:checked').value;
+
+	let opcionEnvio = document.getElementById("opcionesEnvio").value;
+let tipoEnvioText = '';
+
+    if(esFisico==='no'){
+	tipoEnvioText = '%0A' + opcionEnvio ;
+}else{
+	tipoEnvioText =  '%0A'+ 'Entrega física Cartago Centro los Sábados / Domingo de 1:00pm - 5:00pm'+'%0A';
+}
+
+var numeroOrden = '' + new Date().getFullYear() + ('0' + (new Date().getMonth() + 1)).slice(-2) + ('0' + new Date().getDate()).slice(-2) + Math.floor(Math.random() * 900) + 100;
+
+var libro1text = (libro1!=='')?'%0A  -> ' + libro1 + ' - precio:  ¢' + document.querySelector('#precio1').value:'';
+var libro2text = (libro2!=='')?'%0A  -> ' + libro2 + ' - precio:  ¢' + document.querySelector('#precio2').value:'';
+var libro3text = (libro3!=='')?'%0A  -> ' + libro3 + ' - precio:  ¢' + document.querySelector('#precio3').value:'';
+var libro4text = (libro4!=='')?'%0A  -> ' + libro4 + ' - precio:  ¢' + document.querySelector('#precio4').value:'';
+var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  ¢' + document.querySelector('#precio5').value:'';
+
+ let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*¿Cual es tu nombre?*%0A' + nombre + '%0A*¿Cuál es tu correo electrónico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*¿De donde eres?*%0A' + canton +' - '+ provincia + '%0A*¿Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
+ metodoPago + '%0A*Deseas retirar en Fisico?*%0A' + esFisico +'%0A*Tu pedido se enviara por:*%0A' + tipoEnvioText +'%0A***************************************************%0A*Detalle del pago pendiente:*%0A***************************************************%0A' + '%0A*' + subtotal + '*%0A%0A*' + costoEnvio + '*%0A%0A*' + total + '*%0A';
+
+ var mensajeencrypt = numeroOrden;
+     mensajeencrypt += '_' + nombre
+     mensajeencrypt += '_' + telefono
+     mensajeencrypt += '_' + email
+     mensajeencrypt += '_' + provincia
+     mensajeencrypt += '_' + canton
+     mensajeencrypt += '_' + codigoPostal
+     mensajeencrypt += '_' + direccion
+     mensajeencrypt += '_' + metodoPago
+     mensajeencrypt += '_' + esFisico
+     mensajeencrypt += '_' + tipoEnvioText
+     mensajeencrypt += '_' + libro1text
+     mensajeencrypt += '_' + libro2text
+     mensajeencrypt += '_' + libro3text
+     mensajeencrypt += '_' + libro4text
+     mensajeencrypt += '_' + libro5text
+     mensajeencrypt += '_' + subtotal
+     mensajeencrypt += '_' + costoEnvio
+     mensajeencrypt += '_' + total
+ 
+        if(isMobile()) {
+            window.open(urlMobile + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
+        }else{
+            window.open(urlDesktop + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
+        }
+        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+        buttonSubmit.disabled = false
+    }, 3000);
+});
+
+function actualizarMetodosPago() {
+  regionSeleccionada = document.getElementById("provincia").value;
+  var metodosPagoList = document.getElementById("metodo_pago");
+  metodosPagoList.innerHTML = ""; // Limpiar la lista
+ if (regionSeleccionada === "Cartago") {
+  esGAM = 1 ;
+    agregarMetodoPago("Efectivo");
+ }
+ if (regionSeleccionada === "Alajuela" || regionSeleccionada === "San Jose" || regionSeleccionada === "Heredia" ) {
+  esGAM = 1 ;
+ }
+ if (regionSeleccionada === "Puntarenas" || regionSeleccionada === "Guanacaste" || regionSeleccionada === "Limon" ) {
+  esGAM = 0 ;
+}
+    agregarMetodoPago("Sinpe Móvil");
+    agregarMetodoPago("Transferencia Bancaria");
+    
+    calcularTotal(); //recalcular costo
+    cargarCantones();	
+}
+
+function agregarMetodoPago(metodoPago) {
+var option = document.createElement("option");
+  option.value = metodoPago;
+  option.textContent = metodoPago;
+  document.getElementById("metodo_pago").appendChild(option); 
+ }
+       // Función para encriptar texto
+        function encrypt(inputText) {
+              const encryptedText = CryptoJS.AES.encrypt(JSON.stringify(inputText), key).toString();
+             let encData = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(encryptedText))
+	    return encData;	
+        }
+
+
+function cargarLibros(index) {
+    var categoriaSeleccionada = document.getElementById("categoria"+index).value;
+
+var librosSeleccionados = libros.filter(function(elemento) {
+
+
+  return elemento.categoria === categoriaSeleccionada;
+});
+    var libroDropdown = document.getElementById("tituloLibro"+index);
+
+    // Limpiar el dropdown
+    libroDropdown.innerHTML = "";
+
+         var opcionLibro = document.createElement("option");
+            opcionLibro.value = "Seleccione un libro";
+            opcionLibro.text = "Seleccione un libro";
+            libroDropdown.add(opcionLibro);
+
+    if (librosSeleccionados) {
+        // Crear opciones para cada libro en la categoría seleccionada
+        librosSeleccionados.forEach(function(libro) {
+
+            var opcionLibro = document.createElement("option");
+            opcionLibro.value = libro.tituloLibro + " - " + libro.autorLibro;
+            opcionLibro.text = libro.tituloLibro + " - " + libro.autorLibro;
+           if(libro.estatus==="Disponible"){
+            libroDropdown.add(opcionLibro);
+           }
+        });
+    } else {
+        // Si no hay libros para la categoría seleccionada, mostrar un mensaje
+        var opcionVacia = document.createElement("option");
+        opcionVacia.text = "No hay libros disponibles";
+        libroDropdown.add(opcionVacia);
+    }
+}
+function rellenarCamposFP(index) {
+  var libroList= document.getElementById("tituloLibro"+index);
+  var formatoSpan = document.getElementById("formato"+index);
+  var precioSpan = document.getElementById("precio"+index);
+
+  // Obteniendo el valor seleccionado del libro
+  var libroSeleccionado = libroList.value.split("-")[0];
+
+//buscamos el libro
+libroB = libros.filter(function(elemento) {
+
+  return elemento.tituloLibro.trim() === libroSeleccionado.trim();
+});
+
+// Rellenando los campos con los detalles del libro seleccionado
+  formatoSpan.value = libroB[0].formato;
+
+  precioSpan.value= libroB[0].precio;
+
+calcularTotal();
+}
+function calcularTotal() {
+  // Obtener los valores de los inputs
+  var precio1 = parseFloat(document.getElementById("precio1").value) || 0;
+  var precio2 = parseFloat(document.getElementById("precio2").value) || 0;
+  var precio3 = parseFloat(document.getElementById("precio3").value) || 0;
+  var precio4 = parseFloat(document.getElementById("precio4").value) || 0;
+  var precio5 = parseFloat(document.getElementById("precio5").value) || 0;
+
+  var metodoSeleccionado = document.getElementById("metodo_pago").value;
+
+
+	  // Mostrar el total en el elemento <p>
+	console.log(esGAM, regionSeleccionada)
+	if(esGAM===1){
+		costoEnvio = 2500;
+	}
+	if(regionSeleccionada === "Guanacaste" || regionSeleccionada === "Puntarenas" || regionSeleccionada === "Limon" ){
+		costoEnvio = 3500;
+	}
+	console.log(esFisico)
+	if(esFisico==='si'){
+		costoEnvio = 0;
+	}
+
+	  // Sumar los precios
+ 	 subtotal = precio1 + precio2 + precio3 + precio4 +precio5;
+
+	 // Sumar los precios
+	total = subtotal + costoEnvio;
+
+	document.getElementById("costoEnvio").textContent = "Envio: ¢" + costoEnvio.toFixed(2) + ' (max 1Kg incluido empaquetado)';
+	document.getElementById("subtotal").textContent = "SubTotal:  ¢" + subtotal.toFixed(2);
+	document.getElementById("total").textContent = "Total: ¢" + total.toFixed(2);
+}
+
+/************************************
+LIBROS LIBROS
+************************************/
+var libros = [
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 1",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 2",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 3",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 4",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 5",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 6",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 7",
+    "autorLibro": "Homero",
+    "formato": "Especial Extra Pequeno (XPS)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 8",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 9",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "SuperacionPersonal",
+    "tituloLibro": "Superacion 10",
+    "autorLibro": "Homero",
+    "formato": "Especial Dwarsligger(DXS)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  },
+ {
+    "categoria": "Oferta",
+    "tituloLibro": "Promocion 2x1",
+    "autorLibro": "Homero",
+    "formato": "Largo (PL)",
+    "precio": "1500",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Oferta",
+    "tituloLibro": "Oferta 1: 5% Libro de Austen",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  },
+ {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 1",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 2",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 3",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 4",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 5",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 6",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 7",
+    "autorLibro": "Homero",
+    "formato": "Especial Extra Pequeno (XPS)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 8",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 9",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Literatura",
+    "tituloLibro": "Literatura 10",
+    "autorLibro": "Homero",
+    "formato": "Especial Dwarsligger(DXS)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  },
+{
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 1",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 2",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 3",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 4",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 5",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 6",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 7",
+    "autorLibro": "Homero",
+    "formato": "Especial Extra Pequeno (XPS)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 8",
+    "autorLibro": "Homer S",
+    "formato": "Largo (PL)",
+    "precio": "3200",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 9",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "EstiloVida",
+    "tituloLibro": "Estilo Vida 10",
+    "autorLibro": "Homero",
+    "formato": "Especial Dwarsligger(DXS)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  },
+ {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 1",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "1500",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 2",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "1500",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 3",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "1500",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 4",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "3000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 5",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "1500",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 6",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 7",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "1500",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 8",
+    "autorLibro": "Marco Picado",
+    "formato": "Medio (PM)",
+    "precio": "1500",
+    "estatus": "Agotado",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 9",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "3000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Educativos",
+    "tituloLibro": "Educa 10",
+    "autorLibro": "Homero",
+    "formato": "Medio (PM)",
+    "precio": "3000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  },
+{
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 1",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Medio (PM)",
+    "precio": "1000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 2",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Largo (PL)",
+    "precio": "2000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 3",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Medio (PM)",
+    "precio": "3000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 4",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Pequeno (PS)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 5",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Especial Dwarsligger(DXS)",
+    "precio": "5000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 6",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Medio (PM)",
+    "precio": "6000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 7",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Largo (PL)",
+    "precio": "7000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 8",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Pequeno (PS)",
+    "precio": "8000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 9",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Especial Extra Pequeno (XPS)",
+    "precio": "9000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "AutoAprendizaje",
+    "tituloLibro": "Auto 10",
+    "autorLibro": "Marco Aurelio",
+    "formato": "Especial Dwarsligger(DXS)",
+    "precio": "10000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  },
+ {
+    "categoria": "Novedad",
+    "tituloLibro": "Novedad 1",
+    "autorLibro": "Homero",
+    "formato": "Largo (PL)",
+    "precio": "1500",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Novedad",
+    "tituloLibro": "Novedad 2",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": "\r"
+  },
+  {
+    "categoria": "Novedad",
+    "tituloLibro": "Novedad 3",
+    "autorLibro": "Jean Austen",
+    "formato": "Medio (PM)",
+    "precio": "4000",
+    "estatus": "Disponible",
+    "separador\r": ""
+  }
+]
+
+
+/************************************
+FIN LIBROS
+************************************/
+var cantonesPorProvincia =  [
+        {
+            "nombre": "San Jose",
+            "cantones": [
+   		"San José central",
+        	"Escazú",
+        	"Desamparados",
+        	"Puriscal",
+        	"Tarrazú",
+        	"Aserrí",
+        	"Mora",
+        	"Goicoechea",
+        	"Santa Ana",
+        	"Alajuelita",
+        	"Vázquez de Coronado",
+        	"Acosta",
+        	"Tibás",
+        	"Moravia",
+        	"Montes de Oca",
+        	"Turrubares",
+        	"Dota",
+        	"Curridabat",
+        	"Pérez Zeledón"  
+          ]
+        },
+        {
+            "nombre": "Alajuela",
+            "cantones": [
+		"Alajuela central",
+        	"San Ramón",
+	        "Grecia",
+        	"Atenas",
+        	"Naranjo",
+        	"Palmares",
+        	"Poás",
+        	"Orotina",
+        	"San Carlos",
+        	"Zarcero",
+        	"Valverde Vega",
+        	"Upala",
+        	"Los Chiles",
+        	"Guatuso",
+        	"Río Cuarto"          
+	  ]
+        },
+        {
+            "nombre": "Cartago",
+            "cantones": [
+                "Cartago central",
+                "Paraíso",
+                "La Unión",
+                "Jiménez",
+                "Turrialba",
+                "Alvarado",
+                "Oreamuno",
+                "El Guarco"
+            ]
+        },
+        {
+            "nombre": "Heredia",
+            "cantones": [
+                "Heredia central",
+                "Barva",
+                "Santo Domingo",
+                "Santa Bárbara",
+                "San Rafael",
+                "San Isidro",
+                "Belén",
+                "Flores",
+                "San Pablo",
+                "Sarapiquí"
+            ]
+        },
+        {
+            "nombre": "Guanacaste",
+            "cantones": [
+                "Liberia",
+                "Nicoya",
+                "Santa Cruz",
+                "Bagaces",
+                "Carrillo",
+                "Cañas",
+                "Abangares",
+                "Tilarán",
+                "Nandayure",
+                "La Cruz",
+                "Hojancha"
+            ]
+        },
+        {
+            "nombre": "Puntarenas",
+            "cantones": [
+                "Puntarenas Central",
+		"Quepos",
+                "Esparza",
+                "Buenos Aires",
+                "Montes de Oro",
+                "Osa",
+                "Golfito",
+                "Coto Brus",
+                "Parrita",
+                "Corredores",
+                "Garabito"
+            ]
+        },
+        {
+            "nombre": "Limon",
+            "cantones": [
+                "Limón central",
+	        "Pococí",
+                "Siquirres",
+                "Talamanca",
+                "Matina",
+                "Guácimo"
+            ]
+        }
+    ]
+
+</script>
+</body>
+</html>

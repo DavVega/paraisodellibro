@@ -1,0 +1,11 @@
+categoria,tituloLibro,autorLibro,formato,precio,estatus,separador
+AutoAprendizaje,Auto 1,Marco Aurelio,Medio (PM),1000,Disponible,
+AutoAprendizaje,Auto 2,Marco Aurelio,Largo (PL),2000,Disponible,
+AutoAprendizaje,Auto 3,Marco Aurelio,Medio (PM),3000,Disponible,
+AutoAprendizaje,Auto 4,Marco Aurelio,Pequeno (PS),4000,Disponible,
+AutoAprendizaje,Auto 5,Marco Aurelio,Especial Dwarsligger(DXS),5000,Disponible,
+AutoAprendizaje,Auto 6,Marco Aurelio,Medio (PM),6000,Disponible,
+AutoAprendizaje,Auto 7,Marco Aurelio,Largo (PL),7000,Disponible,
+AutoAprendizaje,Auto 8,Marco Aurelio,Pequeno (PS),8000,Disponible,
+AutoAprendizaje,Auto 9,Marco Aurelio,Especial Extra Pequeno (XPS),9000,Disponible,
+AutoAprendizaje,Auto 10,Marco Aurelio,Especial Dwarsligger(DXS),10000,Disponible,

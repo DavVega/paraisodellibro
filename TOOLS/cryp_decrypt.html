@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar y Desencriptar Texto</title>
+</head>
+<body>
+    <h2>Encriptar y Desencriptar Texto</h2>
+
+    <!-- Input para ingresar el texto a encriptar -->
+    <label for="inputText">Texto:</label><br>
+    <input type="text" id="inputText"><br><br>
+
+    <!-- Botones para encriptar y desencriptar -->
+    <button onclick="encrypt()">Encriptar</button>
+    <button onclick="decrypt()">Desencriptar</button><br><br>
+    
+    <!-- Texto encriptado/desencriptado -->
+    <label for="outputText">Resultado:</label><br>
+    <textarea id="outputText" rows="5" cols="50"></textarea>
+ <div id="textToConvert">
+
+    </div><script>
+
+const cadenaCodificada = "VTJGc2RHVmtYMTkydkJ2VVBENWIrb2dISWxLY1BUS2ZYdk5qYUdNREJNZ2ZiOFFOejBhTVd4Ymg5V2R3QmpaU2tVOHVhQWUrNkVaZEZ3SitMWERYN2xYNTJBaGhydkkxM29aM2hleHhuMmJXdFhFWVg5V2pXUDNsTk84cE9yNS9MMlJPQXp1T0VXRFhDdGp2NDltKzUyMXhxVnZKMHJtdEVkSHZiNWsxSkNMbEhGN3IybkdidU1YUGoxNENDOERKQVpBdktwNkRrV0o2dm9ZT2VlTEpIN1l4Y2wxOUcvN3Yvby9iVVJqc2lGdWhlaDNPZDBuUUEzL2lmeXJIaStNQnpoRFliTDlMU3VVb3Bndk5wYkZ1dzN5SnR2Sk43YXlwdVR1UTJaSXNEK0RrL204bzNld2tCMm1tazMxc1AxUi8rdFZFY0dpMG4xeEE5VWV0dVY1NjdhN3FDNDN4VUdkSUlvZGZRK3V4SGtKb2o5YmpVMnZtOXVxcm9qZXQwbFZPS0I4cGNUeHdiZmNkTjc5ak1XUHYwTlp2K3BvTEZtM0srNTFJNHhBaE1Jckk3dVM3Y2d1WHpnT1VzTFRFTkYvRmZWMmhrSUl4WDZPMmdaM0pvWElyMHdveExtZVVmQkdXRUcxeVp3SUFTSDg9";
+
+const cadenaDecodificada = btoa(cadenaCodificada);
+console.log(cadenaDecodificada);
+console.log(cadenaCodificada);
+
+ function textToImagen(txt){
+
+        var canvas = document.getElementById('textCanvas');
+        var ctx = canvas.getContext('2d');
+
+        // Configurar la fuente y el estilo de texto
+        ctx.font = '20px Arial';
+        ctx.fillStyle = 'black';
+        ctx.textAlign = 'center';
+
+        // Escribir el texto en el canvas
+        var text = txt;
+        ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+        }   
+
+        // Clave para encriptar y desencriptar
+        const key = 'Ngsk1982';
+
+        // Función para encriptar texto
+        function encrypt() {
+            const inputText = document.getElementById('inputText').value;
+            const encryptedText = CryptoJS.AES.encrypt(JSON.stringify(inputText), key).toString();
+             let encData = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(encryptedText))
+
+		//let encData1 = codificarAlMaximo(encData)
+          document.getElementById('outputText').value = encData;	
+        }
+
+        // Función para desencriptar texto
+        function decrypt() {
+            const encryptedText = document.getElementById('inputText').value;
+          let decData = CryptoJS.enc.Base64.parse(encryptedText).toString(CryptoJS.enc.Utf8)  
+          let bytes = CryptoJS.AES.decrypt(decData, key).toString(CryptoJS.enc.Utf8)
+
+		//let encData1 = decodificarAlMaximo(bytes)
+          document.getElementById('outputText').value =  JSON.parse(bytes);
+        }
+
+   function codificarAlMaximo(cadena) {
+    // Convertir la cadena a Base64
+    var cadenaCodificada = btoa(unescape(encodeURIComponent(cadena)));
+    return cadenaCodificada;
+  }
+
+   function decodificarAlMaximo(cadenaCodificada) {
+    // Decodificar la cadena Base64
+    var cadenaDecodificada = decodeURIComponent(escape(atob(cadenaCodificada)));
+    return cadenaDecodificada;
+  }
+
+	
+	/*function CargarDatosDecode() {
+            const encryptedText = document.getElementById('inputText').value;
+
+    	// Dividir la cadena encriptada en partes utilizando el guión bajo como separador
+    	var partes = cadenaEncriptada.split('_');
+    
+	    // Iterar sobre cada parte y decodificarla
+    	for (var i = 0; i < partes.length; i++) {
+       
+	   }
+
+	}*/
+    </script>
+
+    <!-- Importar la biblioteca CryptoJS para AES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</body>
+</html>
