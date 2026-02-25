@@ -106,7 +106,8 @@
     "formato": "Medio (PM)",
     "precio": "1500",
     "estatus": "Agotado",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -115,7 +116,8 @@
     "formato": "Medio (PM)",
     "precio": "1500",
     "estatus": "Agotado",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -124,7 +126,8 @@
     "formato": "Medio (PM)",
     "precio": "1500",
     "estatus": "Agotado",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -133,7 +136,8 @@
     "formato": "Medio (PM)",
     "precio": "3000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -142,7 +146,8 @@
     "formato": "Medio (PM)",
     "precio": "1500",
     "estatus": "Agotado",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -151,7 +156,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -160,7 +166,8 @@
     "formato": "Medio (PM)",
     "precio": "1500",
     "estatus": "Agotado",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -169,7 +176,8 @@
     "formato": "Medio (PM)",
     "precio": "1500",
     "estatus": "Agotado",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -178,7 +186,8 @@
     "formato": "Medio (PM)",
     "precio": "3000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Educativos",
@@ -187,7 +196,8 @@
     "formato": "Medio (PM)",
     "precio": "3000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -196,7 +206,8 @@
     "formato": "Medio (PM)",
     "precio": "1000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -205,7 +216,8 @@
     "formato": "Largo (PL)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -214,7 +226,8 @@
     "formato": "Medio (PM)",
     "precio": "3000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -223,7 +236,8 @@
     "formato": "Pequeno (PS)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -232,7 +246,8 @@
     "formato": "Especial Dwarsligger(DXS)",
     "precio": "5000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -241,7 +256,8 @@
     "formato": "Medio (PM)",
     "precio": "6000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -250,7 +266,8 @@
     "formato": "Largo (PL)",
     "precio": "7000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -259,7 +276,8 @@
     "formato": "Pequeno (PS)",
     "precio": "8000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -268,7 +286,8 @@
     "formato": "Especial Extra Pequeno (XPS)",
     "precio": "9000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "AutoAprendizaje",
@@ -277,7 +296,8 @@
     "formato": "Especial Dwarsligger(DXS)",
     "precio": "10000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -286,7 +306,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -295,7 +316,8 @@
     "formato": "Largo (PL)",
     "precio": "3200",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -304,7 +326,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -313,7 +336,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -322,7 +346,8 @@
     "formato": "Largo (PL)",
     "precio": "3200",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -331,7 +356,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -340,7 +366,8 @@
     "formato": "Especial Extra Pequeno (XPS)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -349,7 +376,8 @@
     "formato": "Largo (PL)",
     "precio": "3200",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -358,7 +386,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "SuperacionPersonal",
@@ -367,7 +396,8 @@
     "formato": "Especial Dwarsligger(DXS)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -376,7 +406,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -385,7 +416,8 @@
     "formato": "Largo (PL)",
     "precio": "3200",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -394,7 +426,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -403,7 +436,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -412,7 +446,8 @@
     "formato": "Largo (PL)",
     "precio": "3200",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -421,7 +456,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -430,7 +466,8 @@
     "formato": "Especial Extra Pequeno (XPS)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -439,7 +476,8 @@
     "formato": "Largo (PL)",
     "precio": "3200",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -448,7 +486,8 @@
     "formato": "Medio (PM)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "EstiloVida",
@@ -457,7 +496,8 @@
     "formato": "Especial Dwarsligger(DXS)",
     "precio": "2000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -466,7 +506,8 @@
     "formato": "Largo (PL)",
     "precio": "1500",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -475,7 +516,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -484,7 +526,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -493,7 +536,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -502,7 +546,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -511,7 +556,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -520,7 +566,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -529,7 +576,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -538,7 +586,8 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   },
   {
     "categoria": "Oferta",
@@ -547,12 +596,7 @@
     "formato": "Medio (PM)",
     "precio": "4000",
     "estatus": "Disponible",
-    "separador": ""
-  },
-  {
-    "categoria": ""
-  },
-  {
-    "categoria": ""
+    "separador": "",
+    "imagen": "homero.jpg"
   }
 ]
