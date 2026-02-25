@@ -5,7 +5,126 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hacer Pedido | Paraíso del Libro</title>
 
-<link rel="stylesheet" href="css/styles.css">
+<style>
+
+/* ====== ESTILO GENERAL ====== */
+
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f4f6f9;
+}
+
+header{
+  background:#2c3e50;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+.contenido{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+  background:white;
+}
+
+/* ====== FORMULARIO ====== */
+
+form label{
+  font-weight:bold;
+}
+
+form input,
+form select,
+form textarea{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  margin-bottom:15px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
+  box-sizing:border-box;
+}
+
+/* ====== TABLA RESPONSIVE ====== */
+
+.tabla-responsive{
+  width:100%;
+  overflow-x:auto;
+}
+
+.tabla-pedidos{
+  width:100%;
+  border-collapse:collapse;
+  min-width:800px;
+}
+
+.tabla-pedidos th,
+.tabla-pedidos td{
+  border:1px solid #ddd;
+  padding:8px;
+  text-align:center;
+}
+
+.tabla-pedidos th{
+  background:#34495e;
+  color:white;
+}
+
+/* ====== BOTÓN ====== */
+
+input[type="submit"]{
+  background:#27ae60;
+  color:white;
+  border:none;
+  padding:12px;
+  font-size:16px;
+  border-radius:6px;
+  cursor:pointer;
+  width:100%;
+}
+
+input[type="submit"]:hover{
+  background:#219150;
+}
+
+/* ====== TOTAL ====== */
+
+#total{
+  font-size:18px;
+}
+
+/* ====== RESPONSIVE ====== */
+
+@media(max-width:768px){
+  .tabla-pedidos{
+    min-width:700px;
+  }
+}
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:#2c3e50;
+  color:white;
+  margin-top:20px;
+}
+
+</style>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
 
 </head>
@@ -26,8 +145,6 @@
 <h2>Formulario de Pedido</h2>
 
 <form id="formulario">
-
-<!-- DATOS -->
 
 <label>Nombre Completo</label>
 <input type="text" id="nombre" required>
@@ -57,7 +174,9 @@
 
 <h3>Selecciona hasta 5 libros</h3>
 
-<table border="1">
+<div class="tabla-responsive">
+<table class="tabla-pedidos">
+
 <tr>
 <th>Categoría</th>
 <th>Libro</th>
@@ -65,7 +184,6 @@
 <th>Precio</th>
 </tr>
 
-<!-- FILAS -->
 <script>
 for(let i=1;i<=5;i++){
 document.write(`
@@ -97,6 +215,7 @@ document.write(`
 </script>
 
 </table>
+</div>
 
 <hr>
 
@@ -150,7 +269,7 @@ Acepto términos y condiciones
 let librosGlobal = [];
 
 async function cargarLibrosJSON(){
-  const res = await fetch("https://raw.githubusercontent.com/DavVega/paraisodellibro/master/libros.json");
+  const res = await fetch("libros.json");
   librosGlobal = await res.json();
 }
 
@@ -175,7 +294,6 @@ function validarSeleccion(index){
 
   const titulo = document.getElementById("tituloLibro"+index).value;
 
-  // Evitar repetidos
   for(let i=1;i<=5;i++){
     if(i!==index){
       if(document.getElementById("tituloLibro"+i).value === titulo){
