@@ -11,13 +11,13 @@
   },
   {
     "categoria": "Literatura",
-    "tituloLibro": "Literatura 2",
-    "autorLibro": "Homer S",
+    "tituloLibro": "Cuentos Imprescindibles del siglo XIX de America L.",
+    "autorLibro": "ALMA",
     "formato": "Largo (PL)",
-    "precio": "3200",
+    "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "cuentoslatam.jpg"
   },
   {
     "categoria": "Literatura",
@@ -107,7 +107,7 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -117,7 +117,7 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -127,7 +127,7 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -137,7 +137,7 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -147,7 +147,7 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -157,7 +157,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -167,7 +167,7 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -177,7 +177,7 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -187,7 +187,7 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Educativos",
@@ -197,7 +197,7 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -207,7 +207,7 @@
     "precio": "1000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -217,7 +217,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -227,7 +227,7 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -237,7 +237,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -247,7 +247,7 @@
     "precio": "5000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -257,7 +257,7 @@
     "precio": "6000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -267,7 +267,7 @@
     "precio": "7000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -277,7 +277,7 @@
     "precio": "8000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -287,7 +287,7 @@
     "precio": "9000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -297,7 +297,7 @@
     "precio": "10000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -307,7 +307,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -317,7 +317,7 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -327,7 +327,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -337,7 +337,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -347,7 +347,7 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -357,7 +357,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -367,7 +367,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -377,7 +377,7 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -387,7 +387,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -397,7 +397,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -407,7 +407,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -417,7 +417,7 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -427,7 +427,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -437,7 +437,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -447,7 +447,7 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -457,7 +457,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -467,7 +467,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -477,7 +477,7 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -487,7 +487,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "EstiloVida",
@@ -497,7 +497,7 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -507,7 +507,7 @@
     "precio": "1500",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -517,7 +517,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -527,7 +527,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -537,7 +537,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -547,7 +547,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -557,7 +557,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -567,7 +567,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -577,7 +577,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -587,7 +587,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   },
   {
     "categoria": "Oferta",
@@ -597,6 +597,6 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": ""
   }
 ]
