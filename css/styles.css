@@ -14,7 +14,8 @@ body {
 
 /* ===== HEADER ===== */
 header {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
+  /*background: linear-gradient(135deg, #2563eb, #1e40af);*/
+  background: #203FDC;
   color: white;
   padding: 18px 8%;
   display: flex;
