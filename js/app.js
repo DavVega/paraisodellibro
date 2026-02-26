@@ -28,21 +28,35 @@ function mostrarLibros(lista) {
 
     if (!libro.tituloLibro) return;
 
-    catalogo.innerHTML += `
-      <div class="libro">
-        <img 
-          src="images/libros/${libro.imagen}"
-          alt="${libro.tituloLibro}"
-          onerror="this.src='images/libros/default.jpg'"
-        >
+catalogo.innerHTML += `
+  <div class="libro" onclick="mostrarVistaPrevia('${libro.tituloLibro}', '${libro.autorLibro || ""}', '${libro.precio || ""}', '${libro.categoria || ""}', 'images/libros/${libro.imagen}')">
+    
+    <img 
+      src="images/libros/${libro.imagen}"
+      alt="${libro.tituloLibro}"
+      onerror="this.src='images/libros/default.jpg'"
+    >
 
-        <h3>${libro.tituloLibro}</h3>
-        <p>${libro.autorLibro || ""}</p>
-        <p><strong>₡${libro.precio || ""}</strong></p>
-        <p>${libro.categoria || ""}</p>
-      </div>
-    `;
+    <h3>${libro.tituloLibro}</h3>
+    <p>${libro.autorLibro || ""}</p>
+    <p><strong>₡${libro.precio || ""}</strong></p>
+    <p>${libro.categoria || ""}</p>
+  </div>
+`;
   });
+}
+function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
+  document.getElementById("modalTitulo").innerText = titulo;
+  document.getElementById("modalAutor").innerText = autor;
+  document.getElementById("modalPrecio").innerText = "₡" + precio;
+  document.getElementById("modalCategoria").innerText = categoria;
+  document.getElementById("modalImagen").src = imagen;
+
+  document.getElementById("modalLibro").style.display = "flex";
+}
+
+function cerrarVistaPrevia() {
+  document.getElementById("modalLibro").style.display = "none";
 }
 function filtrar(cat) {
 
