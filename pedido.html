@@ -14,9 +14,9 @@
   </div>
 
   <nav>
-    <a href="./index.html">Catálogo</a>
+    <a href="./index.html">Catalogo</a>
     <a href="./pedido.html">Hacer Pedido</a>
-    <a href="./politicas.html">Políticas</a>
+    <a href="./politicas.html">Politicas</a>
   </nav>
 </header>
 	<script src="./js/app.js"></script>
@@ -90,7 +90,7 @@ h1 {text-align: center;}
     <h1><font color:"#1233DA">Formulario de Pedidos</font></h1>
         <label for="nombre">Nombre Completo:</label><br>
         <input type="text" id="nombre" name="nombre" required><br><br>
-         <label for="telefono">N�mero de Tel�fono:</label><br>
+         <label for="telefono">N�mero de Telefono:</label><br>
         <input type="tel" id="telefono" name="telefono" pattern="[0-9]{8}" title="El n�mero de tel�fono debe contener 8 d�gitos num�ricos" required><br><br>
 
         <label for="email">Correo Electronico:</label><br>
@@ -99,7 +99,7 @@ h1 {text-align: center;}
               <label for="provincia" >Provincia:</label><br>
         <select id="provincia" name="provincia" required onchange="actualizarMetodosPago()">
             <option value="">Selecciona una provincia</option>
-            <option value="San Jose">San Jos�</option>
+            <option value="San Jose">San Jose</option>
             <option value="Alajuela">Alajuela</option>
             <option value="Cartago">Cartago</option>
             <option value="Heredia">Heredia</option>
@@ -113,16 +113,16 @@ value="Limon">Limon</option>
         <option value="">Primero selecciona una provincia</option>
     </select>
 </label><br><br>
-        <label for="direccion">Direcci�n exacta de Env�o:</label><br>
+        <label for="direccion">Direccion exacta de Envio:</label><br>
         <textarea id="direccion" name="direccion" rows="4" cols="50" placeholder="ejemplo: nombre calle, casa, etc " required></textarea><br><br>
- <label for="codigo_postal">C�digo Postal:</label><br>
+ <label for="codigo_postal">Codigo Postal:</label><br>
         <input type="text" id="codigo_postal" name="codigo_postal" maxlength="5" pattern="[0-9]{5}" title="El c�digo postal debe contener 5 d�gitos num�ricos" placeholder="ejemplo: Paraiso 30201" required><a href="/politicas-de-envio#lista_codigos">Ver Lista de Distritos</a><br><br>
 <br>
 <div>        <label for="producto">Agrega los libros que  deseas comprar: <h5>( Maximo de 5 por Pedido)</h5></div><br>
 <table>
         <tr>
             <th>Categoria</th>
-            <th>T�tulo del Libro</th>
+            <th>Titulo del Libro</th>
             <th>Formato</th>
             <th>Precio</th>
         </tr>
@@ -236,26 +236,26 @@ value="Limon">Limon</option>
 <hr> <!-- L�nea horizontal para separar -->
 
 <div>
-  <p id="subtotal">Subtotal: �0.00 </p>
-  <p id="costoEnvio">Envio: �0.00</p>
-  <p id="total">Total: �0.00</p>
+  <p id="subtotal">Subtotal: CRC0.00 </p>
+  <p id="costoEnvio">Envio: CRC0.00</p>
+  <p id="total">Total: CRC0.00</p>
 </div>
 
 <br><br>
-        <label for="metodo_pago">M�todo de Pago:</label><br>
+        <label for="metodo_pago">Metodo de Pago:</label><br>
         <select id="metodo_pago" name="metodo_pago" onchange="calcularTotal()">
-            <option value="">Selecciona un m�todo de pago</option>
-            <option value="sinpe_movil">Sinpe M�vil</option>
+            <option value="">Selecciona un metodo de pago</option>
+            <option value="sinpe_movil">Sinpe Movil</option>
             <option value="transferencia_bancaria">Transferencia Bancaria</option>
         </select>
 <li>Efectivo contra entrega del LIBRO (Monto exacto)</li>
-<li>Sinpe movil al numero 72679082 </li>
-<li>Transferencia bancaria a la cuenta IBAN CR  0801 0200 0095 0764 3655</li>
+<li><b>Sinpe movil al numero 72679082 </b>b</li>
+<li>Transferencia bancaria a la cuenta <b>IBAN CR  0801 0200 0095 0764 3655</b></li>
 </ul>
 <br>
 <br>
 <div id="checkboxContainer" style="display: block;" >
-  <label><b>Desea retirar en f�sico?</b></label><br>
+  <label><b>Desea retirar en fisico?</b></label><br>
   <label>
     <input type="radio" name="opcionFisico" value="si" onchange="ocultarOpcionesEnvio()" required> S�
   </label>
@@ -266,17 +266,17 @@ value="Limon">Limon</option>
 </div> 
 
 <div id="dropdownNotaFisicoContainer" style="display:none;">
-  <label><b>La entrega f�sica se realizar� UNICAMENTE en Cartago Centro los d�as S�bados y Domingos de 1:00pm - 5:00pm</b><u> Sin excepci�n </u></label>
+  <label><b>La entrega fisica se realizara UNICAMENTE en Cartago Centro los dias Sabados y Domingos de 1:00pm - 5:00pm</b><u> Sin excepcion </u></label>
 </div>
 
 <div id="dropdownEnvioContainer" style="display:none;">
-  <label for="opcionesEnvio">Selecciona una opci�n de env�o:</label>
+  <label for="opcionesEnvio">Selecciona una opcion de envio:</label>
   <select id="opcionesEnvio">
   </select>
 </div>
 <div> <br><br>		
   <label>
-    <input type="checkbox" id="miCheckbox" name="miCheckbox" required> Acepto <u>los t�rminos y condiciones</u>
+    <input type="checkbox" id="miCheckbox" name="miCheckbox" required> Acepto <u>los terminos y condiciones</u>
   </label>
   <input type="hidden" id="miCheckboxHidden" name="miCheckboxHidden" required>
 </div>
@@ -797,6 +797,7 @@ var cantonesPorProvincia =  [
 </script>
 </body>
 </html>
+
 
 
 
