@@ -14,7 +14,15 @@ async function cargarLibros() {
 }
 
 
-/* ===== MOSTRAR LIBROS ===== */
+function clickFuera(event) {
+  const modal = document.getElementById("modalLibro");
+  const contenido = document.querySelector(".modal-contenido");
+
+  // Si el click fue directamente en el fondo (no dentro del contenido)
+  if (event.target === modal) {
+    cerrarVistaPrevia();
+  }
+}
 function mostrarLibros(lista) {
   const catalogo = document.getElementById("catalogo");
   catalogo.innerHTML = "";
