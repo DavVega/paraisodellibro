@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paraíso del Libro</title>
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
@@ -22,7 +23,7 @@
       <i class="fas fa-book-open"></i> <span>Catálogo</span>
     </a>
     <a href="./pedido.html" class="nav-item nav-cta">
-      <i class="fas fa-shopping-cart"></i> <span>Hacer Pedido</span>
+      <i class="fas fa-shopping-cart"></i> <span>📦 Hacer Pedido</span>
     </a>
     <a href="./politicas.html" class="nav-item">
       <i class="fas fa-file-contract"></i> <span>Políticas</span>
@@ -56,7 +57,8 @@
     <p id="modalAutor"></p>
     <p id="modalCategoria"></p>
     <h3 id="modalPrecio"></h3>
-  
+    <div id="modalUso" class="estado-tag"></div>
+
   <!-- Nuevo botón de compra -->
   <a id="btnComprarWhatsapp" href="#" target="_blank" class="btn-whatsapp">
     Comprar por WhatsApp
@@ -66,22 +68,27 @@
 </div>
 <footer class="main-footer">
   <div class="footer-container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <h3>Paraíso del Libro</h3>
-      </div>
-      
-      <div class="footer-social">
-        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://wa.me" target="_blank" class="wa-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-      </div>
-    </div>
+    <!-- Centered Title -->
+        <div class="footer-logo">
+      <img style="height: 100;width: 100;" src="./images/banners/Vertical_slogan/logo_azul.PNG" alt="Logo Paraíso del Libro">
+    </div>    
+    <!-- Centered Social Icons 
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://wa.me" target="_blank" class="social-link wa-link" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>-->
 
-    <div class="footer-bottom">
-      <p>© 2026 <strong>NeuraCR</strong>. Paraíso, Cartago - Costa Rica.</p>
+    <!-- Copyright Info -->
+    <div class="footer-copy">
+      <p>© 2026 <strong>Paraiso del Libro</strong>. Paraíso, Cartago - Costa Rica. Tel <a href="" style="color: aliceblue;">+506 72679082</a></p>
     </div>
   </div>
 </footer>
+
 </body>
 
 

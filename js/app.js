@@ -33,60 +33,43 @@ function mostrarLibros(lista) {
   }
 
   lista.forEach(libro => {
-
     if (!libro.tituloLibro) return;
 
-catalogo.innerHTML += `
-  <div class="libro" onclick="mostrarVistaPrevia('${libro.tituloLibro}', '${libro.autorLibro || ""}', '${libro.precio || ""}', '${libro.categoria || ""}', 'images/libros/${libro.imagen}')">
-    
-    <img 
-      src="images/libros/${libro.imagen}"
-      alt="${libro.tituloLibro}"
-      onerror="this.src='images/libros/default.jpg'"
-    >
+    // 1. Determine the CSS class based on status
+    const esAgotado = (libro.estatus || "").toLowerCase() === "agotado";
+    const claseEstatus = esAgotado ? "estado-tag agotado" : "estado-tag disponible";
 
-    <h3>${libro.tituloLibro}</h3>
-    <p>${libro.autorLibro || ""}</p>
-    <p><strong>₡${libro.precio || ""}</strong></p>
-    <p>${libro.categoria || ""}</p>
-  </div>
-`;
+    catalogo.innerHTML += `
+      <div class="libro" onclick="mostrarVistaPrevia('${libro.tituloLibro}', '${libro.autorLibro || ""}', '${libro.precio || ""}', '${libro.categoria || ""}', 'images/libros/${libro.imagen}', '${libro.uso || ""}')">
+        
+        <img 
+          src="images/libros/${libro.imagen}"
+          alt="${libro.tituloLibro}"
+          onerror="this.src='images/libros/default.jpg'"
+        >
+
+        <h3>${libro.tituloLibro}</h3>
+        <p>Autor: ${libro.autorLibro || ""}</p>
+        <p><strong>Precio: ₡${libro.precio || ""}</strong></p>
+        <p>${libro.categoria || ""}</p>
+        
+        <!-- 2. Apply the dynamic class here -->
+        <div class="${claseEstatus}">${libro.estatus || ""}</div>
+      </div>
+    `;
   });
 }
-/*function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
-  document.getElementById("modalTitulo").innerText = titulo;
-  document.getElementById("modalAutor").innerText = autor;
-  document.getElementById("modalPrecio").innerText = "₡" + precio;
-  document.getElementById("modalCategoria").innerText = categoria;
-  document.getElementById("modalImagen").src = imagen;
 
-      // 1. Llenas los datos actuales
-    document.getElementById("modalTitulo").innerText = libro.titulo;
-    document.getElementById("modalPrecio").innerText = libro.precio;
-    // ... resto de tus asignaciones ...
 
-    // 2. Configuras el botón de WhatsApp
-    const telefono = "50672679082"; // Sustituye por tu número con código de país, sin el + ni espacios
-    const mensaje = `Hola, me interesa comprar el libro: *${libro.titulo}* que tiene un precio de ${libro.precio}.`;
-    
-    // El mensaje debe estar codificado para URLs
-    const urlWhatsapp = `https://wa.me{telefono}?text=${encodeURIComponent(mensaje)}`;
-    
-    // 3. Asignas el enlace al botón
-    document.getElementById("btnComprarWhatsapp").href = urlWhatsapp;
-    
-    // Finalmente muestras el modal
-    document.getElementById("modalLibro").style.display = "block";
-  document.getElementById("modalLibro").style.display = "flex";
-}*/
+function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen, uso) {
 
-function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
   // 1. Fill modal text and image
   document.getElementById("modalTitulo").innerText = titulo;
   document.getElementById("modalAutor").innerText = autor;
   document.getElementById("modalPrecio").innerText = "₡" + precio;
   document.getElementById("modalCategoria").innerText = categoria;
   document.getElementById("modalImagen").src = imagen;
+  document.getElementById("modalUso").innerText = uso;
 
   // 2. Configure WhatsApp Button
   const telefono = "50672679082"; 
@@ -154,16 +137,75 @@ function buscar() {
 
 
 function nextStep(stepNumber) {
-  // 1. Hide all steps
+  // 1. If moving to the final step (Pago), calculate everything first
+  if (stepNumber === 3) {
+    if (typeof calcularTotal === "function") {
+      calcularTotal(); 
+    } else {
+      console.error("The function calcularTotal() is missing in app.js");
+    }
+  }
+
+  // 2. Hide all steps
   document.querySelectorAll('.form-step').forEach(step => step.classList.remove('active'));
   document.querySelectorAll('.step').forEach(tab => tab.classList.remove('active'));
 
-  // 2. Show requested step
-  document.getElementById('step' + stepNumber).classList.add('active');
-  document.getElementById('step' + stepNumber + '-tab').classList.add('active');
+  // 3. Show requested step
+  const nextStepEl = document.getElementById('step' + stepNumber);
+  const nextTabEl = document.getElementById('step' + stepNumber + '-tab');
+
+  if (nextStepEl && nextTabEl) {
+    nextStepEl.classList.add('active');
+    nextTabEl.classList.add('active');
+  }
   
-  // 3. Scroll to top of form
+  // 4. Scroll to top of form
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Get the button
+const mybutton = document.getElementById("scrollTopBtn");
+
+// Show the button when scrolling down 300px from the top
+window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+};
+
+// Smooth scroll to the top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+function nextStep(stepNumber) {
+  // 1. Seleccionamos el paso actual
+  const pasoActual = document.querySelector('.form-step.active');
+  const campos = pasoActual.querySelectorAll('input, textarea, select');
+  
+  // 2. Validamos cada campo del paso actual
+  let esValido = true;
+  campos.forEach(campo => {
+    if (!campo.checkValidity()) {
+      campo.reportValidity(); // Muestra el mensaje de error del navegador
+      esValido = false;
+    }
+  });
+
+  // 3. Solo si todo es válido, avanzamos al siguiente paso
+  if (esValido) {
+    document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.step').forEach(t => t.classList.remove('active'));
+
+    document.getElementById('step' + stepNumber).classList.add('active');
+    document.getElementById('step' + stepNumber + '-tab').classList.add('active');
+    
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
 /* ===== INICIAR ===== */
