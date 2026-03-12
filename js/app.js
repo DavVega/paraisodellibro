@@ -94,7 +94,7 @@ function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
   const mensaje = `Hola, me interesa comprar el libro: *${titulo}* que tiene un precio de ₡${precio}.`;
   
   // Corrected URL syntax
-  const urlWhatsapp = `https://wa.me${telefono}?text=${encodeURIComponent(mensaje)}`;
+  const urlWhatsapp = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
   
   // 3. Assign to the button
   const btnLink = document.getElementById("btnComprarWhatsapp");
