@@ -7,22 +7,28 @@
 </head>
 <body>
 
-<header>
+  <header>
+  <!-- CHILD 1: Pushed to the Left -->
   <div class="logo-container">
-     <a href="https://paraisodellibro.net">
-      <img src="./images/banners/Vertical_slogan/logo_azul.PNG" 
-           alt="Logo" 
-           height="100" 
-           width="150">
+    <a href="https://paraisodellibro.net">
+      <img src="./images/banners/Vertical_slogan/logo_azul.PNG" alt="Logo">
     </a>
   </div>
 
-  <nav>
-    <a href="./index.html">Catalogo</a>
-    <a href="./pedido.html">Hacer Pedido</a>
-    <a href="./politicas.html">Politicas</a>
+  <!-- CHILD 2: Pushed to the Right -->
+  <nav class="main-nav">
+    <a href="./index.html" class="nav-item">
+      <i class="fas fa-book-open"></i> <span>Catálogo</span>
+    </a>
+    <a href="./pedido.html" class="nav-item nav-cta">
+      <i class="fas fa-shopping-cart"></i> <span>Hacer Pedido</span>
+    </a>
+    <a href="./politicas.html" class="nav-item">
+      <i class="fas fa-file-contract"></i> <span>Políticas</span>
+    </a>
   </nav>
 </header>
+
 <section class="contenido">
   <h2>📦 Envíos</h2>
   <p>Realizamos envíos en todo Costa Rica. El costo puede variar según el distrito seleccionado.</p>
@@ -37,9 +43,25 @@
   <p>Para consultas puedes escribirnos directamente por WhatsApp.</p>
 </section>
 
-<footer>
-  © 2026 Paraíso del Libro
+<footer class="main-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Paraíso del Libro</h3>
+      </div>
+      
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me" target="_blank" class="wa-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 <strong>NeuraCR</strong>. Paraíso, Cartago - Costa Rica.</p>
+    </div>
+  </div>
 </footer>
 
 </body>
+
 </html>

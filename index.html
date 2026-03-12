@@ -4,27 +4,34 @@
 <meta charset="UTF-8">
 <title>Paraíso del Libro</title>
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com">
 </head>
 <body>
 
 <header>
+  <!-- CHILD 1: Pushed to the Left -->
   <div class="logo-container">
     <a href="https://paraisodellibro.net">
-      <img src="./images/banners/Vertical_slogan/logo_azul.PNG" 
-           alt="Logo" 
-           height="100" 
-           width="150">
+      <img src="./images/banners/Vertical_slogan/logo_azul.PNG" alt="Logo">
     </a>
   </div>
 
-  <nav>
-    <a href="./index.html">Catalogo</a>
-    <a href="./pedido.html">Hacer Pedido</a>
-    <a href="./politicas.html">Politicas</a>
+  <!-- CHILD 2: Pushed to the Right -->
+  <nav class="main-nav">
+    <a href="./index.html" class="nav-item">
+      <i class="fas fa-book-open"></i> <span>Catálogo</span>
+    </a>
+    <a href="./pedido.html" class="nav-item nav-cta">
+      <i class="fas fa-shopping-cart"></i> <span>Hacer Pedido</span>
+    </a>
+    <a href="./politicas.html" class="nav-item">
+      <i class="fas fa-file-contract"></i> <span>Políticas</span>
+    </a>
   </nav>
 </header>
 
 <section class="filtros">
+  <p style="padding: 10px;">
   <button onclick="filtrar('todos')">Todos</button>
   <button onclick="filtrar('Literatura')">Literatura</button>
   <button onclick="filtrar('SuperacionPersonal')">Superación</button>
@@ -33,6 +40,7 @@
   <button onclick="filtrar('EstiloVida')">Estilo de Vida</button>
   <button onclick="filtrar('Oferta')">Oferta</button>
   <input type="text" id="buscador" placeholder="Buscar..." onkeyup="buscar()">
+  </pp>
 </section>
 
 <section id="catalogo" class="catalogo"></section>
@@ -56,5 +64,25 @@
 
   </div>
 </div>
+<footer class="main-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Paraíso del Libro</h3>
+      </div>
+      
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me" target="_blank" class="wa-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 <strong>NeuraCR</strong>. Paraíso, Cartago - Costa Rica.</p>
+    </div>
+  </div>
+</footer>
 </body>
+
+
 </html>

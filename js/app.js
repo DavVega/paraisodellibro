@@ -151,6 +151,21 @@ function buscar() {
 
   mostrarLibros(resultados);
 }
+
+
+function nextStep(stepNumber) {
+  // 1. Hide all steps
+  document.querySelectorAll('.form-step').forEach(step => step.classList.remove('active'));
+  document.querySelectorAll('.step').forEach(tab => tab.classList.remove('active'));
+
+  // 2. Show requested step
+  document.getElementById('step' + stepNumber).classList.add('active');
+  document.getElementById('step' + stepNumber + '-tab').classList.add('active');
+  
+  // 3. Scroll to top of form
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 /* ===== INICIAR ===== */
 cargarLibros();
 
@@ -161,3 +176,5 @@ document.addEventListener("DOMContentLoaded", () => {
     buscador.addEventListener("input", buscar);
   }
 });
+
+

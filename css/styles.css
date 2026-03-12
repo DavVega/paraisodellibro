@@ -14,12 +14,12 @@ body {
 
 /* ===== HEADER ===== */
 header {
-  /*background: linear-gradient(135deg, #2563eb, #1e40af);*/
   background: #1233DA;
   color: white;
-  padding: 18px 8%;
+  padding: 10px 5%; 
   display: flex;
-  justify-content: space-between;
+  /* THIS LINE pushes logo to the left and menu to the right */
+  justify-content: space-between; 
   align-items: center;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   position: sticky;
@@ -27,26 +27,61 @@ header {
   z-index: 1000;
 }
 
-header h1 {
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 1px;
+/* BIGGER LOGO */
+.logo-container img {
+  height: 150px; /* Adjusted to be prominent but sleek */
+  width: auto;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-nav a {
+.logo-container img:hover {
+  transform: scale(1.05);
+}
+
+/* MENU TO THE RIGHT */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between the links */
+}
+
+.nav-item {
   color: white;
-  margin-left: 20px;
-  margin-top: 20px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space for the icons */
   transition: 0.3s;
-  padding: 6px 10px;
-  border-radius: 6px;
 }
 
-nav a:hover {
-  background: rgba(255,255,255,0.15);
+.nav-item:hover:not(.nav-cta) {
+  background: rgba(255, 255, 255, 0.15);
 }
+
+/* Highlight "Hacer Pedido" */
+.nav-cta {
+  background: white;
+  color: #1233DA !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.nav-cta i {
+  color: #1233DA !important;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+}
+
 
 /* ===== HERO ===== */
 .hero {
@@ -101,12 +136,23 @@ nav a:hover {
 
 /* ===== FORMULARIOS ===== */
 .formulario {
-  padding: 60px 20px;
+  padding: 20px; /* Reduced vertical padding since we use margin now */
   max-width: 600px;
-  margin: auto;
+  /* 120px top margin to clear the sticky header */
+  margin: 120px auto 40px; 
   display: flex;
   flex-direction: column;
   gap: 18px;
+  background: white; /* Optional: helps the form stand out */
+  border-radius: 8px;
+    margin-top: 140px; 
+}
+
+/* Mobile adjustment: if the header gets taller on small screens */
+@media (max-width: 768px) {
+  .formulario {
+    margin-top: 140px; 
+  }
 }
 
 input, select, textarea {
@@ -163,27 +209,42 @@ footer {
   font-size: 14px;
 }
 /* ===== MODAL ===== */
+/* ===== MODAL FIXED & CENTERED ===== */
 .modal {
-  display: none;
+  display: none; /* Hidden by default, changed to 'flex' via JS */
   position: fixed;
-  z-index: 999;
-  left: 0;
+  z-index: 2000; /* Must be higher than header's z-index (1000) */
   top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.6);
+  left: 0;
+  width: 100vw;  /* Use Viewport Width */
+  height: 100vh; /* Use Viewport Height */
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay for focus */
+  
+  /* Perfect Centering */
   justify-content: center;
   align-items: center;
+  
+  /* Prevent interaction with background */
+  backdrop-filter: blur(4px); 
 }
 
 .modal-contenido {
   background: white;
   padding: 25px;
-  border-radius: 12px;
-  width: 90%;
-  max-width: 400px;
-  text-align: center;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 90%; /* Responsive on mobile */
+  max-height: 90vh; /* Prevents crashing with screen edges */
+  overflow-y: auto; /* Scroll if content is too long */
   position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  animation: modalScale 0.3s ease-out;
+}
+
+/* Optional: Smooth pop-up animation */
+@keyframes modalScale {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
 }
 
 .modal-contenido img {
@@ -215,4 +276,70 @@ footer {
 .btn-whatsapp:hover {
   background-color: #128c7e;
 }
+
+/* Container for filters */
+.filtros {
+  padding: 20px;
+  text-align: center;
+  background: #f8f9fa;
+  border-bottom: 1px solid #eee;
+}
+
+/* Individual Button Styling */
+.filtros button {
+  background-color: white;
+  color: #1233DA; /* Your Brand Blue */
+  border: 2px solid #1233DA;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 25px; /* Rounded pill shape */
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease; /* Smooth transition */
+  font-size: 14px;
+}
+
+/* HOVER EFFECT (Remark) */
+.filtros button:hover {
+  background-color: #1233DA;
+  color: white;
+  transform: translateY(-2px); /* Slight lift */
+  box-shadow: 0 4px 12px rgba(18, 51, 218, 0.2);
+}
+
+/* ACTIVE STATE (When clicked/selected) */
+.filtros button.active {
+  background-color: #1233DA;
+  color: white;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Search Input Styling */
+#buscador {
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  margin-left: 15px;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 250px;
+}
+
+#buscador:focus {
+  border-color: #1233DA;
+}
+/* Step Control */
+.form-step { display: none; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+.form-step.active { display: block; animation: fadeIn 0.4s ease; }
+
+/* Progress Bar Styling */
+.step-indicator { display: flex; justify-content: space-around; margin-bottom: 30px; }
+.step { padding: 10px 20px; border-bottom: 4px solid #ddd; color: #999; font-weight: bold; flex: 1; text-align: center; }
+.step.active { border-color: #1233DA; color: #1233DA; }
+
+/* Button Styling */
+.btn-next, .btn-submit { background: #1233DA; color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; float: right; font-weight: 600; }
+.btn-prev { background: #eee; color: #555; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
