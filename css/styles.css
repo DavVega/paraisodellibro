@@ -343,3 +343,97 @@ footer {
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
+/* ===== FOOTER PREMIUM ===== */
+.main-footer {
+  background-color: #0f172a; /* Azul oscuro profundo */
+  color: #ffffff;
+  padding: 40px 0 20px 0;
+  margin-top: 60px;
+  border-top: 4px solid #1233DA; /* Detalle con tu azul de marca */
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-brand h3 {
+  color: #1233DA;
+  font-size: 1.6rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.footer-brand p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 5px 0 0 0;
+}
+
+/* Iconos Sociales con Estilo */
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social a {
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social a:hover {
+  background: #1233DA;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(18, 51, 218, 0.4);
+}
+
+/* Color especial para WhatsApp al pasar el mouse */
+.footer-social a.wa-btn:hover {
+  background: #25D366;
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+}
+
+/* Copyright y Ubicación */
+.footer-bottom {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #64748b;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-bottom strong {
+  color: #cbd5e1;
+}
+
+/* Ajuste Mobile */
+@media (max-width: 600px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+
