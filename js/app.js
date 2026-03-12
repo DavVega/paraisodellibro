@@ -60,6 +60,23 @@ function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
   document.getElementById("modalCategoria").innerText = categoria;
   document.getElementById("modalImagen").src = imagen;
 
+      // 1. Llenas los datos actuales
+    document.getElementById("modalTitulo").innerText = libro.titulo;
+    document.getElementById("modalPrecio").innerText = libro.precio;
+    // ... resto de tus asignaciones ...
+
+    // 2. Configuras el botón de WhatsApp
+    const telefono = "50672679082"; // Sustituye por tu número con código de país, sin el + ni espacios
+    const mensaje = `Hola, me interesa comprar el libro: *${libro.titulo}* que tiene un precio de ${libro.precio}.`;
+    
+    // El mensaje debe estar codificado para URLs
+    const urlWhatsapp = `https://wa.me{telefono}?text=${encodeURIComponent(mensaje)}`;
+    
+    // 3. Asignas el enlace al botón
+    document.getElementById("btnComprarWhatsapp").href = urlWhatsapp;
+    
+    // Finalmente muestras el modal
+    document.getElementById("modalLibro").style.display = "block";
   document.getElementById("modalLibro").style.display = "flex";
 }
 
@@ -116,23 +133,3 @@ document.addEventListener("DOMContentLoaded", () => {
     buscador.addEventListener("input", buscar);
   }
 });
-
-function mostrarDetallesEnModal(libro) {
-    // 1. Llenas los datos actuales
-    document.getElementById("modalTitulo").innerText = libro.titulo;
-    document.getElementById("modalPrecio").innerText = libro.precio;
-    // ... resto de tus asignaciones ...
-
-    // 2. Configuras el botón de WhatsApp
-    const telefono = "50672679082"; // Sustituye por tu número con código de país, sin el + ni espacios
-    const mensaje = `Hola, me interesa comprar el libro: *${libro.titulo}* que tiene un precio de ${libro.precio}.`;
-    
-    // El mensaje debe estar codificado para URLs
-    const urlWhatsapp = `https://wa.me{telefono}?text=${encodeURIComponent(mensaje)}`;
-    
-    // 3. Asignas el enlace al botón
-    document.getElementById("btnComprarWhatsapp").href = urlWhatsapp;
-    
-    // Finalmente muestras el modal
-    document.getElementById("modalLibro").style.display = "block";
-}
