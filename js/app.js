@@ -53,7 +53,7 @@ catalogo.innerHTML += `
 `;
   });
 }
-function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
+/*function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
   document.getElementById("modalTitulo").innerText = titulo;
   document.getElementById("modalAutor").innerText = autor;
   document.getElementById("modalPrecio").innerText = "₡" + precio;
@@ -78,7 +78,33 @@ function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
     // Finalmente muestras el modal
     document.getElementById("modalLibro").style.display = "block";
   document.getElementById("modalLibro").style.display = "flex";
+}*/
+
+function mostrarVistaPrevia(titulo, autor, precio, categoria, imagen) {
+  // 1. Llenar los textos del modal
+  document.getElementById("modalTitulo").innerText = titulo;
+  document.getElementById("modalAutor").innerText = autor;
+  document.getElementById("modalPrecio").innerText = "₡" + precio;
+  document.getElementById("modalCategoria").innerText = categoria;
+  document.getElementById("modalImagen").src = imagen;
+
+  // 2. Configurar el botón de WhatsApp dinámicamente
+  const telefono = "50672679082"; 
+  const mensaje = `Hola, me interesa comprar el libro: *${titulo}* que tiene un precio de ₡${precio}.`;
+  
+  // URL Corregida (usando ${} y con el slash /)
+  const urlWhatsapp = `https://wa.me{telefono}?text=${encodeURIComponent(mensaje)}`;
+  
+  // 3. Asignar el enlace al botón
+  const btnWhatsapp = document.getElementById("btnComprarWhatsapp");
+  if (btnWhatsapp) {
+      btnWhatsapp.href = urlWhatsapp;
+  }
+
+  // 4. Mostrar el modal
+  document.getElementById("modalLibro").style.display = "flex";
 }
+
 
 function cerrarVistaPrevia() {
   document.getElementById("modalLibro").style.display = "none";
