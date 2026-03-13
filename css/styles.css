@@ -65,8 +65,8 @@ header {
 /* EL BOTÓN "HACER PEDIDO" PROFESIONAL */
 .nav-cta {
   background-color: #ffffff;    /* Initial: White background */
-  color: #1233DA !important;    /* Initial: Blue text */
-  border: 2px solid #ffffff;    /* White border for the hover transition */
+  color: #0b9a68 !important;    /* Initial: Blue text */
+  border: 2px solid #0b9a68;    /* White border for the hover transition */
   padding: 8px 22px;
   border-radius: 50px;          /* Professional Pill shape */
   font-weight: 700;
@@ -86,7 +86,7 @@ header {
 
 /* THE HOVER EFFECT: Change to Blue & Expand */
 .nav-cta:hover {
-  background-color: #1233DA;    /* Changes to Blue */
+  background-color: #12da79;    /* Changes to Blue */
   color: #ffffff !important;    /* Changes text to White */
   transform: scale(1.08);       /* Expansion effect */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
@@ -383,8 +383,69 @@ footer {
 .step.active { border-color: #1233DA; color: #1233DA; }
 
 /* Button Styling */
-.btn-next, .btn-submit { background: #1233DA; color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; float: right; font-weight: 600; padding: -20px; }
-.btn-prev { background: #eee; color: #555; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+/* CONTAINER FOR BUTTONS */
+.step-buttons {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  gap: 15px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #f1f5f9; /* Subtle divider */
+}
+
+/* MAIN ACTION BUTTONS (Next & Submit) */
+/* CONTAINER FOR BUTTONS */
+.step-buttons {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 15px;
+  margin-top: 30px;
+}
+
+/* MATCHING CTA STYLE (Next & Submit) */
+.btn-next, .btn-submit {
+  background-color: #ffffff;    /* Initial: White background */
+  color: #0b9a68 !important;    /* Initial: Green text */
+  border: 2px solid #0b9a68;    /* Green border */
+  padding: 10px 25px;
+  border-radius: 50px;          /* Match Pill shape */
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+/* HOVER EFFECT: Invert to Green */
+.btn-next:hover, .btn-submit:hover {
+  background-color: #12da79;    /* Changes to Bright Green */
+  color: #ffffff !important;    /* Changes text to White */
+  border-color: #ffffff;        /* White border on hover */
+  transform: scale(1.05);       /* Professional expansion */
+  box-shadow: 0 6px 20px rgba(18, 218, 121, 0.3);
+}
+
+/* SECONDARY BUTTON (Previous/Back) */
+.btn-prev {
+  background-color: transparent;
+  color: #64748b;               /* Subtle grey */
+  border: 1px solid #e2e8f0;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-prev:hover {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  border-color: #cbd5e1;
+}
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -610,3 +671,138 @@ label:has(+ textarea[required])::after {
   font-weight: bold;
 }
 
+/* CITACR Step 3 - Summary & Payment Professional Styling */
+
+#step3 {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.step-header h3 {
+  color: #1233DA;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0f2f5;
+  padding-bottom: 10px;
+}
+
+/* Selection List */
+.summary-section {
+  margin-bottom: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.summary-list li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.summary-list li:last-child {
+  border-bottom: none;
+}
+
+/* Financial Breakdown */
+.totals-display {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+  font-size: 1rem;
+}
+
+.total-highlight {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 2px solid #1233DA;
+  font-weight: 800;
+  color: #1233DA;
+  font-size: 1.2rem;
+}
+
+/* Payment Selector */
+.payment-selector select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.payment-selector select:focus {
+  border-color: #1233DA;
+  outline: none;
+}
+
+/* Terms Checkbox */
+.terms-acceptance {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 15px 0;
+}
+
+.checkbox-container input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+/* Navigation Buttons */
+.step-navigation {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: #1233DA;
+  color: white;
+}
+
+.btn-secondary {
+  background: #f0f2f5;
+  color: #555;
+}
+
+.btn-primary:active, .btn-secondary:active {
+  transform: scale(0.98);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}

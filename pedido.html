@@ -111,22 +111,73 @@ h1 {text-align: center;}
   </div>
 
   <!-- STEP 1: Personal Information -->
-  <div class="form-step active" id="step1">
-    <h3><i class="fas fa-user"></i> Información del Cliente</h3>
-    <div class="form-group">
-      <label>Nombre Completo:</label>
-      <input type="text" name="nombre" required>
-    </div>
-    <div class="form-row">
-      <div class="form-group"><label>Teléfono:</label><input type="tel" name="telefono" pattern="[0-9]{8}" required></div>
-      <div class="form-group"><label>Email:</label><input type="email" name="email" required></div>
-    </div>
-    <div class="form-group">
-      <label>Dirección de Envío:</label>
-      <textarea name="direccion" rows="3" required></textarea>
-    </div>
-    <button type="button" class="btn-next" onclick="nextStep(2)">Siguiente: Elegir Libros</button>
+<!-- STEP 1: Personal Information -->
+<div class="form-step active" id="step1">
+  <h3><i class="fas fa-user"></i> Información del Cliente</h3>
+  
+  <div class="form-group">
+    <label>Nombre Completo:</label>
+    <input type="text" name="nombre" id="nombre" required>
   </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Teléfono:</label>
+      <input type="tel" name="telefono" id="telefono" pattern="[0-9]{8}" required>
+    </div>
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+  </div>
+
+  <!-- NEW ROW: Location Selectors -->
+  <div class="form-row">
+    <div class="form-group">
+      <label for="provincia">Provincia:</label>
+      <select id="provincia" name="provincia" required onchange="actualizarMetodosPago()">
+        <option value="">Selecciona...</option>
+        <option value="San Jose">San José</option>
+        <option value="Alajuela">Alajuela</option>
+        <option value="Cartago">Cartago</option>
+        <option value="Heredia">Heredia</option>
+        <option value="Guanacaste">Guanacaste</option>
+        <option value="Puntarenas">Puntarenas</option>
+        <option value="Limon">Limón</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="canton">Cantón:</label>
+      <select id="canton" name="canton" required onchange="cargarCantones()">
+        <option value="">Selecciona Canton...</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- NEW ROW: District & Postal Code -->
+  <div class="form-row">
+    
+    <!--<div class="form-group">
+      <label for="distrito">Distrito:</label>
+      <select id="distrito" name="distrito" required>
+        <option value="">Selecciona distrito...</option>
+      </select>
+    </div>-->
+
+    <div class="form-group">
+      <label for="codigo_postal">Código Postal:</label>
+      <input type="text" id="codigo_postal" name="codigo_postal" maxlength="5" pattern="[0-9]{5}">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Dirección Exacta de Envío:</label>
+    <textarea name="direccion" id="direccion" rows="2" placeholder="Señas particulares, color de casa..." required></textarea>
+  </div>
+
+  <button type="button" class="btn-next" onclick="nextStep(2)">Siguiente: Elegir Libros</button>
+</div>
+
 
   <!-- STEP 2: Book Selection -->
   <div class="form-step" id="step2">
@@ -260,28 +311,100 @@ h1 {text-align: center;}
     </div>
   </div>
 
-  <!-- STEP 3: Payment & Totals -->
-  <div class="form-step" id="step3">
+<!-- STEP 3: Payment & Totals (VERSIÓN FINAL CORREGIDA) -->
+<div class="form-step" id="step3">
     <h3><i class="fas fa-credit-card"></i> Resumen y Pago</h3>
+
+    <!-- 1. Receipt Style Totals (Diseño tipo Factura) -->
     <div class="totals-display">
-      <p id="subtotal">Subtotal: ₡0.00</p>
-      <p id="costoEnvio">Envío: ₡0.00</p>
-      <p id="total" style="font-size: 1.4em; font-weight: bold; color: #1233DA;">Total: ₡0.00</p>
+        <div class="cost-row">
+            <strong id="subtotal">₡0.00</strong>
+        </div>
+        <div class="cost-row">
+            <div class="shipping-info">
+                <strong id="costoEnvio">₡0.00</strong>
+                <small>(máx. 1Kg incl. empaque)</small>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="cost-row total-row">
+            <strong id="total" style="color: #1233DA;">₡0.00</strong>
+        </div>
     </div>
-    <div class="form-group">
-      <label>Método de Pago:</label>
-      <select name="metodo_pago" required onchange="calcularTotal()">
-        <option value="sinpe">SINPE Móvil</option>
-        <option value="transferencia">Transferencia</option>
-      </select>
+
+    <!-- 2. Detailed Book Summary (Lista de Libros Seleccionados) -->
+    <div class="resumen-libros-container">
+      <br>
+      <br>
+        <h4><i class="fas fa-list-ul"></i> Detalle de Libros:</h4>
+        <ul id="listaLibrosResumen">
+            <!-- Se llena automáticamente con pedido.js -->
+            <li class="empty-msg">Cargando selección...</li>
+        </ul>
     </div>
-    <div class="terms">
-      <label><input type="checkbox" required> Acepto los términos y condiciones</label>
+      <textarea style="visibility:hidden" id="detalle"></textarea>
+    <!-- 3. Payment Selection -->
+    <div class="payment-section">
+        <div class="form-group">
+      <br>
+      <br>
+            <label for="metodo_pago"><b>Método de Pago:</b></label>
+            <select id="metodo_pago" name="metodo_pago" onchange="calcularTotal()">
+                <option value="">Elegir...</option>
+                <option value="sinpe">SINPE Móvil (7267-9082)</option>
+                <option value="transferencia">Transferencia Bancaria</option>
+            </select>
+<br>
+<br>
+<div id="checkboxContainer" class="form-group">
+  <label><b>¿Desea retirar en físico?</b></label>
+  <div class="radio-options">
+    <label>
+      <input type="radio" name="opcionFisico" value="si" onchange="ocultarOpcionesEnvio()" required> 
+      Sí, retiro en Cartago
+    </label>
+    <label>
+      <input type="radio" name="opcionFisico" value="no" onchange="mostrarOpcionesEnvio()" required> 
+      No, deseo envío por Correos
+    </label>
+  </div>
+</div>
+
+<!-- Contenedor de la nota de retiro (Se activa con 'si') -->
+<div id="dropdownNotaFisicoContainer" style="display:none;" class="alerta-info">
+  <p>📍 <b>Entrega física:</b> Únicamente en Cartago Centro (Sábados y Domingos 1pm-5pm).</p>
+</div>
+
+<!-- Contenedor del selector de envío (Se activa con 'no') -->
+<div id="dropdownEnvioContainer" style="display:none;">
+  <label for="opcionesEnvio">Método de envío:</label>
+  <select id="opcionesEnvio" name="opcionesEnvio">
+    <!-- Se llena dinámicamente por tu función mostrarOpcionesEnvio() -->
+  </select>
+</div>
+
+          </div>
+
+        <div class="terms-acceptance">
+            <label class="checkbox-label">
+                <!-- Se quitó 'required' de aquí para evitar el error 'not focusable' -->
+                <input type="checkbox" id="miCheckbox">
+                <span>Acepto los <a href="./politicas.html" target="_blank">términos y condiciones</a></span>
+            </label>
+        </div>
     </div>
+
+    <!-- 4. Navigation Buttons (Estilo Pill) -->
     <div class="step-buttons">
-      <button type="button" class="btn-prev" onclick="nextStep(2)">Atrás</button>
-      <button type="submit" class="btn-submit">Confirmar Pedido</button>
+        <button type="button" class="btn-prev" onclick="nextStep(2)">
+            <i class="fas fa-chevron-left"></i> Atrás
+        </button>
+        <button id="submit" type="submit" class="btn-submit">
+            Confirmar Pedido <i class="fas fa-check-circle"></i>
+        </button>
     </div>
+</div>
+    
   </div>
 </form>
 <footer class="main-footer">

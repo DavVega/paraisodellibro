@@ -3,13 +3,16 @@ const URL_JSON = "https://raw.githubusercontent.com/DavVega/paraisodellibro/mast
 function enviarPedido() {
   const nombre = document.getElementById("nombre").value;
   const telefono = document.getElementById("telefono").value;
-  const distrito = document.getElementById("distrito").value;
+  const provincia = document.getElementById("provincia").value;
+  const canton = document.getElementById("canton").value;
   const detalle = document.getElementById("detalle").value;
 
   const mensaje = `Hola, quiero hacer un pedido.%0A
 Nombre: ${nombre}%0A
 Teléfono: ${telefono}%0A
-Distrito: ${distrito}%0A
+provincia: ${provincia}%0A
+canton: ${canton}%0A
+
 Detalle: ${detalle}`;
 
   const numero = "50672679082"; // CAMBIAR POR TU NÚMERO
@@ -161,7 +164,7 @@ function actualizarMetodosPago() {
  if (regionSeleccionada === "Puntarenas" || regionSeleccionada === "Guanacaste" || regionSeleccionada === "Limon" ) {
   esGAM = 0 ;
 }
-    agregarMetodoPago("Sinpe M�vil");
+    agregarMetodoPago("Sinpe Movil");
     agregarMetodoPago("Transferencia Bancaria");
     
     calcularTotal(); //recalcular costo
@@ -301,22 +304,65 @@ function calcularTotal() {
 	 // Sumar los precios
 	total = subtotal + costoEnvio;
 
-	document.getElementById("costoEnvio").textContent = "Envio: �" + costoEnvio.toFixed(2) + ' (max 1Kg incluido empaquetado)';
-	document.getElementById("subtotal").textContent = "SubTotal:  �" + subtotal.toFixed(2);
-	document.getElementById("total").textContent = "Total: �" + total.toFixed(2);
+	document.getElementById("costoEnvio").textContent = "Envio: CRC" + costoEnvio.toFixed(2) + ' (max 1Kg incluido empaquetado)';
+	document.getElementById("subtotal").textContent = "SubTotal:  CRC" + subtotal.toFixed(2);
+	document.getElementById("total").textContent = "Total: CRC" + total.toFixed(2);
 }
 
 function nextStep(stepNumber) {
-  // 1. Hide all steps
+  // 1. Validar campos del paso actual antes de avanzar
+  const pasoActual = document.querySelector('.form-step.active');
+  const camposRequeridos = pasoActual.querySelectorAll('[required]');
+  
+  let valido = true;
+  camposRequeridos.forEach(campo => {
+    if (!campo.value || !campo.checkValidity()) {
+      campo.reportValidity();
+      valido = false;
+    }
+  });
+
+  if (!valido) return; // Detener si hay campos vacíos
+
+  // 2. Lógica para mostrar los costos en el último paso
+  if (stepNumber === 3) {
+    if (typeof calcularTotal === "function") {
+      calcularTotal(); 
+      generarResumenLibros(); // Función para llenar la lista visual
+    }
+  }
+
+  // 3. Cambiar de paso visualmente
   document.querySelectorAll('.form-step').forEach(step => step.classList.remove('active'));
   document.querySelectorAll('.step').forEach(tab => tab.classList.remove('active'));
 
-  // 2. Show requested step
   document.getElementById('step' + stepNumber).classList.add('active');
   document.getElementById('step' + stepNumber + '-tab').classList.add('active');
   
-  // 3. Scroll to top of form
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function generarResumenLibros() {
+    const listaResumen = document.getElementById("listaLibrosResumen");
+    listaResumen.innerHTML = ""; // Limpiar antes de llenar
+
+    let hayLibros = false;
+
+    for (let i = 1; i <= 5; i++) {
+        const titulo = document.getElementById("tituloLibro" + i).value;
+        const precio = document.getElementById("precio" + i).value;
+
+        if (titulo && titulo !== "" && titulo !== "Seleccione un libro") {
+            const li = document.createElement("li");
+            li.innerHTML = `<span>${titulo}</span> <strong>${precio}</strong>`;
+            listaResumen.appendChild(li);
+            hayLibros = true;
+        }
+    }
+
+    if (!hayLibros) {
+        listaResumen.innerHTML = "<li>No has seleccionado ningún libro.</li>";
+    }
 }
 
 /************************************
@@ -324,7 +370,9 @@ LIBROS LIBROS
 ************************************/
 var librosGlobal =  []
 
-async function cargarLibros() {
+_cargarLibros();
+
+async function _cargarLibros() {
   try {
     const res = await fetch(URL_JSON);
     librosGlobal = await res.json();
@@ -333,10 +381,26 @@ async function cargarLibros() {
   }
 }
 
-formulario.addEventListener('submit', (event) => {
+if (formulario) {
+    document.addEventListener('submit', (event) => {
+        event.preventDefault();
+        // ... rest of your code
+    });
+} else {
+
+  document.addEventListener('submit', (event) => {
     event.preventDefault()
-    buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
-    buttonSubmit.disabled = true
+      // At the top of your script
+      const buttonSubmit = document.getElementById('submit');
+
+      // Inside your event listener
+      if (buttonSubmit) {
+          buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Procesando...';
+          buttonSubmit.disabled = true;
+      } else {
+          console.error("No se encontró el botón con ID 'submit' en el HTML.");
+      }
+
     setTimeout(() => {
         let nombre = document.querySelector('#nombre').value
         //let apellidos = document.querySelector('#apellidos').value
@@ -376,7 +440,7 @@ let tipoEnvioText = '';
     if(esFisico==='no'){
 	tipoEnvioText = '%0A' + opcionEnvio ;
 }else{
-	tipoEnvioText =  '%0A'+ 'Entrega f�sica Cartago Centro los S�bados / Domingo de 1:00pm - 5:00pm'+'%0A';
+	tipoEnvioText =  '%0A'+ 'Entrega fisica Cartago Centro los Sabados / Domingo de 1:00pm - 5:00pm'+'%0A';
 }
 
 var numeroOrden = '' + new Date().getFullYear() + ('0' + (new Date().getMonth() + 1)).slice(-2) + ('0' + new Date().getDate()).slice(-2) + Math.floor(Math.random() * 900) + 100;
@@ -419,6 +483,7 @@ var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + documen
         buttonSubmit.disabled = false
     }, 3000);
 });
+}
 
 
 /************************************
