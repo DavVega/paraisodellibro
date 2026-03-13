@@ -7,17 +7,19 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
-    "tituloLibro": "Cuentos Imprescindibles del siglo XIX de America L.",
-    "autorLibro": "ALMA",
+    "tituloLibro": "Literatura 2",
+    "autorLibro": "Homer S",
     "formato": "Largo (PL)",
-    "precio": "3000",
+    "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "cuentoslatam.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -27,7 +29,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -37,7 +40,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -47,7 +51,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -57,7 +62,8 @@
     "precio": "2000",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -67,7 +73,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -77,7 +84,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -87,7 +95,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Literatura",
@@ -97,7 +106,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": "homero.jpg"
+    "imagen": "homero.jpg",
+    "uso": "Buen estado"
   },
   {
     "categoria": "Educativos",
@@ -107,7 +117,8 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -117,7 +128,8 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -127,7 +139,8 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -137,7 +150,8 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -147,7 +161,8 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -157,7 +172,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -167,7 +183,8 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -177,7 +194,8 @@
     "precio": "1500",
     "estatus": "Agotado",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -187,7 +205,8 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Educativos",
@@ -197,7 +216,8 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -207,7 +227,8 @@
     "precio": "1000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -217,7 +238,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -227,7 +249,8 @@
     "precio": "3000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -237,7 +260,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -247,7 +271,8 @@
     "precio": "5000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -257,7 +282,8 @@
     "precio": "6000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -267,7 +293,8 @@
     "precio": "7000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -277,7 +304,8 @@
     "precio": "8000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -287,7 +315,8 @@
     "precio": "9000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "AutoAprendizaje",
@@ -297,7 +326,8 @@
     "precio": "10000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -307,7 +337,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -317,7 +348,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -327,7 +359,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -337,7 +370,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -347,7 +381,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -357,7 +392,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -367,7 +403,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -377,7 +414,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -387,7 +425,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "SuperacionPersonal",
@@ -397,7 +436,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -407,7 +447,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -417,7 +458,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -427,7 +469,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -437,7 +480,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -447,7 +491,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -457,7 +502,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -467,7 +513,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -477,7 +524,8 @@
     "precio": "3200",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -487,7 +535,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "EstiloVida",
@@ -497,7 +546,8 @@
     "precio": "2000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -507,7 +557,8 @@
     "precio": "1500",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -517,7 +568,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -527,7 +579,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -537,7 +590,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -547,7 +601,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -557,7 +612,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -567,7 +623,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -577,7 +634,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -587,7 +645,8 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   },
   {
     "categoria": "Oferta",
@@ -597,6 +656,7 @@
     "precio": "4000",
     "estatus": "Disponible",
     "separador": "",
-    "imagen": ""
+    "imagen": "Buen estado",
+    "uso": ""
   }
 ]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir archivo CSV</title>
+</head>
+<body>
+    <h1>Subir archivo CSV</h1>
+
+    <input type="file" id="archivo" accept=".csv">
+    <button onclick="subirArchivo()">Subir archivo</button>
+	 <pre id="jsonContainer"></pre>
+
+    <script>
+       function subirArchivo() {
+            var archivoInput = document.getElementById('archivo');
+            var archivo = archivoInput.files[0];
+
+            if (archivo) {
+                var lector = new FileReader();
+                lector.readAsText(archivo);
+
+                lector.onload = function(evento) {
+                    var contenido = evento.target.result;
+                    // Aquí puedes hacer algo con el contenido del archivo CSV
+                    console.log("Contenido del archivo CSV:", contenido);
+
+		// Convertir CSV a JSON array
+		var jsonArray = csvToJson(contenido);
+
+		// Mostrar el JSON array resultante en la consola
+		console.log(jsonArray);
+
+		  // Obtener el elemento donde se mostrará el JSON
+        	var jsonContainer = document.getElementById("jsonContainer");
+
+        	// Convertir el objeto JSON a cadena de texto y mostrarlo en el HTML
+        	jsonContainer.textContent = "var libros = "+ JSON.stringify(jsonArray , null, 2);
+	
+                };
+
+                lector.onerror = function() {
+                    console.error("Error al leer el archivo.");
+                };
+            } else {
+                console.error("No se seleccionó ningún archivo.");
+            }
+        }
+
+// Función para convertir un CSV a un array JSON
+	function csvToJson(csv) {
+  		var lines = csv.split("\n");
+ 		var result = [];
+  		var headers = lines[0].split(",");
+
+	  for (var i = 1; i < lines.length; i++) {
+    		var obj = {};
+    		var currentLine = lines[i].split(",");
+
+	    for (var j = 0; j < headers.length; j++) {
+      		obj[headers[j]] = currentLine[j];
+    		}
+
+	    result.push(obj);
+	  	}
+
+	  return result;
+	}
+	
+    </script>
+</body>
+</html>
