@@ -497,7 +497,7 @@ footer {
 }
 
 .footer-logo img {
-  height: 90px; /* Adjust size here */
+  height: 200px; /* Adjust size here */
   width: auto;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3)); /* Makes the logo pop on blue */
   transition: transform 0.3s ease;
