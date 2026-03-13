@@ -451,8 +451,48 @@ var libro3text = (libro3!=='')?'%0A  -> ' + libro3 + ' - precio:  �' + documen
 var libro4text = (libro4!=='')?'%0A  -> ' + libro4 + ' - precio:  �' + document.querySelector('#precio4').value:'';
 var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + document.querySelector('#precio5').value:'';
 
- let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*�Cual es tu nombre?*%0A' + nombre + '%0A*�Cu�l es tu correo electr�nico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*�De donde eres?*%0A' + canton +' - '+ provincia + '%0A*�Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
+/* let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*�Cual es tu nombre?*%0A' + nombre + '%0A*�Cu�l es tu correo electr�nico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*�De donde eres?*%0A' + canton +' - '+ provincia + '%0A*�Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
  metodoPago + '%0A*Deseas retirar en Fisico?*%0A' + esFisico +'%0A*Tu pedido se enviara por:*%0A' + tipoEnvioText +'%0A***************************************************%0A*Detalle del pago pendiente:*%0A***************************************************%0A' + '%0A*' + subtotal + '*%0A%0A*' + costoEnvio + '*%0A%0A*' + total + '*%0A';
+*/
+// Construccion del mensaje en formato ASCII Limpio
+let mensaje = `------------------------------------
+--- PARAISO DEL LIBRO - PEDIDO ---
+------------------------------------
+
+ORDEN NUMERO: #${numeroOrden}
+
+DATOS DEL CLIENTE
+- Nombre: ${nombre}
+- Telefono: ${telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX')}
+- Email: ${email.replace(/(?<= \b)[\w\.-]+(?=@)/g, 'XXXX')}
+
+ENTREGA Y UBICACION
+- Provincia: ${provincia}
+- Canton: ${canton}
+- Direccion: ${direccion.substring(0, 30)}...
+- Codigo Postal: ${codigoPostal}
+- Retiro Fisico: ${esFisico.toUpperCase()}
+- Metodo Envio: ${tipoEnvioText.replace('%0A', '').trim()}
+
+DETALLE DEL PEDIDO
+${libro1text}${libro2text}${libro3text}${libro4text}${libro5text}
+
+PAGO Y TOTALES
+- Metodo: ${metodoPago}
+
+------------------------------------
+RESUMEN DE CUENTA
+------------------------------------
+- ${subtotal}
+- ${costoEnvio}
+- TOTAL: ${total}
+
+------------------------------------
+Solicitud generada en paraisodellibro.net`;
+
+
+// Abrir WhatsApp en pestaña nueva
+//window.open(urlFinal, "_blank");
 
  var mensajeencrypt = numeroOrden;
      mensajeencrypt += '_' + nombre
@@ -473,11 +513,14 @@ var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + documen
      mensajeencrypt += '_' + subtotal
      mensajeencrypt += '_' + costoEnvio
      mensajeencrypt += '_' + total
- 
+
+     // Usamos encodeURIComponent para que el simbolo de Colon y espacios funcionen
+  let urlFinal = "https://wa.me/" + destinatario.replace('+', '') + "?text=" + encodeURIComponent(mensaje);
+
         if(isMobile()) {
-            window.open(urlMobile + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
+            window.open(urlFinal + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
         }else{
-            window.open(urlDesktop + mensaje + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
+            window.open(urlFinal + '%0A *REQUEST TOKEN*:%0A' + encrypt(mensajeencrypt), '_blank')
         }
         buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
         buttonSubmit.disabled = false
@@ -562,9 +605,9 @@ var cantonesPorProvincia =  [
             "nombre": "Cartago",
             "cantones": [
                 "Cartago central",
-                "Para�so",
-                "La Uni�n",
-                "Jim�nez",
+                "Paraiso",
+                "La Union",
+                "Jimenez",
                 "Turrialba",
                 "Alvarado",
                 "Oreamuno",
@@ -577,13 +620,13 @@ var cantonesPorProvincia =  [
                 "Heredia central",
                 "Barva",
                 "Santo Domingo",
-                "Santa B�rbara",
+                "Santa Barbara",
                 "San Rafael",
                 "San Isidro",
-                "Bel�n",
+                "Belen",
                 "Flores",
                 "San Pablo",
-                "Sarapiqu�"
+                "Sarapiqui"
             ]
         },
         {
@@ -594,9 +637,9 @@ var cantonesPorProvincia =  [
                 "Santa Cruz",
                 "Bagaces",
                 "Carrillo",
-                "Ca�as",
+                "Canas",
                 "Abangares",
-                "Tilar�n",
+                "Tilaran",
                 "Nandayure",
                 "La Cruz",
                 "Hojancha"
@@ -621,12 +664,12 @@ var cantonesPorProvincia =  [
         {
             "nombre": "Limon",
             "cantones": [
-                "Lim�n central",
-	        "Pococ�",
+                "Limon central",
+	        "Pococi",
                 "Siquirres",
                 "Talamanca",
                 "Matina",
-                "Gu�cimo"
+                "Guacimo"
             ]
         }
     ]
