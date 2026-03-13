@@ -485,6 +485,30 @@ var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + documen
 });
 }
 
+// Get the button
+const mybutton = document.getElementById("scrollTopBtn");
+
+// Only run the logic if the button exists on the current page
+if (mybutton) {
+    window.onscroll = function() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            mybutton.style.opacity = "1";
+            mybutton.style.pointerEvents = "auto";
+            mybutton.style.display = "block"; // Required if you don't use opacity-only
+        } else {
+            mybutton.style.opacity = "0";
+            mybutton.style.pointerEvents = "none";
+        }
+    };
+}
+
+// Smooth scroll function
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
 
 /************************************
 FIN LIBROS
