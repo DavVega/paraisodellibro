@@ -166,22 +166,28 @@ function nextStep(stepNumber) {
 // Get the button
 const mybutton = document.getElementById("scrollTopBtn");
 
-// Show the button when scrolling down 300px from the top
-window.onscroll = function() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-};
+// Only run the logic if the button exists on the current page
+if (mybutton) {
+    window.onscroll = function() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            mybutton.style.opacity = "1";
+            mybutton.style.pointerEvents = "auto";
+            mybutton.style.display = "block"; // Required if you don't use opacity-only
+        } else {
+            mybutton.style.opacity = "0";
+            mybutton.style.pointerEvents = "none";
+        }
+    };
+}
 
-// Smooth scroll to the top
+// Smooth scroll function
 function scrollToTop() {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
     });
 }
+
 function nextStep(stepNumber) {
   // 1. Seleccionamos el paso actual
   const pasoActual = document.querySelector('.form-step.active');

@@ -24,15 +24,16 @@
       <i class="fas fa-book-open"></i> <span>Catálogo</span>
     </a>
     <a href="./pedido.html" class="nav-item nav-cta">
-      <i class="fas fa-shopping-cart"></i><span>Hacer Pedido</span>
+      <i class="fas fa-shopping-cart"></i><span>Pedidos</span>
     </a>
     <a href="./politicas.html" class="nav-item">
       <i class="fas fa-file-contract"></i><span>Políticas</span>
     </a>
   </nav>
 </header>
-
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Subir al inicio" style="display: flex;">↑</button>
 <section class="filtros">
+    <br>
   <div class="filter-container">
     <button class="filter-btn active" onclick="filtrar('todos')">
       <i class="fas fa-th-large"></i> Todos
@@ -57,6 +58,7 @@
     </button>
 
     <div class="search-wrapper">
+    <br>
       <i class="fas fa-search search-icon"></i>
       <input type="text" id="buscador" placeholder="Buscar libro..." onkeyup="buscar()">
     </div>
@@ -87,26 +89,29 @@
 </div>
 <footer class="main-footer">
   <div class="footer-container">
-    <!-- Centered Title -->
-        <div class="footer-logo">
-      <img style="height: 100;width: 100;" src="./images/banners/Vertical_slogan/logo_azul.PNG" alt="Logo Paraíso del Libro">
+    <!-- THE MISSING LOGO -->
+    <div class="footer-logo">
+      <a href="index.html">
+        <img src="./images/banners/Vertical_slogan/logo_azul.PNG" alt="Paraíso del Libro">
+      </a>
     </div>    
-    <!-- Centered Social Icons 
+    <!-- SOCIAL ICONS -->
     <div class="footer-social">
-      <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+      <a href="https://www.facebook.com/profile.php?id=61556878319602&mibextid=rS40aB7S9Ucbxw6v" target="_blank" class="social-link" title="Facebook">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="https://wa.me" target="_blank" class="social-link wa-link" title="WhatsApp">
+      <a href="https://wa.me/50672679082" target="_blank" class="social-link wa-link" title="WhatsApp">
         <i class="fab fa-whatsapp"></i>
       </a>
-    </div>-->
+    </div>
 
-    <!-- Copyright Info -->
     <div class="footer-copy">
-      <p>© 2026 <strong>Paraiso del Libro</strong>. Paraíso, Cartago - Costa Rica. Tel <a href="" style="color: aliceblue;">+506 72679082</a></p>
+      <p>© 2026 <strong>Paraíso del Libro</strong>. Paraíso, Cartago - Costa Rica.</p>
+      <p>Tel: <a href="tel:+50672679082" style="color: #fff; text-decoration: none;">+506 7267-9082</a></p>
     </div>
   </div>
 </footer>
+
 
 </body>
 
