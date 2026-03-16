@@ -226,13 +226,35 @@ button:hover {
 }
 
 /* ===== FOOTER ===== */
+/* ===== FOOTER (FIXED & RESPONSIVE) ===== */
 footer {
   background: #0f172a;
   color: #cbd5e1;
   text-align: center;
-  /*padding: 30px 20px;*/
+  padding: 40px 20px; /* Añadí padding para que respire */
   margin-top: 60px;
   font-size: 14px;
+  width: 100%;
+  overflow: clip; /* Evita que cualquier contenido se salga */
+}
+
+footer img {
+  max-width: 100%;    /* La imagen nunca será más ancha que el celular */
+  height: auto;       /* Mantiene la proporción */
+  display: inline-block;
+  margin-bottom: 20px;
+  /* Opcional: limita el tamaño máximo en desktop para que no sea gigante */
+  width: 300px; 
+}
+
+/* Ajuste específico para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  footer {
+    padding: 30px 15px;
+  }
+  footer img {
+    width: 80%; /* En móviles pequeños se hace un poco más chica */
+  }
 }
 /* ===== MODAL ===== */
 /* ===== MODAL FIXED & CENTERED ===== */
@@ -452,15 +474,6 @@ footer {
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
 /* ===== FOOTER PREMIUM ===== */
-/* ===== CENTERED BLUE FOOTER ===== */
-.main-footer {
-  background-color: #1233DA; /* Same as Header */
-  color: #ffffff;
-  padding: 40px 20px;
-  text-align: center; /* Centers title and text */
-  margin-top: 60px;
-  box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
-}
 
 .footer-title {
   font-size: 1.8rem;
@@ -474,8 +487,8 @@ footer {
 .main-footer {
   background-color: #1233DA;
   color: #ffffff;
-  padding: 60px 20px 30px;
-  margin-top: 60px;
+  padding: 30px 10px 30px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -702,3 +715,78 @@ label:has(+ textarea[required])::after {
   color: #dc2626;
   font-weight: bold;
 }
+/* ===== LOGO SUPER PRO (ELITE EFFECT) ===== */
+.logo-container {
+  position: relative;
+  perspective: 1000px; /* Prepara el espacio para 3D */
+  padding-left: 5%;    /* Alineación elegante */
+}
+
+.logo-container a {
+  display: block;
+  position: relative;
+  overflow: hidden;    /* Para contener el destello */
+  border-radius: 12px; /* Suaviza el cuadrado sin perder la forma */
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.logo-container img {
+  height: 150px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2));
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* Efecto elástico */
+  z-index: 2;
+  position: relative;
+}
+
+/* El Destello "Glint" Profesional */
+.logo-container a::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -150%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    to right, 
+    transparent, 
+    rgba(252, 209, 22, 0.4), /* Brillo en tu dorado #FCD116 */
+    transparent
+  );
+  transform: rotate(30deg);
+  transition: 0.7s;
+  z-index: 3;
+}
+
+/* INTERACCIÓN AL PASAR EL MOUSE */
+.logo-container:hover a {
+  transform: translateY(-5px) rotateX(10deg) rotateY(-5deg); /* Efecto 3D sutil */
+  box-shadow: 0 15px 35px #FCD116; /* Tu sombra dorada */
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.logo-container:hover img {
+  transform: scale(1.1);
+  filter: drop-shadow(0 12px 25px rgba(0,0,0,0.3));
+}
+
+/*.logo-container:hover a::after {
+  left: 150%; 
+  }*/ 
+
+/* Animación de "Respiración" constante (Sutil) */
+@keyframes logoSlowFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.logo-container img {
+  animation: logoSlowFloat 5s ease-in-out infinite;
+}
+
+/* Ajuste para que el header no corte la sombra */
+header {
+  overflow: visible !important; 
+}
+

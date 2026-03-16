@@ -62,27 +62,27 @@ function mostrarOpcionesEnvio() {
 
   var selectEnvio = document.getElementById("opcionesEnvio");
   
-   // Crear un nuevo elemento de opci�n
+   // Crear un nuevo elemento de opcion
    var nuevaOpcion = document.createElement("option");
   
    while (selectEnvio.options.length > 0) {
     	selectEnvio.remove(0);
      }
 
-    // Establecer el valor y texto de la opci�n Correos
+    // Establecer el valor y texto de la opcion Correos
    nuevaOpcion.value = "Correos de Costa Rica";
    nuevaOpcion.textContent = "Correos de Costa Rica";
    selectEnvio.appendChild(nuevaOpcion);
 
     //*************************************
-    // Establecer el valor y texto de la opci�n Motorista
+    // Establecer el valor y texto de la opcion Motorista
     //*************************************
 	
-    dropdownEnvioContainer.style.display = "block"; // Muestra el dropdown si no se selecciona env�o f�sico
+    dropdownEnvioContainer.style.display = "block"; // Muestra el dropdown si no se selecciona envio fisico
     dropdownNotaFisicoContainer.style.display = "none"; // muestra la nota de envio fisico
     esFisico="no";
   } else {
-    dropdownEnvioContainer.style.display = "none"; // Oculta el dropdown si se selecciona env�o f�sico
+    dropdownEnvioContainer.style.display = "none"; // Oculta el dropdown si se selecciona envio fisico
     dropdownNotaFisicoContainer.style.display = "block"; // muestra la nota de envio fisico
     esFisico="si";
   }
@@ -177,7 +177,7 @@ var option = document.createElement("option");
   option.textContent = metodoPago;
   document.getElementById("metodo_pago").appendChild(option); 
  }
-       // Funci�n para encriptar texto
+       // Funcion para encriptar texto
         function encrypt(inputText) {
               const encryptedText = CryptoJS.AES.encrypt(JSON.stringify(inputText), key).toString();
              let encData = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(encryptedText))
@@ -204,7 +204,7 @@ var librosSeleccionados = libros.filter(function(elemento) {
             libroDropdown.add(opcionLibro);
 
     if (librosSeleccionados) {
-        // Crear opciones para cada libro en la categor�a seleccionada
+        // Crear opciones para cada libro en la categoria seleccionada
         librosSeleccionados.forEach(function(libro) {
 
             var opcionLibro = document.createElement("option");
@@ -215,7 +215,7 @@ var librosSeleccionados = libros.filter(function(elemento) {
            }
         });
     } else {
-        // Si no hay libros para la categor�a seleccionada, mostrar un mensaje
+        // Si no hay libros para la categoria seleccionada, mostrar un mensaje
         var opcionVacia = document.createElement("option");
         opcionVacia.text = "No hay libros disponibles";
         libroDropdown.add(opcionVacia);
@@ -445,13 +445,13 @@ let tipoEnvioText = '';
 
 var numeroOrden = '' + new Date().getFullYear() + ('0' + (new Date().getMonth() + 1)).slice(-2) + ('0' + new Date().getDate()).slice(-2) + Math.floor(Math.random() * 900) + 100;
 
-var libro1text = (libro1!=='')?'%0A  -> ' + libro1 + ' - precio:  �' + document.querySelector('#precio1').value:'';
-var libro2text = (libro2!=='')?'%0A  -> ' + libro2 + ' - precio:  �' + document.querySelector('#precio2').value:'';
-var libro3text = (libro3!=='')?'%0A  -> ' + libro3 + ' - precio:  �' + document.querySelector('#precio3').value:'';
-var libro4text = (libro4!=='')?'%0A  -> ' + libro4 + ' - precio:  �' + document.querySelector('#precio4').value:'';
-var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  �' + document.querySelector('#precio5').value:'';
+var libro1text = (libro1!=='')?'%0A  -> ' + libro1 + ' - precio:  CRC ' + document.querySelector('#precio1').value:'';
+var libro2text = (libro2!=='')?'%0A  -> ' + libro2 + ' - precio:  CRC ' + document.querySelector('#precio2').value:'';
+var libro3text = (libro3!=='')?'%0A  -> ' + libro3 + ' - precio:  CRC ' + document.querySelector('#precio3').value:'';
+var libro4text = (libro4!=='')?'%0A  -> ' + libro4 + ' - precio:  CRC ' + document.querySelector('#precio4').value:'';
+var libro5text = (libro5!=='')?'%0A  -> ' + libro5 + ' - precio:  CRC' + document.querySelector('#precio5').value:'';
 
-/* let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*�Cual es tu nombre?*%0A' + nombre + '%0A*�Cu�l es tu correo electr�nico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*�De donde eres?*%0A' + canton +' - '+ provincia + '%0A*�Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
+/* let mensaje = 'send?phone=' + destinatario+ '&text=%0A***************************************************%0A_Formulario Compra PDL_%0A ************************************************%0A *numeroOrden*: '+numeroOrden +'%0A%0A*Cual es tu nombre?*%0A' + nombre + '%0A*Cual es tu correo electrinico?*%0A' + email.replace(/(?<=\b)[\w\.-]+(?=@)/g, 'XXXX')+ '%0A*Telefono:*%0A' + telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX') + '%0A*De donde eres?*%0A' + canton +' - '+ provincia + '%0A*Tu direccion exacta?*%0A' + direccion.substring(0, 10)+'...' + '%0A*Codigo Postal:*%0A' + codigoPostal + '%0A*Tu pedido en Libros son los siguientes:*%0A' + libro1text + libro2text + libro3text + libro4text + libro5text +'%0A%0A*El pago de tu pedido se realizara en:*%0A' +
  metodoPago + '%0A*Deseas retirar en Fisico?*%0A' + esFisico +'%0A*Tu pedido se enviara por:*%0A' + tipoEnvioText +'%0A***************************************************%0A*Detalle del pago pendiente:*%0A***************************************************%0A' + '%0A*' + subtotal + '*%0A%0A*' + costoEnvio + '*%0A%0A*' + total + '*%0A';
 */
 // Construccion del mensaje en formato ASCII Limpio
@@ -459,14 +459,14 @@ let mensaje = `------------------------------------
 --- PARAISO DEL LIBRO - PEDIDO ---
 ------------------------------------
 
-ORDEN NUMERO: #${numeroOrden}
+* ORDEN NUMERO: #${numeroOrden}
 
-DATOS DEL CLIENTE
+* DATOS DEL CLIENTE
 - Nombre: ${nombre}
 - Telefono: ${telefono.replace(/(?<=^\d{4})\d+/g, 'XXXX')}
 - Email: ${email.replace(/(?<= \b)[\w\.-]+(?=@)/g, 'XXXX')}
 
-ENTREGA Y UBICACION
+* ENTREGA Y UBICACION
 - Provincia: ${provincia}
 - Canton: ${canton}
 - Direccion: ${direccion.substring(0, 30)}...
@@ -474,10 +474,10 @@ ENTREGA Y UBICACION
 - Retiro Fisico: ${esFisico.toUpperCase()}
 - Metodo Envio: ${tipoEnvioText.replace('%0A', '').trim()}
 
-DETALLE DEL PEDIDO
+* DETALLE DEL PEDIDO
 ${libro1text}${libro2text}${libro3text}${libro4text}${libro5text}
 
-PAGO Y TOTALES
+* PAGO Y TOTALES
 - Metodo: ${metodoPago}
 
 ------------------------------------
@@ -560,37 +560,37 @@ var cantonesPorProvincia =  [
         {
             "nombre": "San Jose",
             "cantones": [
-   		"San Jos� central",
-        	"Escaz�",
+   		"San Jose central",
+        	"Escazu",
         	"Desamparados",
         	"Puriscal",
-        	"Tarraz�",
-        	"Aserr�",
+        	"Tarrazu",
+        	"Aserri",
         	"Mora",
         	"Goicoechea",
         	"Santa Ana",
         	"Alajuelita",
-        	"V�zquez de Coronado",
+        	"Vazquez de Coronado",
         	"Acosta",
-        	"Tib�s",
+        	"Tibas",
         	"Moravia",
         	"Montes de Oca",
         	"Turrubares",
         	"Dota",
         	"Curridabat",
-        	"P�rez Zeled�n"  
+        	"Perez Zeledon"  
           ]
         },
         {
             "nombre": "Alajuela",
             "cantones": [
 		"Alajuela central",
-        	"San Ram�n",
+        	"San Ramon",
 	        "Grecia",
         	"Atenas",
         	"Naranjo",
         	"Palmares",
-        	"Po�s",
+        	"Poas",
         	"Orotina",
         	"San Carlos",
         	"Zarcero",
@@ -598,7 +598,7 @@ var cantonesPorProvincia =  [
         	"Upala",
         	"Los Chiles",
         	"Guatuso",
-        	"R�o Cuarto"          
+        	"Rio Cuarto"          
 	  ]
         },
         {
