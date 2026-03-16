@@ -762,13 +762,13 @@ label:has(+ textarea[required])::after {
 /* INTERACCIÓN AL PASAR EL MOUSE */
 .logo-container:hover a {
   transform: translateY(-5px) rotateX(10deg) rotateY(-5deg); /* Efecto 3D sutil */
-  box-shadow: 0 15px 35px #FCD116; /* Tu sombra dorada */
+ /* Tu sombra dorada */
   background: rgba(255, 255, 255, 0.05);
 }
 
 .logo-container:hover img {
   transform: scale(1.1);
-  filter: drop-shadow(0 12px 25px rgba(0,0,0,0.3));
+  /*filter: drop-shadow(0 12px 25px rgba(0,0,0,0.3));*/
 }
 
 /*.logo-container:hover a::after {
