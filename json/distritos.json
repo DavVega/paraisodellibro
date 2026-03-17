@@ -1,0 +1,2951 @@
+[
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Carmen",
+    "Codigo": "10101"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Merced",
+    "Codigo": "10102"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Hospital",
+    "Codigo": "10103"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Catedral",
+    "Codigo": "10104"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Zapote",
+    "Codigo": "10105"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "San Francisco de Dos Rios",
+    "Codigo": "10106"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Uruca",
+    "Codigo": "10107"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Mata Redonda",
+    "Codigo": "10108"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Pavas",
+    "Codigo": "10109"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "Hatillo",
+    "Codigo": "10110"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "San Jose",
+    "Distrito": "San Sebastian",
+    "Codigo": "10111"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Escazu",
+    "Distrito": "Escazu",
+    "Codigo": "10201"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Escazu",
+    "Distrito": "San Antonio",
+    "Codigo": "10202"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Escazu",
+    "Distrito": "San Rafael",
+    "Codigo": "10203"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Desamparados",
+    "Codigo": "10301"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "San Miguel",
+    "Codigo": "10302"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "San Juan de Dios",
+    "Codigo": "10303"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "San Rafael Arriba",
+    "Codigo": "10304"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "San Antonio",
+    "Codigo": "10305"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Frailes",
+    "Codigo": "10306"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Patarra",
+    "Codigo": "10307"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "San Cristobal",
+    "Codigo": "10308"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Rosario",
+    "Codigo": "10309"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Damas",
+    "Codigo": "10310"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "San Rafael Abajo",
+    "Codigo": "10311"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Gravilias",
+    "Codigo": "10312"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Desamparados",
+    "Distrito": "Los Guido",
+    "Codigo": "10313"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Santiago",
+    "Codigo": "10401"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Mercedes Sur",
+    "Codigo": "10402"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Barbacoas",
+    "Codigo": "10403"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Grifo Alto",
+    "Codigo": "10404"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "San Rafael",
+    "Codigo": "10405"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Candelarita",
+    "Codigo": "10406"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Desamparaditos",
+    "Codigo": "10407"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "San Antonio",
+    "Codigo": "10408"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Puriscal",
+    "Distrito": "Chires",
+    "Codigo": "10409"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tarrazu",
+    "Distrito": "San Marcos",
+    "Codigo": "10501"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tarrazu",
+    "Distrito": "San Lorenzo",
+    "Codigo": "10502"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tarrazu",
+    "Distrito": "San Carlos",
+    "Codigo": "10503"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Aserri",
+    "Codigo": "10601"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Tarbaca",
+    "Codigo": "10602"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Vuelta de Jorco",
+    "Codigo": "10603"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "San Gabriel",
+    "Codigo": "10604"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Legua",
+    "Codigo": "10605"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Monterrey",
+    "Codigo": "10606"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Aserri",
+    "Distrito": "Salitrillos",
+    "Codigo": "10607"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Colon",
+    "Codigo": "10701"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Guayabo",
+    "Codigo": "10702"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Tabarcia",
+    "Codigo": "10703"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Piedras Negras",
+    "Codigo": "10704"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Picagres",
+    "Codigo": "10705"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Jaris",
+    "Codigo": "10706"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Mora",
+    "Distrito": "Quitirrisi",
+    "Codigo": "10707"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Guadalupe",
+    "Codigo": "10801"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "San Francisco",
+    "Codigo": "10802"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Calle Blancos",
+    "Codigo": "10803"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Mata de Platano",
+    "Codigo": "10804"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Ipis",
+    "Codigo": "10805"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Rancho Redondo",
+    "Codigo": "10806"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Goicoechea",
+    "Distrito": "Purral",
+    "Codigo": "10807"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Santa Ana",
+    "Codigo": "10901"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Salitral",
+    "Codigo": "10902"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Pozos",
+    "Codigo": "10903"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Uruca",
+    "Codigo": "10904"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Piedades",
+    "Codigo": "10905"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Santa Ana",
+    "Distrito": "Brasil",
+    "Codigo": "10906"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "Alajuelita",
+    "Codigo": "11001"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "San Josecito",
+    "Codigo": "11002"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "San Antonio",
+    "Codigo": "11003"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "Concepcion",
+    "Codigo": "11004"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Alajuelita",
+    "Distrito": "San Felipe",
+    "Codigo": "11005"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "San Isidro",
+    "Codigo": "11101"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "San Rafael",
+    "Codigo": "11102"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "Dulce Nombre de Jesus",
+    "Codigo": "11103"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "Patalillo",
+    "Codigo": "11104"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Vazquez de Coronado",
+    "Distrito": "Cascajal",
+    "Codigo": "11105"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "San Ignacio",
+    "Codigo": "11201"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Guaitil",
+    "Codigo": "11202"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Palmichal",
+    "Codigo": "11203"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Cangrejal",
+    "Codigo": "11204"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Acosta",
+    "Distrito": "Sabanillas",
+    "Codigo": "11205"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "San Juan",
+    "Codigo": "11301"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Cinco Esquinas",
+    "Codigo": "11302"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Anselmo Llorente",
+    "Codigo": "11303"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Leon XIII",
+    "Codigo": "11304"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Tibas",
+    "Distrito": "Colima",
+    "Codigo": "11305"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Moravia",
+    "Distrito": "San Vicente",
+    "Codigo": "11401"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Moravia",
+    "Distrito": "San Jeronimo",
+    "Codigo": "11402"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Moravia",
+    "Distrito": "La Trinidad",
+    "Codigo": "11403"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "San Pedro",
+    "Codigo": "11501"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "Sabanilla",
+    "Codigo": "11502"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "Mercedes",
+    "Codigo": "11503"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Montes de Oca",
+    "Distrito": "San Rafael",
+    "Codigo": "11504"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Pablo",
+    "Codigo": "11601"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Pedro",
+    "Codigo": "11602"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Juan de Mata",
+    "Codigo": "11603"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "San Luis",
+    "Codigo": "11604"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Turrubares",
+    "Distrito": "Carara",
+    "Codigo": "11605"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Dota",
+    "Distrito": "Santa Maria",
+    "Codigo": "11701"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Dota",
+    "Distrito": "Jardin",
+    "Codigo": "11702"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Dota",
+    "Distrito": "Copey",
+    "Codigo": "11703"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Curridabat",
+    "Codigo": "11801"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Granadilla",
+    "Codigo": "11802"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Sanchez",
+    "Codigo": "11803"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Curridabat",
+    "Distrito": "Tirrases",
+    "Codigo": "11804"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "San Isidro de El General",
+    "Codigo": "11901"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "El General",
+    "Codigo": "11902"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Daniel Flores",
+    "Codigo": "11903"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Rivas",
+    "Codigo": "11904"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "San Pedro",
+    "Codigo": "11905"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Platanares",
+    "Codigo": "11906"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Pejibaye",
+    "Codigo": "11907"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Cajon",
+    "Codigo": "11908"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Baru",
+    "Codigo": "11909"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Rio Nuevo",
+    "Codigo": "11910"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "Paramo",
+    "Codigo": "11911"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Perez Zeledon",
+    "Distrito": "La Amistad",
+    "Codigo": "11912"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Pablo",
+    "Codigo": "12001"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Andres",
+    "Codigo": "12002"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "Llano Bonito",
+    "Codigo": "12003"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Isidro",
+    "Codigo": "12004"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "Santa Cruz",
+    "Codigo": "12005"
+  },
+  {
+    "Provincia": "San Jose",
+    "Canton": "Leon Cortes Castro",
+    "Distrito": "San Antonio",
+    "Codigo": "12006"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Alajuela",
+    "Codigo": "20101"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Jose",
+    "Codigo": "20102"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Carrizal",
+    "Codigo": "20103"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Antonio",
+    "Codigo": "20104"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Guacima",
+    "Codigo": "20105"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Isidro",
+    "Codigo": "20106"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Sabanilla",
+    "Codigo": "20107"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "San Rafael",
+    "Codigo": "20108"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Rio Segundo",
+    "Codigo": "20109"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Desamparados",
+    "Codigo": "20110"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Turrucares",
+    "Codigo": "20111"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Tambor",
+    "Codigo": "20112"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Garita",
+    "Codigo": "20113"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Alajuela",
+    "Distrito": "Sarapiqui",
+    "Codigo": "20114"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Ramon",
+    "Codigo": "20201"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Santiago",
+    "Codigo": "20202"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Juan",
+    "Codigo": "20203"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Piedades Norte",
+    "Codigo": "20204"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Piedades Sur",
+    "Codigo": "20205"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Rafael",
+    "Codigo": "20206"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Isidro",
+    "Codigo": "20207"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "angeles",
+    "Codigo": "20208"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Alfaro",
+    "Codigo": "20209"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Volio",
+    "Codigo": "20210"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Concepcion",
+    "Codigo": "20211"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Zapotal",
+    "Codigo": "20212"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "Pe?as Blancas",
+    "Codigo": "20213"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Ramon",
+    "Distrito": "San Lorenzo",
+    "Codigo": "20214"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Grecia",
+    "Codigo": "20301"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "San Isidro",
+    "Codigo": "20302"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "San Jose",
+    "Codigo": "20303"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "San Roque",
+    "Codigo": "20304"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Tacares",
+    "Codigo": "20305"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Puente de Piedra",
+    "Codigo": "20307"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Grecia",
+    "Distrito": "Bolivar",
+    "Codigo": "20308"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "San Mateo",
+    "Codigo": "20401"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "Desmonte",
+    "Codigo": "20402"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "Jesus Maria",
+    "Codigo": "20403"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Mateo",
+    "Distrito": "Labrador",
+    "Codigo": "20404"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Atenas",
+    "Codigo": "20501"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Jesus",
+    "Codigo": "20502"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Mercedes",
+    "Codigo": "20503"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "San Isidro",
+    "Codigo": "20504"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Concepcion",
+    "Codigo": "20505"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "San Jose",
+    "Codigo": "20506"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Santa Eulalia",
+    "Codigo": "20507"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Atenas",
+    "Distrito": "Escobal",
+    "Codigo": "20508"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "Naranjo",
+    "Codigo": "20601"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Miguel",
+    "Codigo": "20602"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Jose",
+    "Codigo": "20603"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "Cirri Sur",
+    "Codigo": "20604"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Jeronimo",
+    "Codigo": "20605"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "San Juan",
+    "Codigo": "20606"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "El Rosario",
+    "Codigo": "20607"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Naranjo",
+    "Distrito": "Palmitos",
+    "Codigo": "20608"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Palmares",
+    "Codigo": "20701"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Zaragoza",
+    "Codigo": "20702"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Buenos Aires",
+    "Codigo": "20703"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Santiago",
+    "Codigo": "20704"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Candelaria",
+    "Codigo": "20705"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "Esquipulas",
+    "Codigo": "20706"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Palmares",
+    "Distrito": "La Granja",
+    "Codigo": "20707"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "San Pedro",
+    "Codigo": "20801"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "San Juan",
+    "Codigo": "20802"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "San Rafael",
+    "Codigo": "20803"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "Carrillos",
+    "Codigo": "20804"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Poas",
+    "Distrito": "Sabana Redonda",
+    "Codigo": "20805"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "Orotina",
+    "Codigo": "20901"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "El Mastate",
+    "Codigo": "20902"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "Hacienda Vieja",
+    "Codigo": "20903"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "Coyolar",
+    "Codigo": "20904"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Orotina",
+    "Distrito": "La Ceiba",
+    "Codigo": "20905"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Quesada",
+    "Codigo": "21001"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Florencia",
+    "Codigo": "21002"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Buenavista",
+    "Codigo": "21003"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Aguas Zarcas",
+    "Codigo": "21004"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Venecia",
+    "Codigo": "21005"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Pital",
+    "Codigo": "21006"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "La Fortuna",
+    "Codigo": "21007"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "La Tigra",
+    "Codigo": "21008"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "La Palmera",
+    "Codigo": "21009"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Venado",
+    "Codigo": "21010"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Cutris",
+    "Codigo": "21011"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Monterrey",
+    "Codigo": "21012"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "San Carlos",
+    "Distrito": "Pocosol",
+    "Codigo": "21013"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Zarcero",
+    "Codigo": "21101"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Laguna",
+    "Codigo": "21102"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Tapesco",
+    "Codigo": "21103"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Guadalupe",
+    "Codigo": "21104"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Palmira",
+    "Codigo": "21105"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Zapote",
+    "Codigo": "21106"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Zarcero",
+    "Distrito": "Brisas",
+    "Codigo": "21107"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Sarchi Norte",
+    "Codigo": "21201"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Sarchi Sur",
+    "Codigo": "21202"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Toro Amarillo",
+    "Codigo": "21203"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "San Pedro",
+    "Codigo": "21204"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Sarchi",
+    "Distrito": "Rodriguez",
+    "Codigo": "21205"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Upala",
+    "Codigo": "21301"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Aguas Claras",
+    "Codigo": "21302"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "San Jose",
+    "Codigo": "21303"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Bijagua",
+    "Codigo": "21304"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Delicias",
+    "Codigo": "21305"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Dos Rios",
+    "Codigo": "21306"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Yolillal",
+    "Codigo": "21307"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Upala",
+    "Distrito": "Canalete",
+    "Codigo": "21308"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "Los Chiles",
+    "Codigo": "21401"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "Ca?o Negro",
+    "Codigo": "21402"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "El Amparo",
+    "Codigo": "21403"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Los Chiles",
+    "Distrito": "San Jorge",
+    "Codigo": "21404"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "San Rafael",
+    "Codigo": "21501"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "Buenavista",
+    "Codigo": "21502"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "Cote",
+    "Codigo": "21503"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Guatuso",
+    "Distrito": "Katira",
+    "Codigo": "21504"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Rio Cuarto",
+    "Distrito": "Rio Cuarto",
+    "Codigo": "21601"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Rio Cuarto",
+    "Distrito": "Santa Rita",
+    "Codigo": "21602"
+  },
+  {
+    "Provincia": "Alajuela",
+    "Canton": "Rio Cuarto",
+    "Distrito": "Santa Isabel",
+    "Codigo": "21603"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Oriental",
+    "Codigo": "30101"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Occidental",
+    "Codigo": "30102"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Carmen",
+    "Codigo": "30103"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "San Nicolas",
+    "Codigo": "30104"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Aguacaliente",
+    "Codigo": "30105"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Guadalupe",
+    "Codigo": "30106"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Corralillo",
+    "Codigo": "30107"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Tierra Blanca",
+    "Codigo": "30108"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Dulce Nombre",
+    "Codigo": "30109"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Llano Grande",
+    "Codigo": "30110"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Cartago",
+    "Distrito": "Quebradilla",
+    "Codigo": "30111"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Paraiso",
+    "Codigo": "30201"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Santiago",
+    "Codigo": "30202"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Orosi",
+    "Codigo": "30203"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Cachi",
+    "Codigo": "30204"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Llanos de Santa Lucia",
+    "Codigo": "30205"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Paraiso",
+    "Distrito": "Birrisito",
+    "Codigo": "30206"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Tres Rios",
+    "Codigo": "30301"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Diego",
+    "Codigo": "30302"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Juan",
+    "Codigo": "30303"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Rafael",
+    "Codigo": "30304"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Concepcion",
+    "Codigo": "30305"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Dulce Nombre",
+    "Codigo": "30306"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "San Ramon",
+    "Codigo": "30307"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "La Union",
+    "Distrito": "Rio Azul",
+    "Codigo": "30308"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "Juan Vi?as",
+    "Codigo": "30401"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "Tucurrique",
+    "Codigo": "30402"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "Pejibaye",
+    "Codigo": "30403"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Jimenez",
+    "Distrito": "La Victoria",
+    "Codigo": "30404"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Turrialba",
+    "Codigo": "30501"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "La Suiza",
+    "Codigo": "30502"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Peralta",
+    "Codigo": "30503"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Santa Cruz",
+    "Codigo": "30504"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Santa Teresita",
+    "Codigo": "30505"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Pavones",
+    "Codigo": "30506"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Tuis",
+    "Codigo": "30507"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Tayutic",
+    "Codigo": "30508"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Santa Rosa",
+    "Codigo": "30509"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Tres Equis",
+    "Codigo": "30510"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "La Isabel",
+    "Codigo": "30511"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Turrialba",
+    "Distrito": "Chirripo",
+    "Codigo": "30512"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Alvarado",
+    "Distrito": "Pacayas",
+    "Codigo": "30601"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Alvarado",
+    "Distrito": "Cervantes",
+    "Codigo": "30602"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Alvarado",
+    "Distrito": "Capellades",
+    "Codigo": "30603"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "San Rafael",
+    "Codigo": "30701"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Cot",
+    "Codigo": "30702"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Potrero Cerrado",
+    "Codigo": "30703"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Cipreses",
+    "Codigo": "30704"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "Oreamuno",
+    "Distrito": "Santa Rosa",
+    "Codigo": "30705"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "El Tejar",
+    "Codigo": "30801"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "San Isidro",
+    "Codigo": "30802"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "Tobosi",
+    "Codigo": "30803"
+  },
+  {
+    "Provincia": "Cartago",
+    "Canton": "El Guarco",
+    "Distrito": "Patio de Agua",
+    "Codigo": "30804"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Heredia",
+    "Codigo": "40101"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Mercedes",
+    "Codigo": "40102"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "San Francisco",
+    "Codigo": "40103"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Ulloa",
+    "Codigo": "40104"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Heredia",
+    "Distrito": "Varablanca",
+    "Codigo": "40105"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "Barva",
+    "Codigo": "40201"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Pedro",
+    "Codigo": "40202"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Pablo",
+    "Codigo": "40203"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Roque",
+    "Codigo": "40204"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "Santa Lucia",
+    "Codigo": "40205"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Barva",
+    "Distrito": "San Jose de la Monta?a",
+    "Codigo": "40206"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Santo Domingo",
+    "Codigo": "40301"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "San Vicente",
+    "Codigo": "40302"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "San Miguel",
+    "Codigo": "40303"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Paracito",
+    "Codigo": "40304"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Santo Tomas",
+    "Codigo": "40305"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Santa Rosa",
+    "Codigo": "40306"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Tures",
+    "Codigo": "40307"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santo Domingo",
+    "Distrito": "Para",
+    "Codigo": "40308"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Santa Barbara",
+    "Codigo": "40401"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "San Pedro",
+    "Codigo": "40402"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "San Juan",
+    "Codigo": "40403"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Jesus",
+    "Codigo": "40404"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Santo Domingo",
+    "Codigo": "40405"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Santa Barbara",
+    "Distrito": "Puraba",
+    "Codigo": "40406"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "San Rafael",
+    "Codigo": "40501"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "San Josecito",
+    "Codigo": "40502"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "Santiago",
+    "Codigo": "40503"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "angeles",
+    "Codigo": "40504"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Rafael",
+    "Distrito": "Concepcion",
+    "Codigo": "40505"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "San Isidro",
+    "Codigo": "40601"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "San Jose",
+    "Codigo": "40602"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "Concepcion",
+    "Codigo": "40603"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Isidro",
+    "Distrito": "San Francisco",
+    "Codigo": "40604"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Belen",
+    "Distrito": "San Antonio",
+    "Codigo": "40701"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Belen",
+    "Distrito": "La Ribera",
+    "Codigo": "40702"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Belen",
+    "Distrito": "La Asuncion",
+    "Codigo": "40703"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Flores",
+    "Distrito": "San Joaquin",
+    "Codigo": "40801"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Flores",
+    "Distrito": "Barrantes",
+    "Codigo": "40802"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Flores",
+    "Distrito": "Llorente",
+    "Codigo": "40803"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Pablo",
+    "Distrito": "San Pablo",
+    "Codigo": "40901"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "San Pablo",
+    "Distrito": "Rincon de Sabanilla",
+    "Codigo": "40902"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Puerto Viejo",
+    "Codigo": "41001"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "La Virgen",
+    "Codigo": "41002"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Las Horquetas",
+    "Codigo": "41003"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Llanuras del Gaspar",
+    "Codigo": "41004"
+  },
+  {
+    "Provincia": "Heredia",
+    "Canton": "Sarapiqui",
+    "Distrito": "Cure?a",
+    "Codigo": "41005"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Liberia",
+    "Codigo": "50101"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Ca?as Dulces",
+    "Codigo": "50102"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Mayorga",
+    "Codigo": "50103"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Nacascolo",
+    "Codigo": "50104"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Liberia",
+    "Distrito": "Curubande",
+    "Codigo": "50105"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Nicoya",
+    "Codigo": "50201"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Mansion",
+    "Codigo": "50202"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "San Antonio",
+    "Codigo": "50203"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Quebrada Honda",
+    "Codigo": "50204"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Samara",
+    "Codigo": "50205"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Nosara",
+    "Codigo": "50206"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nicoya",
+    "Distrito": "Belen de Nosarita",
+    "Codigo": "50207"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Santa Cruz",
+    "Codigo": "50301"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Bolson",
+    "Codigo": "50302"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Veintisiete de Abril",
+    "Codigo": "50303"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Tempate",
+    "Codigo": "50304"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Cartagena",
+    "Codigo": "50305"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Cuajiniquil",
+    "Codigo": "50306"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Diria",
+    "Codigo": "50307"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Cabo Velas",
+    "Codigo": "50308"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Santa Cruz",
+    "Distrito": "Tamarindo",
+    "Codigo": "50309"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "Bagaces",
+    "Codigo": "50401"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "La Fortuna",
+    "Codigo": "50402"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "Mogote",
+    "Codigo": "50403"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Bagaces",
+    "Distrito": "Rio Naranjo",
+    "Codigo": "50404"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Filadelfia",
+    "Codigo": "50501"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Palmira",
+    "Codigo": "50502"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Sardinal",
+    "Codigo": "50503"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Carrillo",
+    "Distrito": "Belen",
+    "Codigo": "50504"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Ca?as",
+    "Codigo": "50601"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Palmira",
+    "Codigo": "50602"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "San Miguel",
+    "Codigo": "50603"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Bebedero",
+    "Codigo": "50604"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Ca?as",
+    "Distrito": "Porozal",
+    "Codigo": "50605"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "Las Juntas",
+    "Codigo": "50701"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "Sierra",
+    "Codigo": "50702"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "San Juan",
+    "Codigo": "50703"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Abangares",
+    "Distrito": "Colorado",
+    "Codigo": "50704"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Tilaran",
+    "Codigo": "50801"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Quebrada Grande",
+    "Codigo": "50802"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Tronadora",
+    "Codigo": "50803"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Santa Rosa",
+    "Codigo": "50804"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Libano",
+    "Codigo": "50805"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Tierras Morenas",
+    "Codigo": "50806"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Arenal",
+    "Codigo": "50807"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Tilaran",
+    "Distrito": "Cabeceras",
+    "Codigo": "50808"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Carmona",
+    "Codigo": "50901"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Santa Rita",
+    "Codigo": "50902"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Zapotal",
+    "Codigo": "50903"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "San Pablo",
+    "Codigo": "50904"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Porvenir",
+    "Codigo": "50905"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Nandayure",
+    "Distrito": "Bejuco",
+    "Codigo": "50906"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "La Cruz",
+    "Codigo": "51001"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "Santa Cecilia",
+    "Codigo": "51002"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "La Garita",
+    "Codigo": "51003"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "La Cruz",
+    "Distrito": "Santa Elena",
+    "Codigo": "51004"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Hojancha",
+    "Codigo": "51101"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Monte Romo",
+    "Codigo": "51102"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Puerto Carrillo",
+    "Codigo": "51103"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Huacas",
+    "Codigo": "51104"
+  },
+  {
+    "Provincia": "Guanacaste",
+    "Canton": "Hojancha",
+    "Distrito": "Matambu",
+    "Codigo": "51105"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Puntarenas",
+    "Codigo": "60101"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Pitahaya",
+    "Codigo": "60102"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Chomes",
+    "Codigo": "60103"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Lepanto",
+    "Codigo": "60104"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Paquera",
+    "Codigo": "60105"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Manzanillo",
+    "Codigo": "60106"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Guacimal",
+    "Codigo": "60107"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Barranca",
+    "Codigo": "60108"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Monte Verde",
+    "Codigo": "60109"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Isla del Coco",
+    "Codigo": "60110"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Cobano",
+    "Codigo": "60111"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Chacarita",
+    "Codigo": "60112"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Chira",
+    "Codigo": "60113"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Acapulco",
+    "Codigo": "60114"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "El Roble",
+    "Codigo": "60115"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Puntarenas",
+    "Distrito": "Arancibia",
+    "Codigo": "60116"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "Espiritu Santo",
+    "Codigo": "60201"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "San Juan Grande",
+    "Codigo": "60202"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "Macacona",
+    "Codigo": "60203"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "San Rafael",
+    "Codigo": "60204"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "San Jeronimo",
+    "Codigo": "60205"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Esparza",
+    "Distrito": "Caldera",
+    "Codigo": "60206"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Buenos Aires",
+    "Codigo": "60301"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Volcan",
+    "Codigo": "60302"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Potrero Grande",
+    "Codigo": "60303"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Boruca",
+    "Codigo": "60304"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Pilas",
+    "Codigo": "60305"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Colinas",
+    "Codigo": "60306"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Changuena",
+    "Codigo": "60307"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Biolley",
+    "Codigo": "60308"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Buenos Aires",
+    "Distrito": "Brunka",
+    "Codigo": "60309"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Montes de Oro",
+    "Distrito": "Miramar",
+    "Codigo": "60401"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Montes de Oro",
+    "Distrito": "La Union",
+    "Codigo": "60402"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Montes de Oro",
+    "Distrito": "San Isidro",
+    "Codigo": "60403"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Puerto Cortes",
+    "Codigo": "60501"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Palmar",
+    "Codigo": "60502"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Sierpe",
+    "Codigo": "60503"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Bahia Ballena",
+    "Codigo": "60504"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Piedras Blancas",
+    "Codigo": "60505"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Osa",
+    "Distrito": "Bahia Drake",
+    "Codigo": "60506"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Quepos",
+    "Distrito": "Quepos",
+    "Codigo": "60601"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Quepos",
+    "Distrito": "Savegre",
+    "Codigo": "60602"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Quepos",
+    "Distrito": "Naranjito",
+    "Codigo": "60603"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Golfito",
+    "Codigo": "60701"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Puerto Jimenez",
+    "Codigo": "60702"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Guaycara",
+    "Codigo": "60703"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Golfito",
+    "Distrito": "Pavon",
+    "Codigo": "60704"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "San Vito",
+    "Codigo": "60801"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Sabalito",
+    "Codigo": "60802"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Aguabuena",
+    "Codigo": "60803"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Limoncito",
+    "Codigo": "60804"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Pittier",
+    "Codigo": "60805"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Coto Brus",
+    "Distrito": "Gutierrez Braun",
+    "Codigo": "60806"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Parrita",
+    "Distrito": "Parrita",
+    "Codigo": "60901"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "Corredor",
+    "Codigo": "61001"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "La Cuesta",
+    "Codigo": "61002"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "Canoas",
+    "Codigo": "61003"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Corredores",
+    "Distrito": "Laurel",
+    "Codigo": "61004"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Garabito",
+    "Distrito": "Jaco",
+    "Codigo": "61101"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Garabito",
+    "Distrito": "Tarcoles",
+    "Codigo": "61102"
+  },
+  {
+    "Provincia": "Puntarenas",
+    "Canton": "Garabito",
+    "Distrito": "Lagunillas",
+    "Codigo": "61103"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Limon",
+    "Codigo": "70101"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Valle La Estrella",
+    "Codigo": "70102"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Rio Blanco",
+    "Codigo": "70103"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Limon",
+    "Distrito": "Matama",
+    "Codigo": "70104"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Guapiles",
+    "Codigo": "70201"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Jimenez",
+    "Codigo": "70202"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Rita",
+    "Codigo": "70203"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Roxana",
+    "Codigo": "70204"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Cariari",
+    "Codigo": "70205"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "Colorado",
+    "Codigo": "70206"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Pococi",
+    "Distrito": "La Colonia",
+    "Codigo": "70207"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Siquirres",
+    "Codigo": "70301"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Pacuarito",
+    "Codigo": "70302"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Florida",
+    "Codigo": "70303"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Germania",
+    "Codigo": "70304"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "El Cairo",
+    "Codigo": "70305"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Alegria",
+    "Codigo": "70306"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Siquirres",
+    "Distrito": "Reventazon",
+    "Codigo": "70307"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Bratsi",
+    "Codigo": "70401"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Sixaola",
+    "Codigo": "70402"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Cahuita",
+    "Codigo": "70403"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Talamanca",
+    "Distrito": "Telire",
+    "Codigo": "70404"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Matina",
+    "Distrito": "Matina",
+    "Codigo": "70501"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Matina",
+    "Distrito": "Batan",
+    "Codigo": "70502"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Matina",
+    "Distrito": "Carrandi",
+    "Codigo": "70503"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Guacimo",
+    "Codigo": "70601"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Mercedes",
+    "Codigo": "70602"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Pocora",
+    "Codigo": "70603"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Rio Jimenez",
+    "Codigo": "70604"
+  },
+  {
+    "Provincia": "Limon",
+    "Canton": "Guacimo",
+    "Distrito": "Duacari",
+    "Codigo": "70605"
+  },
+  {
+    "Provincia": ""
+  }
+]
